@@ -100,14 +100,14 @@ const Works3 = () => {
                       <div className="cont">
                         <h6>
                           <Link
-                            href={`https://vocal-qualify.vercel.app/`}
+                            href={`https://www.halo-lab.com/project/design-that-gives-ai-a-friendly-face-and-the-product-a-strong-identity`}
                           >
                             art &amp; illustration
                           </Link>
                         </h6>
                         <h4>
                           <Link
-                            href={`https://vocal-qualify.vercel.app/`}
+                            href={`https://www.halo-lab.com/project/design-that-gives-ai-a-friendly-face-and-the-product-a-strong-identity`}
                           >
                             Inspiring new space
                           </Link>
@@ -126,14 +126,14 @@ const Works3 = () => {
                       <div className="cont">
                         <h6>
                           <Link
-                            href={`https://legal-genie-three.vercel.app/`}
+                            href={`https://www.halo-lab.com/project/sync`}
                           >
                             art &amp; illustration
                           </Link>
                         </h6>
                         <h4>
                           <Link
-                            href={`https://legal-genie-three.vercel.app/`}
+                            href={`https://www.halo-lab.com/project/sync`}
                           >
                             Inspiring new space
                           </Link>
@@ -152,14 +152,14 @@ const Works3 = () => {
                       <div className="cont">
                         <h6>
                           <Link
-                            href={`https://www.legacyai.life/`}
+                            href={`https://www.halo-lab.com/project/kony`}
                           >
                             art &amp; illustration
                           </Link>
                         </h6>
                         <h4>
                           <Link
-                            href={`https://www.legacyai.life/`}
+                            href={`https://www.halo-lab.com/project/kony`}
                           >
                             Inspiring new space
                           </Link>
@@ -178,14 +178,14 @@ const Works3 = () => {
                       <div className="cont">
                         <h6>
                           <Link
-                            href={`https://ai-canvas-blue.vercel.app/`}
+                            href={`https://www.halo-lab.com/project/zoomsphere`}
                           >
                             art &amp; illustration
                           </Link>
                         </h6>
                         <h4>
                           <Link
-                            href={`https://ai-canvas-blue.vercel.app/`}
+                            href={`https://www.halo-lab.com/project/zoomsphere`}
                           >
                             Inspiring new space
                           </Link>
@@ -204,14 +204,14 @@ const Works3 = () => {
                       <div className="cont">
                         <h6>
                           <Link
-                            href={`https://learn-genie.vercel.app/`}
+                            href={`https://www.halo-lab.com/project/velox-media`}
                           >
                             art &amp; illustration
                           </Link>
                         </h6>
                         <h4>
                           <Link
-                            href={`https://learn-genie.vercel.app/`}
+                            href={`https://www.halo-lab.com/project/velox-media`}
                           >
                             Inspiring new space
                           </Link>
@@ -230,14 +230,14 @@ const Works3 = () => {
                       <div className="cont">
                         <h6>
                           <Link
-                            href={`https://www.legacyai.life/`}
+                            href={`https://www.halo-lab.com/project/asi-web`}
                           >
                             art &amp; illustration
                           </Link>
                         </h6>
                         <h4>
                           <Link
-                            href={`https://www.legacyai.life/`}
+                            href={`https://www.halo-lab.com/project/asi-web`}
                           >
                             Inspiring new space
                           </Link>
@@ -256,14 +256,14 @@ const Works3 = () => {
                       <div className="cont">
                         <h6>
                           <Link
-                            href={`https://bisubologna.com/product-category/b2b/b2b-rings/`}
+                            href={`https://www.halo-lab.com/project/asi-web`}
                           >
                             art &amp; illustration
                           </Link>
                         </h6>
                         <h4>
                           <Link
-                            href={`https://bisubologna.com/product-category/b2b/b2b-rings/`}
+                            href={`https://www.halo-lab.com/project/asi-web`}
                           >
                             Inspiring new space
                           </Link>

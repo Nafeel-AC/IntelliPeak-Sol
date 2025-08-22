@@ -66,7 +66,7 @@ const WorksStyle2 = ({ grid, hideFilter, filterPosition }) => {
               data-wow-delay=".4s"
             >
               <div className="item-img">
-                <Link href={`https://vocal-qualify.vercel.app/`}>
+                <Link href={`https://www.halo-lab.com/project/design-that-gives-ai-a-friendly-face-and-the-product-a-strong-identity`}>
                   <a className="imago wow">
                     <img src="/img/portfolio/portfolio/1/1.jpg" alt="image" />
                     <div className="item-img-overlay"></div>
@@ -76,7 +76,7 @@ const WorksStyle2 = ({ grid, hideFilter, filterPosition }) => {
               <div className="cont">
                 <h6>Creativity Demand</h6>
                 <span>
-                  <Link href="https://vocal-qualify.vercel.app/">VocalQualify</Link>,
+                  <Link href="https://www.halo-lab.com/project/design-that-gives-ai-a-friendly-face-and-the-product-a-strong-identity">Connect With AI</Link>,
                   {/* <Link href="/works3/works3-dark">WordPress</Link> */}
                 </span>
               </div>
@@ -93,7 +93,7 @@ const WorksStyle2 = ({ grid, hideFilter, filterPosition }) => {
               data-wow-delay=".4s"
             >
               <div className="item-img">
-                <Link href={`https://legal-genie-three.vercel.app/`}>
+                <Link href={`https://www.halo-lab.com/project/sync`}>
                   <a className="imago wow">
                     <img src="/img/portfolio/portfolio/1/2.jpg" alt="image" />
                     <div className="item-img-overlay"></div>
@@ -103,7 +103,7 @@ const WorksStyle2 = ({ grid, hideFilter, filterPosition }) => {
               <div className="cont">
                 <h6>Through The Breaking</h6>
                 <span>
-                  <Link href="https://legal-genie-three.vercel.app/">Legal Flow</Link>,
+                  <Link href="https://www.halo-lab.com/project/sync">SyncIn Flow</Link>,
                   {/* <Link href="https://legal-genie-three.vercel.app/">WordPress</Link> */}
                 </span>
               </div>
@@ -120,7 +120,7 @@ const WorksStyle2 = ({ grid, hideFilter, filterPosition }) => {
               data-wow-delay=".4s"
             >
               <div className="item-img">
-                <Link href={`https://ai-canvas-blue.vercel.app/`}>
+                <Link href={`https://www.halo-lab.com/project/kony`}>
                   <a className="imago wow">
                     <img src="/img/portfolio/portfolio/1/3.jpg" alt="image" />
                     <div className="item-img-overlay"></div>
@@ -130,7 +130,7 @@ const WorksStyle2 = ({ grid, hideFilter, filterPosition }) => {
               <div className="cont">
                 <h6>Create With Creatives</h6>
                 <span>
-                  <Link href="https://ai-canvas-blue.vercel.app/">AI Genie</Link>,
+                  <Link href="https://www.halo-lab.com/project/kony">Project Kony</Link>,
                   {/* <Link href="/works3/works3-dark">WordPress</Link> */}
                 </span>
               </div>
@@ -147,7 +147,7 @@ const WorksStyle2 = ({ grid, hideFilter, filterPosition }) => {
               data-wow-delay=".4s"
             >
               <div className="item-img">
-                <Link href={`https://learn-genie.vercel.app/`}>
+                <Link href={`https://www.halo-lab.com/project/zoomsphere`}>
                   <a className="imago wow">
                     <img src="/img/portfolio/portfolio/1/4.jpg" alt="image" />
                     <div className="item-img-overlay"></div>
@@ -157,7 +157,7 @@ const WorksStyle2 = ({ grid, hideFilter, filterPosition }) => {
               <div className="cont">
                 <h6>Energies of Love</h6>
                 <span>
-                  <Link href="https://learn-genie.vercel.app/">Learn With AI</Link>,
+                  <Link href="https://www.halo-lab.com/project/zoomsphere">Zoom Sphere</Link>,
                   {/* <Link href="/works3/works3-dark">WordPress</Link> */}
                 </span>
               </div>
@@ -174,7 +174,7 @@ const WorksStyle2 = ({ grid, hideFilter, filterPosition }) => {
               data-wow-delay=".4s"
             >
               <div className="item-img">
-                <Link href={`https://www.legacyai.life/`}>
+                <Link href={`https://www.halo-lab.com/project/velox-media`}>
                   <a className="imago wow">
                     <img src="/img/portfolio/portfolio/1/5.jpg" alt="image" />
                     <div className="item-img-overlay"></div>
@@ -184,7 +184,7 @@ const WorksStyle2 = ({ grid, hideFilter, filterPosition }) => {
               <div className="cont">
                 <h6>See It Yourself</h6>
                 <span>
-                  <Link href="https://www.legacyai.life/">Legaci AI </Link>,
+                  <Link href="https://www.halo-lab.com/project/velox-media">Velox Media </Link>,
                   {/* <Link href="/works3/works3-dark">WordPress</Link> */}
                 </span>
               </div>
@@ -201,7 +201,7 @@ const WorksStyle2 = ({ grid, hideFilter, filterPosition }) => {
               data-wow-delay=".4s"
             >
               <div className="item-img">
-                <Link href={`https://bisubologna.com/product-category/b2b/b2b-rings/`}>
+                <Link href={`https://www.halo-lab.com/project/asi-web`}>
                   <a className="imago wow">
                     <img src="/img/portfolio/portfolio/1/6.jpg" alt="image" />
                     <div className="item-img-overlay"></div>
@@ -211,7 +211,7 @@ const WorksStyle2 = ({ grid, hideFilter, filterPosition }) => {
               <div className="cont">
                 <h6>Blast From The Past</h6>
                 <span>
-                  <Link href="https://bisubologna.com/product-category/b2b/b2b-rings/">Ecommerce Store</Link>,
+                  <Link href="https://www.halo-lab.com/project/asi-web">ASI Web</Link>,
                   {/* <Link href="/works3/works3-dark">WordPress</Link> */}
                 </span>
               </div>
