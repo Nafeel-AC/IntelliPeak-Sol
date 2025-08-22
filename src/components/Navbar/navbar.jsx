@@ -44,6 +44,7 @@ const Navbar = ({ lr, nr, theme }) => {
 
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ml-auto">
+            {/*
             <li className="nav-item dropdown" onClick={handleDropdown}>
               <span
                 className="nav-link dropdown-toggle"
@@ -55,31 +56,14 @@ const Navbar = ({ lr, nr, theme }) => {
                 Home
               </span>
               <div className="dropdown-menu">
-                <Link href={`/homepage/home1-dark`}>
-                  <a className="dropdown-item">Main Home</a>
-                </Link>
-                <Link href={`/homepage/home2-dark`}>
-                  <a className="dropdown-item">Creative Agency</a>
-                </Link>
-                <Link href={`/homepage/home5-dark`}>
-                  <a className="dropdown-item">Digital Agency</a>
-                </Link>
-                <Link href={`/homepage/home4-dark`}>
-                  <a className="dropdown-item">Business One Page</a>
-                </Link>
-                <Link href={`/homepage/home3-dark`}>
-                  <a className="dropdown-item">Corporate Business</a>
-                </Link>
-                <Link href={`/homepage/home6-dark`}>
-                  <a className="dropdown-item">Modern Agency</a>
-                </Link>
-                <Link href={`/homepage/home7-dark`}>
-                  <a className="dropdown-item">Freelancer</a>
-                </Link>
-                <Link href={`/homepage/home8-dark`}>
-                  <a className="dropdown-item">Architecture</a>
-                </Link>
+                ...dropdown items...
               </div>
+            </li>
+            */}
+            <li className="nav-item">
+              <Link href="/homepage/home5-dark">
+                <a className="nav-link">Home</a>
+              </Link>
             </li>
             <li className="nav-item">
               <Link href={`/about/about-dark`}>
