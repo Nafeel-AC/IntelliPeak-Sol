@@ -91,6 +91,7 @@ const Navbar = ({ lr, nr, theme }) => {
                 <a className="nav-link">Works</a>
               </Link>
             </li>
+            {/* 
             <li className="nav-item dropdown" onClick={handleDropdown}>
               <span
                 className="nav-link dropdown-toggle"
@@ -115,6 +116,12 @@ const Navbar = ({ lr, nr, theme }) => {
                   <a className="dropdown-item">Blog Details</a>
                 </Link>
               </div>
+            </li>
+            */}
+            <li className="nav-item">
+              <Link href={`/blog/blog-dark`}>
+                <a className="nav-link">Blog</a>
+              </Link>
             </li>
             <li className="nav-item">
               <Link href={`/contact/contact-dark`}>
