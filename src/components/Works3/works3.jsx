@@ -146,20 +146,20 @@ const Works3 = () => {
                       <div className="img">
                         <span className="imgio">
                           <span className="wow cimgio" data-delay="500"></span>
-                          <img src="https://ai-canvas-blue.vercel.app/" alt="" />
+                          <img src="/img/portfolio/5.jpg" alt="" />
                         </span>
                       </div>
                       <div className="cont">
                         <h6>
                           <Link
-                            href={`https://ai-canvas-blue.vercel.app/`}
+                            href={`https://www.legacyai.life/`}
                           >
                             art &amp; illustration
                           </Link>
                         </h6>
                         <h4>
                           <Link
-                            href={`https://vocal-qualify.vercel.app/`}
+                            href={`https://www.legacyai.life/`}
                           >
                             Inspiring new space
                           </Link>
@@ -245,7 +245,7 @@ const Works3 = () => {
                       </div>
                     </div>
                   </SwiperSlide>
-                                    <SwiperSlide className="swiper-slide">
+                  <SwiperSlide className="swiper-slide">
                     <div className="content">
                       <div className="img">
                         <span className="imgio">
