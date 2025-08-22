@@ -1,0 +1,10 @@
+{
+  "id": 1,
+  "title": "Get In Touch.",
+  "email": "hello@youragency.com",
+  "phone": "+1 (555) 123-4567",
+  "location": {
+    "first": "123 Business Street, Suite 100,",
+    "second": "New York, NY 10001"
+  }
+}

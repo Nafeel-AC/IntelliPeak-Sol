@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "icon": "pe-7s-paint-bucket",
+        "title": "Graphic Design",
+        "content": "We craft intuitive, future-ready visuals that enhance user experience and strengthen your brand across every digital product."
+    },
+    {
+        "id": 2,
+        "icon": "pe-7s-phone",
+        "title": "Web & Mobile Design",
+        "content": "We design responsive interfaces for web and mobile that merge aesthetics with functionality, ensuring smooth user journeys across devices."
+    },
+    {
+        "id": 3,
+        "icon": "pe-7s-display1",
+        "title": "Social Media Marketing",
+        "content": "We craft data-driven campaigns and creative content strategies that amplify your brand’s presence, connect with the right audience, and deliver measurable results."
+    },
+    {
+        "id": 4,
+        "icon": "pe-7s-diskette",
+        "title": "Document Legal Policy",
+        "content": "We create, review, and manage digital legal documents and policies that keep your business compliant, secure, and future-ready."
+    }
+]
