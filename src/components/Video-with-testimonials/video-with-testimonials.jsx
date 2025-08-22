@@ -1,16 +1,50 @@
 /* eslint-disable @next/next/no-img-element */
-import React from "react";
+import React, { useState, useEffect, useRef } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import ModalVideo from "react-modal-video";
-import "react-modal-video/css/modal-video.css";
 
 const VideoWithTestimonials = () => {
-  const [isOpen, setOpen] = React.useState(false);
-  React.useEffect(() => {
-    console.clear();
+  const [isOpen, setOpen] = useState(false);
+  const videoRef = useRef(null);
+  const modalRef = useRef(null);
+
+  // Close modal on escape key
+  useEffect(() => {
+    const handleEsc = (e) => {
+      if (e.key === "Escape") {
+        closeModal();
+      }
+    };
+    window.addEventListener("keydown", handleEsc);
+    return () => window.removeEventListener("keydown", handleEsc);
   }, []);
+
+  // Close modal if clicked outside the video
+  useEffect(() => {
+    const handleClickOutside = (e) => {
+      if (isOpen && modalRef.current && !videoRef.current.contains(e.target)) {
+        closeModal();
+      }
+    };
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => document.removeEventListener("mousedown", handleClickOutside);
+  }, [isOpen]);
+
+  const openModal = () => {
+    setOpen(true);
+    document.body.style.overflow = "hidden"; // Prevent scrolling when modal is open
+  };
+
+  const closeModal = () => {
+    setOpen(false);
+    document.body.style.overflow = "auto"; // Re-enable scrolling
+    // Pause the video when modal is closed
+    if (videoRef.current) {
+      videoRef.current.pause();
+    }
+  };
+
   const settings = {
     dots: true,
     infinite: true,
@@ -19,6 +53,7 @@ const VideoWithTestimonials = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
   };
+
   return (
     <section className="block-sec">
       <div
@@ -32,19 +67,11 @@ const VideoWithTestimonials = () => {
               <div className="vid-area">
                 <span className="text">Watch Video</span>
                 <div className="vid-icon">
-                  {typeof window !== "undefined" && (
-                    <ModalVideo
-                      channel="vimeo"
-                      isOpen={isOpen}
-                      videoId="127203262"
-                      onClose={() => setOpen(false)}
-                    />
-                  )}
                   <a
                     className="vid"
                     onClick={(e) => {
                       e.preventDefault();
-                      setOpen(true);
+                      openModal();
                     }}
                   >
                     <div className="vid-butn">
@@ -143,6 +170,58 @@ const VideoWithTestimonials = () => {
           </div>
         </div>
       </div>
+
+      {/* Custom Video Modal */}
+      {isOpen && (
+        <div
+          ref={modalRef}
+          className="custom-video-modal"
+          style={{
+            position: "fixed",
+            top: 0,
+            left: 0,
+            width: "100%",
+            height: "100%",
+            backgroundColor: "rgba(0, 0, 0, 0.9)",
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            zIndex: 9999,
+          }}
+        >
+          <div
+            className="modal-content"
+            style={{
+              position: "relative",
+              width: "80%",
+              maxWidth: "900px",
+            }}
+          >
+            <button
+              onClick={closeModal}
+              style={{
+                position: "absolute",
+                top: "-40px",
+                right: "-40px",
+                background: "transparent",
+                border: "none",
+                color: "white",
+                fontSize: "30px",
+                cursor: "pointer",
+              }}
+            >
+              ×
+            </button>
+            <video
+              ref={videoRef}
+              src="/video/1.mp4"
+              controls
+              autoPlay
+              style={{ width: "100%", height: "auto" }}
+            />
+          </div>
+        </div>
+      )}
     </section>
   );
 };

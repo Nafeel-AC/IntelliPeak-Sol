@@ -18,7 +18,7 @@ const AboutUs6 = () => {
                       className="bg-img bg-fixed"
                       style={{ backgroundImage: "url(/img/arch/hero.jpg)" }}
                     >
-                      25
+                      4
                     </h2>
                     <p>Years Of Experience</p>
                   </div>
