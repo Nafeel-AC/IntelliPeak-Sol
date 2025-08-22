@@ -106,7 +106,7 @@ const Footer = ({ hideBGCOLOR }) => {
                   PIXELCRAFT
                 </h3>
                 <p style={{ color: '#999', fontSize: '14px', lineHeight: '1.6', marginBottom: '30px' }}>
-                  We've delivered dozens of successful software projects, from web applications to mobile apps, helping businesses transform their digital presence in Mexico and Latin America.
+                  {`We've delivered dozens of successful software projects, from web applications to mobile apps, helping businesses transform their digital presence in Mexico and Latin America.`}
                 </p>
               </div>
               <div className="social">

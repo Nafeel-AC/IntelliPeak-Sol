@@ -117,41 +117,41 @@ const BlogDetails = ({ blogPost }) => {
 
                           <div className="quotes text-center">
                             <p>
-                              "The rise of LLMs isn't just about technological progress; it's about redefining the relationship 
-                              between human intelligence and artificial intelligence in ways we're only beginning to understand."
+                              {`"The rise of LLMs isn't just about technological progress; it's about redefining the relationship 
+                              between human intelligence and artificial intelligence in ways we're only beginning to understand."`}
                             </p>
                           </div>
 
                           <h6>- Future Implications and Challenges</h6>
                           <p>
-                            As we look toward the future, LLMs will continue to evolve in sophistication and capability. 
+                            {`As we look toward the future, LLMs will continue to evolve in sophistication and capability. 
                             We're already seeing the emergence of models that can handle multiple modalities - text, images, 
                             audio, and video - opening new possibilities for human-AI interaction. However, this rapid advancement 
-                            also brings significant challenges that we must address collectively.
+                            also brings significant challenges that we must address collectively.`}
                           </p>
-
                           <p>
-                            The democratization of AI through LLMs means that powerful tools are becoming accessible to 
+                          {`  The democratization of AI through LLMs means that powerful tools are becoming accessible to 
                             individuals and small organizations worldwide. This accessibility has the potential to level the 
                             playing field in many industries, enabling innovation from unexpected quarters. However, it also 
-                            raises questions about responsible use, potential misuse, and the need for appropriate safeguards.
+                            raises questions about responsible use, potential misuse, and the need for appropriate safeguards.`}
                           </p>
 
                           <h6>- Real-World Applications and Impact</h6>
                           <p>
-                            LLMs are already transforming industries across the board. In healthcare, they're helping doctors 
+                            {`LLMs are already transforming industries across the board. In healthcare, they're helping doctors 
                             analyze medical literature and assist with diagnosis. In education, they're providing personalized 
                             tutoring and content creation. In business, they're automating customer service and content generation. 
                             The creative industries are being revolutionized as LLMs help writers, designers, and developers 
-                            work more efficiently and creatively.
+                            work more efficiently and creatively.`}
                           </p>
 
                           <p>
-                            The key to successful LLM implementation lies in understanding their limitations and working with 
-                            them as collaborative tools rather than replacements for human expertise. The most successful 
-                            applications combine human creativity and judgment with AI capabilities, creating a synergy that 
-                            enhances rather than diminishes human potential.
-                          </p>
+                          {`The key to successful LLM implementation lies in understanding their limitations and working with 
+                          them as collaborative tools rather than replacements for human expertise. The most successful 
+                          applications combine human creativity and judgment with AI capabilities, creating a synergy that 
+                          enhances rather than diminishes human potential.`}
+                        </p>
+
                         </>
                       )}
 
@@ -159,27 +159,27 @@ const BlogDetails = ({ blogPost }) => {
                         <>
                           <h6>- The Convergence of AI and Web3</h6>
                           <p>
-                            The intersection of Artificial Intelligence and Web3 represents one of the most exciting frontiers 
+                            {`The intersection of Artificial Intelligence and Web3 represents one of the most exciting frontiers 
                             in technology today. While AI brings intelligence and automation to digital systems, Web3 provides 
                             the infrastructure for decentralized, trustless interactions. This combination is creating entirely 
-                            new paradigms for how we build, interact with, and govern digital systems.
+                            new paradigms for how we build, interact with, and govern digital systems.`}
                           </p>
 
                           <h6>- Decentralized AI Marketplaces</h6>
                           <p>
-                            One of the most promising applications is the creation of decentralized AI marketplaces where 
+                            {`One of the most promising applications is the creation of decentralized AI marketplaces where 
                             developers can monetize their AI models and users can access them through smart contracts. This 
                             democratizes access to AI capabilities while ensuring fair compensation for creators. The blockchain 
                             infrastructure provides transparency and trust in these transactions, while AI ensures the services 
-                            are intelligent and adaptive.
+                            are intelligent and adaptive.`}
                           </p>
 
                           <h6>- AI-Driven DAOs and Governance</h6>
                           <p>
-                            Decentralized Autonomous Organizations (DAOs) are being enhanced with AI capabilities that can 
+                            {`Decentralized Autonomous Organizations (DAOs) are being enhanced with AI capabilities that can 
                             analyze proposals, predict outcomes, and automate decision-making processes. This creates more 
                             efficient and intelligent governance systems that can scale beyond human limitations while maintaining 
-                            democratic principles.
+                            democratic principles.`}
                           </p>
                         </>
                       )}
@@ -188,26 +188,26 @@ const BlogDetails = ({ blogPost }) => {
                         <>
                           <h6>- AI-Powered Design Tools</h6>
                           <p>
-                            Modern AI tools are revolutionizing the design process by automating repetitive tasks and providing 
+                            {`Modern AI tools are revolutionizing the design process by automating repetitive tasks and providing 
                             intelligent suggestions. From color palette generation to layout optimization, AI is helping designers 
                             focus on creativity while handling the technical aspects of design. These tools learn from user 
-                            preferences and can suggest improvements based on best practices and current trends.
+                            preferences and can suggest improvements based on best practices and current trends.`}
                           </p>
 
                           <h6>- Personalized User Experiences</h6>
                           <p>
-                            AI enables truly personalized interfaces that adapt to individual users in real-time. By analyzing 
+{`                            AI enables truly personalized interfaces that adapt to individual users in real-time. By analyzing 
                             user behavior, preferences, and context, AI can dynamically adjust layouts, content, and interactions 
                             to create optimal experiences for each user. This level of personalization was previously impossible 
-                            and represents a fundamental shift in how we think about user interface design.
+                            and represents a fundamental shift in how we think about user interface design.`}
                           </p>
 
                           <h6>- Accessibility and Inclusion</h6>
                           <p>
-                            AI is making digital experiences more accessible to people with disabilities. From automatic 
+                            {`AI is making digital experiences more accessible to people with disabilities. From automatic 
                             caption generation to voice-controlled interfaces, AI tools are breaking down barriers and creating 
                             more inclusive digital environments. This not only improves accessibility but also enhances the 
-                            overall user experience for everyone.
+                            overall user experience for everyone.`}
                           </p>
                         </>
                       )}
@@ -298,9 +298,9 @@ const BlogDetails = ({ blogPost }) => {
                       </ScrollLink>
                     </span>
                     <p>
-                      Excellent article! The explanation of transformer architecture really helped me understand 
+                      {`Excellent article! The explanation of transformer architecture really helped me understand 
                       how LLMs work. I'm particularly interested in the ethical considerations you mentioned. 
-                      How do you think we can balance innovation with responsibility?
+                      How do you think we can balance innovation with responsibility?`}
                     </p>
                   </div>
                 </div>
@@ -321,9 +321,9 @@ const BlogDetails = ({ blogPost }) => {
                       </ScrollLink>
                     </span>
                     <p>
-                      Great insights on the democratization of AI. As a startup founder, I've seen firsthand 
+                      {`Great insights on the democratization of AI. As a startup founder, I've seen firsthand 
                       how accessible these tools have become. The challenge now is ensuring quality and 
-                      responsible use across different applications.
+                      responsible use across different applications.`}
                     </p>
                   </div>
                 </div>
@@ -344,9 +344,9 @@ const BlogDetails = ({ blogPost }) => {
                       </ScrollLink>
                     </span>
                     <p>
-                      As an AI researcher, I appreciate the balanced perspective on both opportunities and 
+                      {`As an AI researcher, I appreciate the balanced perspective on both opportunities and 
                       challenges. The environmental impact of training these models is a critical concern 
-                      that needs more attention in the broader AI community.
+                      that needs more attention in the broader AI community.`}
                     </p>
                   </div>
                 </div>
