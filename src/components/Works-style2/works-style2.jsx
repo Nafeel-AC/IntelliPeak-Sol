@@ -66,7 +66,7 @@ const WorksStyle2 = ({ grid, hideFilter, filterPosition }) => {
               data-wow-delay=".4s"
             >
               <div className="item-img">
-                <Link href={`/project-details2/project-details2-dark`}>
+                <Link href={`https://vocal-qualify.vercel.app/`}>
                   <a className="imago wow">
                     <img src="/img/portfolio/portfolio/1/1.jpg" alt="image" />
                     <div className="item-img-overlay"></div>
@@ -76,8 +76,8 @@ const WorksStyle2 = ({ grid, hideFilter, filterPosition }) => {
               <div className="cont">
                 <h6>Creativity Demand</h6>
                 <span>
-                  <Link href="/works3/works3-dark">Design</Link>,
-                  <Link href="/works3/works3-dark">WordPress</Link>
+                  <Link href="https://vocal-qualify.vercel.app/">VocalQualify</Link>,
+                  {/* <Link href="/works3/works3-dark">WordPress</Link> */}
                 </span>
               </div>
             </div>
@@ -93,7 +93,7 @@ const WorksStyle2 = ({ grid, hideFilter, filterPosition }) => {
               data-wow-delay=".4s"
             >
               <div className="item-img">
-                <Link href={`/project-details2/project-details2-dark`}>
+                <Link href={`https://legal-genie-three.vercel.app/`}>
                   <a className="imago wow">
                     <img src="/img/portfolio/portfolio/1/2.jpg" alt="image" />
                     <div className="item-img-overlay"></div>
@@ -103,8 +103,8 @@ const WorksStyle2 = ({ grid, hideFilter, filterPosition }) => {
               <div className="cont">
                 <h6>Through The Breaking</h6>
                 <span>
-                  <Link href="/works3/works3-dark">Design</Link>,
-                  <Link href="/works3/works3-dark">WordPress</Link>
+                  <Link href="https://legal-genie-three.vercel.app/">Legal Flow</Link>,
+                  {/* <Link href="https://legal-genie-three.vercel.app/">WordPress</Link> */}
                 </span>
               </div>
             </div>
@@ -120,7 +120,7 @@ const WorksStyle2 = ({ grid, hideFilter, filterPosition }) => {
               data-wow-delay=".4s"
             >
               <div className="item-img">
-                <Link href={`/project-details2/project-details2-dark`}>
+                <Link href={`https://ai-canvas-blue.vercel.app/`}>
                   <a className="imago wow">
                     <img src="/img/portfolio/portfolio/1/3.jpg" alt="image" />
                     <div className="item-img-overlay"></div>
@@ -130,8 +130,8 @@ const WorksStyle2 = ({ grid, hideFilter, filterPosition }) => {
               <div className="cont">
                 <h6>Create With Creatives</h6>
                 <span>
-                  <Link href="/works3/works3-dark">Design</Link>,
-                  <Link href="/works3/works3-dark">WordPress</Link>
+                  <Link href="https://ai-canvas-blue.vercel.app/">AI Genie</Link>,
+                  {/* <Link href="/works3/works3-dark">WordPress</Link> */}
                 </span>
               </div>
             </div>
@@ -147,7 +147,7 @@ const WorksStyle2 = ({ grid, hideFilter, filterPosition }) => {
               data-wow-delay=".4s"
             >
               <div className="item-img">
-                <Link href={`/project-details2/project-details2-dark`}>
+                <Link href={`https://learn-genie.vercel.app/`}>
                   <a className="imago wow">
                     <img src="/img/portfolio/portfolio/1/4.jpg" alt="image" />
                     <div className="item-img-overlay"></div>
@@ -157,8 +157,8 @@ const WorksStyle2 = ({ grid, hideFilter, filterPosition }) => {
               <div className="cont">
                 <h6>Energies of Love</h6>
                 <span>
-                  <Link href="/works3/works3-dark">Design</Link>,
-                  <Link href="/works3/works3-dark">WordPress</Link>
+                  <Link href="https://learn-genie.vercel.app/">Learn With AI</Link>,
+                  {/* <Link href="/works3/works3-dark">WordPress</Link> */}
                 </span>
               </div>
             </div>
@@ -174,7 +174,7 @@ const WorksStyle2 = ({ grid, hideFilter, filterPosition }) => {
               data-wow-delay=".4s"
             >
               <div className="item-img">
-                <Link href={`/project-details2/project-details2-dark`}>
+                <Link href={`https://www.legacyai.life/`}>
                   <a className="imago wow">
                     <img src="/img/portfolio/portfolio/1/5.jpg" alt="image" />
                     <div className="item-img-overlay"></div>
@@ -184,8 +184,8 @@ const WorksStyle2 = ({ grid, hideFilter, filterPosition }) => {
               <div className="cont">
                 <h6>See It Yourself</h6>
                 <span>
-                  <Link href="/works3/works3-dark">Design</Link>,
-                  <Link href="/works3/works3-dark">WordPress</Link>
+                  <Link href="https://www.legacyai.life/">Legaci AI </Link>,
+                  {/* <Link href="/works3/works3-dark">WordPress</Link> */}
                 </span>
               </div>
             </div>
@@ -201,7 +201,7 @@ const WorksStyle2 = ({ grid, hideFilter, filterPosition }) => {
               data-wow-delay=".4s"
             >
               <div className="item-img">
-                <Link href={`/project-details2/project-details2-dark`}>
+                <Link href={`https://bisubologna.com/product-category/b2b/b2b-rings/`}>
                   <a className="imago wow">
                     <img src="/img/portfolio/portfolio/1/6.jpg" alt="image" />
                     <div className="item-img-overlay"></div>
@@ -211,8 +211,8 @@ const WorksStyle2 = ({ grid, hideFilter, filterPosition }) => {
               <div className="cont">
                 <h6>Blast From The Past</h6>
                 <span>
-                  <Link href="/works3/works3-dark">Design</Link>,
-                  <Link href="/works3/works3-dark">WordPress</Link>
+                  <Link href="https://bisubologna.com/product-category/b2b/b2b-rings/">Ecommerce Store</Link>,
+                  {/* <Link href="/works3/works3-dark">WordPress</Link> */}
                 </span>
               </div>
             </div>
