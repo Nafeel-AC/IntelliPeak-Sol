@@ -94,20 +94,20 @@ const Works3 = () => {
                       <div className="img">
                         <span className="imgio">
                           <span className="wow cimgio" data-delay="500"></span>
-                          <img src="/img/portfolio/2.jpg" alt="" />
+                          <img src="/img/portfolio/1.jpg" alt="" />
                         </span>
                       </div>
                       <div className="cont">
                         <h6>
                           <Link
-                            href={`/works3/works3-dark`}
+                            href={`https://vocal-qualify.vercel.app/`}
                           >
                             art &amp; illustration
                           </Link>
                         </h6>
                         <h4>
                           <Link
-                            href={`/project-details2/project-details2-dark`}
+                            href={`https://vocal-qualify.vercel.app/`}
                           >
                             Inspiring new space
                           </Link>
@@ -120,20 +120,46 @@ const Works3 = () => {
                       <div className="img">
                         <span className="imgio">
                           <span className="wow cimgio" data-delay="500"></span>
-                          <img src="/img/portfolio/1.jpg" alt="" />
+                          <img src="/img/portfolio/2.jpg" alt="" />
                         </span>
                       </div>
                       <div className="cont">
                         <h6>
                           <Link
-                            href={`/works3/works3-dark`}
+                            href={`https://legal-genie-three.vercel.app/`}
                           >
                             art &amp; illustration
                           </Link>
                         </h6>
                         <h4>
                           <Link
-                            href={`/project-details2/project-details2-dark`}
+                            href={`https://legal-genie-three.vercel.app/`}
+                          >
+                            Inspiring new space
+                          </Link>
+                        </h4>
+                      </div>
+                    </div>
+                  </SwiperSlide>
+                  <SwiperSlide className="swiper-slide">
+                    <div className="content">
+                      <div className="img">
+                        <span className="imgio">
+                          <span className="wow cimgio" data-delay="500"></span>
+                          <img src="https://ai-canvas-blue.vercel.app/" alt="" />
+                        </span>
+                      </div>
+                      <div className="cont">
+                        <h6>
+                          <Link
+                            href={`https://ai-canvas-blue.vercel.app/`}
+                          >
+                            art &amp; illustration
+                          </Link>
+                        </h6>
+                        <h4>
+                          <Link
+                            href={`https://vocal-qualify.vercel.app/`}
                           >
                             Inspiring new space
                           </Link>
@@ -152,14 +178,14 @@ const Works3 = () => {
                       <div className="cont">
                         <h6>
                           <Link
-                            href={`/works3/works3-dark`}
+                            href={`https://ai-canvas-blue.vercel.app/`}
                           >
                             art &amp; illustration
                           </Link>
                         </h6>
                         <h4>
                           <Link
-                            href={`/project-details2/project-details2-dark`}
+                            href={`https://ai-canvas-blue.vercel.app/`}
                           >
                             Inspiring new space
                           </Link>
@@ -178,14 +204,14 @@ const Works3 = () => {
                       <div className="cont">
                         <h6>
                           <Link
-                            href={`/works3/works3-dark`}
+                            href={`https://learn-genie.vercel.app/`}
                           >
                             art &amp; illustration
                           </Link>
                         </h6>
                         <h4>
                           <Link
-                            href={`/project-details2/project-details2-dark`}
+                            href={`https://learn-genie.vercel.app/`}
                           >
                             Inspiring new space
                           </Link>
@@ -204,14 +230,14 @@ const Works3 = () => {
                       <div className="cont">
                         <h6>
                           <Link
-                            href={`/works3/works3-dark`}
+                            href={`https://www.legacyai.life/`}
                           >
                             art &amp; illustration
                           </Link>
                         </h6>
                         <h4>
                           <Link
-                            href={`/project-details2/project-details2-dark`}
+                            href={`https://www.legacyai.life/`}
                           >
                             Inspiring new space
                           </Link>
@@ -219,7 +245,7 @@ const Works3 = () => {
                       </div>
                     </div>
                   </SwiperSlide>
-                  <SwiperSlide className="swiper-slide">
+                                    <SwiperSlide className="swiper-slide">
                     <div className="content">
                       <div className="img">
                         <span className="imgio">
@@ -230,14 +256,14 @@ const Works3 = () => {
                       <div className="cont">
                         <h6>
                           <Link
-                            href={`/works3/works3-dark`}
+                            href={`https://bisubologna.com/product-category/b2b/b2b-rings/`}
                           >
                             art &amp; illustration
                           </Link>
                         </h6>
                         <h4>
                           <Link
-                            href={`/project-details2/project-details2-dark`}
+                            href={`https://bisubologna.com/product-category/b2b/b2b-rings/`}
                           >
                             Inspiring new space
                           </Link>
