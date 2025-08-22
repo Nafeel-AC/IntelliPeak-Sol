@@ -67,5 +67,56 @@
     },
     "author": "Alex Morgan",
     "readTime": "7 min read"
+  },
+  {
+    "id": 5,
+    "title": "The Rise of Quantum Computing",
+    "content": "Quantum computing is no longer just a theoretical concept; it’s rapidly becoming a disruptive force in technology. Unlike classical computers that process bits as 0s and 1s, quantum computers use qubits that can exist in multiple states simultaneously, allowing them to solve problems previously thought impossible. Industries like pharmaceuticals, finance, and logistics are set to benefit from faster simulations, risk modeling, and optimization. However, with this immense power comes challenges—such as high costs, hardware limitations, and the potential to break current encryption standards. The next decade will likely define how quantum computing integrates with mainstream industries, pushing both opportunities and ethical considerations to the forefront.",
+    "image": "/img/blog/b5.jpg",
+    "tags": [
+      "Quantum Computing",
+      "Future Tech",
+      "Innovation"
+    ],
+    "date": {
+      "day": "23",
+      "month": "August"
+    },
+    "author": "Sophia Lee",
+    "readTime": "6 min read"
+  },
+  {
+    "id": 6,
+    "title": "Blockchain Beyond Cryptocurrency",
+    "content": "While most people associate blockchain with Bitcoin and other cryptocurrencies, its potential reaches far beyond digital money. Blockchain provides a decentralized and transparent way of recording data, making it valuable for industries like supply chain, healthcare, and even voting systems. For example, companies can track product origins to ensure authenticity, while medical records can be securely shared between hospitals. The challenge lies in scalability, energy efficiency, and regulatory adoption, but as solutions emerge, blockchain may become as fundamental to business as the internet itself.",
+    "image": "/img/blog/b6.jpg",
+    "tags": [
+      "Blockchain",
+      "Decentralization",
+      "Future Tech"
+    ],
+    "date": {
+      "day": "23",
+      "month": "August"
+    },
+    "author": "Daniel Carter",
+    "readTime": "5 min read"
+  },
+  {
+    "id": 7,
+    "title": "Cloud Computing: The Backbone of Modern Business",
+    "content": "Cloud computing has become the foundation of today’s digital economy, powering everything from small startups to global enterprises. By offering on-demand access to computing power, storage, and applications, the cloud eliminates the need for heavy infrastructure investments. Businesses now benefit from scalability, cost efficiency, and global reach. Beyond storage and hosting, the cloud is driving innovation through AI services, serverless computing, and edge deployments. As organizations continue to adopt hybrid and multi-cloud strategies, the focus will be on security, interoperability, and sustainability—ensuring that the cloud remains a reliable engine for future growth.",
+    "image": "/img/blog/b7.jpg",
+    "tags": [
+      "Cloud",
+      "Tech Infrastructure",
+      "Business"
+    ],
+    "date": {
+      "day": "23",
+      "month": "August"
+    },
+    "author": "Daniel Carter",
+    "readTime": "8 min read"
   }
 ]

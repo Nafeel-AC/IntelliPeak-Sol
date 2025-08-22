@@ -17,7 +17,7 @@ const BlogStanderd = ({ blogs }) => {
                   key={blogItem.id}
                 >
                   <div className="img">
-                    <Link href={`/blog-details/blog-details-dark`}>
+                    <Link href={`/blog-details/blog-details-dark?id=${blogItem.id}`}>
                       <a>
                         <img src={blogItem.image} alt="" />
                       </a>
@@ -40,12 +40,12 @@ const BlogStanderd = ({ blogs }) => {
                           ))}
                         </div>
                         <h4 className="title">
-                          <Link href={`/blog-details/blog-details-dark`}>
+                          <Link href={`/blog-details/blog-details-dark?id=${blogItem.id}`}>
                             {blogItem.title}
                           </Link>
                         </h4>
-                        <p>{blogItem.content}</p>
-                        <Link href={`/blog-details/blog-details-dark`}>
+                        <p>{blogItem.content.substring(0, 250)}...</p>
+                        <Link href={`/blog-details/blog-details-dark?id=${blogItem.id}`}>
                           <a className="butn bord curve mt-30">Read More</a>
                         </Link>
                       </div>
