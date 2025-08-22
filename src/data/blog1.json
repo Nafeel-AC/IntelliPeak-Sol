@@ -1,23 +1,26 @@
 [
   {
     "id": 1,
-    "title": "Rising Trends of Artificial Intelligence",
-    "content": "Artificial Intelligence is no longer a futuristic concept—it is shaping the present. From generative AI tools like ChatGPT and MidJourney to practical applications in healthcare, finance, and education, AI is becoming a core part of everyday life. One major trend is the rise of multimodal AI, where systems understand text, images, and even video together. Another is AI-powered automation, helping businesses streamline workflows and make data-driven decisions. Ethical AI and regulation are also on the rise, as governments and companies work to ensure fairness and transparency. The most exciting shift is AI democratization—powerful tools are becoming accessible to students, entrepreneurs, and small businesses worldwide. The future of AI is about augmentation, not replacement: empowering humans to create, analyze, and innovate faster than ever.",
+    "title": "The Rise of Large Language Models: Transforming AI and Human Interaction",
+    "content": "Large Language Models (LLMs) have emerged as one of the most transformative technologies of the 21st century, fundamentally changing how we interact with artificial intelligence. From GPT-3 to Claude, PaLM, and beyond, these models have demonstrated unprecedented capabilities in understanding and generating human language. The journey began with simple rule-based systems and evolved through statistical approaches, eventually reaching the current era of deep learning and transformer architectures. What makes LLMs revolutionary is their ability to perform a wide range of tasks without specific training - from writing code and composing poetry to analyzing complex documents and engaging in meaningful conversations. The technology has democratized AI access, enabling developers, researchers, and businesses to build sophisticated applications without deep machine learning expertise. However, this rapid advancement also brings challenges: concerns about bias, misinformation, job displacement, and the environmental impact of training these massive models. As we stand at this inflection point, the future of LLMs lies in responsible development, ethical deployment, and finding the right balance between automation and human creativity. The rise of LLMs isn't just about technological progress; it's about redefining the relationship between human intelligence and artificial intelligence in ways we're only beginning to understand.",
     "image": "/img/blog/b1.jpg",
     "tags": [
+      "LLMs",
       "AI",
       "Technology",
-      "Future"
+      "Machine Learning"
     ],
     "date": {
-      "day": "22",
-      "month": "August"
-    }
+      "day": "15",
+      "month": "December"
+    },
+    "author": "Alex Morgan",
+    "readTime": "8 min read"
   },
   {
     "id": 2,
     "title": "AI, Web3 and the Future of Digital Innovation",
-    "content": "Artificial Intelligence and Web3 are redefining how we interact with technology and shaping the future of the internet. AI brings intelligent automation, personalization, and creative tools that enhance human capability, while Web3 decentralizes control, enabling ownership of digital assets through blockchain and smart contracts. Together, they create powerful possibilities: decentralized AI marketplaces, AI-driven DAOs, and secure, personalized digital identities. The fusion of AI’s intelligence with Web3’s trustless systems signals a new era of innovation, where users gain more control, creativity is supercharged, and industries evolve toward transparency and efficiency. The future belongs to those who adapt and harness these converging technologies.",
+    "content": "Artificial Intelligence and Web3 are redefining how we interact with technology and shaping the future of the internet. AI brings intelligent automation, personalization, and creative tools that enhance human capability, while Web3 decentralizes control, enabling ownership of digital assets through blockchain and smart contracts. Together, they create powerful possibilities: decentralized AI marketplaces, AI-driven DAOs, and secure, personalized digital identities. The fusion of AI's intelligence with Web3's trustless systems signals a new era of innovation, where users gain more control, creativity is supercharged, and industries evolve toward transparency and efficiency. The future belongs to those who adapt and harness these converging technologies. As we move forward, the integration of AI and Web3 will create unprecedented opportunities for innovation, collaboration, and value creation in the digital economy.",
     "image": "/img/blog/b2.jpg",
     "tags": [
       "AI",
@@ -27,12 +30,14 @@
     "date": {
       "day": "22",
       "month": "August"
-    }
+    },
+    "author": "Alex Morgan",
+    "readTime": "6 min read"
   },
   {
     "id": 3,
     "title": "How AI is Transforming UI/UX Design",
-    "content": "The rise of AI is changing the way designers approach UI and UX. From automated design suggestions to personalized user journeys, AI is helping create interfaces that are smarter, faster, and more intuitive. Tools powered by machine learning can analyze user behavior and generate design insights, while AI-driven prototyping accelerates the creative process. Personalization has reached new heights—interfaces now adapt in real-time to user preferences, accessibility needs, and interaction patterns. The future of UI/UX will be shaped by AI’s ability to predict, optimize, and co-create, allowing designers to focus more on creativity while AI handles data-driven precision.",
+    "content": "The rise of AI is changing the way designers approach UI and UX. From automated design suggestions to personalized user journeys, AI is helping create interfaces that are smarter, faster, and more intuitive. Tools powered by machine learning can analyze user behavior and generate design insights, while AI-driven prototyping accelerates the creative process. Personalization has reached new heights—interfaces now adapt in real-time to user preferences, accessibility needs, and interaction patterns. The future of UI/UX will be shaped by AI's ability to predict, optimize, and co-create, allowing designers to focus more on creativity while AI handles data-driven precision. This transformation is not just about efficiency; it's about creating more human-centered, accessible, and engaging digital experiences that adapt to individual users and their unique needs.",
     "image": "/img/blog/b3.jpg",
     "tags": [
       "AI",
@@ -42,7 +47,9 @@
     "date": {
       "day": "22",
       "month": "August"
-    }
+    },
+    "author": "Alex Morgan",
+    "readTime": "5 min read"
   },
   {
     "id": 4,
@@ -57,6 +64,8 @@
     "date": {
       "day": "22",
       "month": "August"
-    }
+    },
+    "author": "Alex Morgan",
+    "readTime": "7 min read"
   }
 ]
