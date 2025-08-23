@@ -24,8 +24,7 @@ const AboutUs5 = () => {
                 We help to create visual strategies.
               </h5>
               <p>
-                We are Vie. We create award-winning websites, remarkable brands
-                and cutting-edge apps.Nullam imperdie.
+                We are PixelCraft. Crafting innovative software, stunning websites, and smart apps that bring ideas to life.
               </p>
               <div className="skills-box mt-40">
                 <div className="skill-item">

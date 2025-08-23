@@ -100,9 +100,8 @@ const VideoWithTestimonials = () => {
                 >
                   <div className="item">
                     <p>
-                      Nulla metus metus ullamcorper vel tincidunt sed euismod
-                      nibh volutpat velit class aptent taciti sociosqu ad
-                      litora.
+                    From concept to launch, this team was professional and delivered
+                    a website that perfectly represents our company.
                     </p>
                     <div className="info">
                       <div className="img">
@@ -122,9 +121,8 @@ const VideoWithTestimonials = () => {
                   </div>
                   <div className="item">
                     <p>
-                      Nulla metus metus ullamcorper vel tincidunt sed euismod
-                      nibh volutpat velit class aptent taciti sociosqu ad
-                      litora.
+                    Working with this team was an absolute pleasure. They delivered
+                    exceptional results that exceeded our expectations.
                     </p>
                     <div className="info">
                       <div className="img">
@@ -134,9 +132,9 @@ const VideoWithTestimonials = () => {
                       </div>
                       <div className="cont">
                         <div className="author">
-                          <h6 className="author-name ">Alex Regelman</h6>
+                          <h6 className="author-name ">Michael Owen</h6>
                           <span className="author-details">
-                            Co-founder, Colabrio
+                            Marketing Director, TechFlow
                           </span>
                         </div>
                       </div>
@@ -156,9 +154,9 @@ const VideoWithTestimonials = () => {
                       </div>
                       <div className="cont">
                         <div className="author">
-                          <h6 className="author-name ">Alex Regelman</h6>
+                          <h6 className="author-name ">Leo Ranta</h6>
                           <span className="author-details">
-                            Co-founder, Colabrio
+                            CEO, InnovateCorp
                           </span>
                         </div>
                       </div>

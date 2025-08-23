@@ -27,8 +27,8 @@ const MinimalArea = () => {
             <div className="content pt-0">
               <h4 className="wow color-font">About us.</h4>
               <p className="wow txt" data-splitting>
-                Our creative Ad agency is ranked among the finest in the US. We
-                cultivate smart ideas for start-ups and seasoned players.
+                PixelCraft is a leading software agency delivering innovative solutions for startups and established businesses. 
+                We transform ideas into seamless digital experiences that drive results.
               </p>
               <ul className="feat">
                 <li className="wow fadeInUp" data-wow-delay=".2s">
@@ -36,7 +36,7 @@ const MinimalArea = () => {
                     <span>1</span> Our Mission
                   </h6>
                   <p>
-                    luctus massa ipsum at tempus eleifend congue lectus bibendum
+                    We aim to craft pixel-perfect digital experiences, blending innovation and design to bring ideas to life.
                   </p>
                 </li>
                 <li className="wow fadeInUp" data-wow-delay=".4s">
@@ -44,7 +44,7 @@ const MinimalArea = () => {
                     <span>2</span> Our Goals
                   </h6>
                   <p>
-                    luctus massa ipsum at tempus eleifend congue lectus bibendum
+                    We strive to deliver innovative software solutions that empower creativity, efficiency, and seamless digital experiences.
                   </p>
                 </li>
                 <li className="wow fadeInUp" data-wow-delay=".6s">
@@ -52,7 +52,7 @@ const MinimalArea = () => {
                     <span>3</span> Why Us?
                   </h6>
                   <p>
-                    luctus massa ipsum at tempus eleifend congue lectus bibendum
+                    Our expertise in cutting-edge technology and design ensures solutions that are efficient, scalable, and visually striking—built to elevate your digital presence.
                   </p>
                 </li>
               </ul>

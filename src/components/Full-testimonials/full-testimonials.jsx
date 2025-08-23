@@ -110,7 +110,7 @@ class FullTestimonials extends React.Component {
                           <img src="/img/clients/2.jpg" alt="" />
                         </div>
                         <h6 className="author-name color-font">
-                          Sarah Johnson
+                          Michael Owen
                         </h6>
                         <span className="author-details">
                           Marketing Director, TechFlow
@@ -131,7 +131,7 @@ class FullTestimonials extends React.Component {
                           <img src="/img/clients/3.jpg" alt="" />
                         </div>
                         <h6 className="author-name color-font">
-                          Michael Chen
+                          Leo Ranta
                         </h6>
                         <span className="author-details">
                           CEO, InnovateCorp
@@ -173,10 +173,10 @@ class FullTestimonials extends React.Component {
                           <img src="/img/clients/1.jpg" alt="" />
                         </div>
                         <h6 className="author-name color-font">
-                          David Thompson
+                          Alex Regelmann
                         </h6>
                         <span className="author-details">
-                          Founder, StartupXYZ
+                          Founder, Colabrio
                         </span>
                       </div>
                     </div>

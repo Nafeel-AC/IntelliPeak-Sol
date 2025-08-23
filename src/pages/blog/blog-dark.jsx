@@ -1,44 +1,44 @@
 import React from "react";
-import blog1Data from "../../data/blog1.json";
+import BlogStanderd from "../../components/Blog-standerd/blog-standerd";
+import blogs from "../../data/blog1.json";
+import { useRouter } from "next/router";
 import DarkTheme from "../../layouts/Dark";
 import Navbar from "../../components/Navbar/navbar";
-import BlogStanderd from "../../components/Blog-standerd/blog-standerd";
-import PageHeader from "../../components/Page-header/page-header";
 import Footer from "../../components/Footer/footer";
 
 const BlogDark = () => {
-    const navbarRef = React.useRef(null);
-    const logoRef = React.useRef(null);
-    React.useEffect(() => {
-      var navbar = navbarRef.current,
-        logo = logoRef.current;
-      if (window.pageYOffset > 300) {
-        navbar.classList.add("nav-scroll");
-      } else {
-        navbar.classList.remove("nav-scroll");
-      }
-      window.addEventListener("scroll", () => {
-        if (window.pageYOffset > 300) {
-          navbar.classList.add("nav-scroll");
-        } else {
-          navbar.classList.remove("nav-scroll");
-        }
-      });
-    }, [navbarRef]);
+  const router = useRouter();
+  const { page } = router.query;
+  const currentPage = parseInt(page) || 1;
+  
+  const navbarRef = React.useRef(null);
+  const logoRef = React.useRef(null);
+
+  React.useEffect(() => {
+    document.querySelector("body").classList.add("dark");
+    return () => {
+      document.querySelector("body").classList.remove("dark");
+    };
+  }, []);
+
   return (
     <DarkTheme>
-      <div className="circle-bg">
-        <div className="circle-color fixed">
-          <div className="gradient-circle"></div>
-          <div className="gradient-circle two"></div>
-        </div>
-      </div>
       <Navbar nr={navbarRef} lr={logoRef} />
-      <PageHeader
-        title="Our News."
-        paragraph="All the most current news and events of our creative team."
-      />
-      <BlogStanderd blogs={blog1Data} />
+      <section className="page-header">
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-lg-7 col-md-9">
+              <div className="cont text-center">
+                <h1 className="mb-10 color-font">Our Blog</h1>
+                <p>
+                  All the latest news, insights, and updates from our team.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <BlogStanderd blogs={blogs} currentPage={currentPage} />
       <Footer />
     </DarkTheme>
   );
