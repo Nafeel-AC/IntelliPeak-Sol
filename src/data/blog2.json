@@ -4,7 +4,11 @@
         "title": "How to use solid color combine with simple furnitures.",
         "content": "My job is simple and sophisticated, so it is possible to describe and simple, and flowery language. I love the feel and sophistication of its superiority. I like people with a keen mind and at the same time easy to talk to. These qualities can be combined perfectly natural. However, things like people look miserable, if these properties are connected.",
         "image": "/img/blog/l1.jpg",
-        "tags": ["WordPress", "Themeforest", "Vie"],
+        "tags": [
+            "WordPress",
+            "Themeforest",
+            "Pixel Craft"
+        ],
         "date": {
             "day": "07",
             "month": "August"
@@ -15,7 +19,9 @@
         "title": "Build a Beautiful Blog With Ease",
         "content": "My job is simple and sophisticated, so it is possible to describe and simple, and flowery language. I love the feel and sophistication of its superiority. I like people with a keen mind and at the same time easy to talk to. These qualities can be combined perfectly natural. However, things like people look miserable, if these properties are connected.",
         "image": "/img/blog/l2.jpg",
-        "tags": ["WordPress"],
+        "tags": [
+            "WordPress"
+        ],
         "date": {
             "day": "07",
             "month": "August"
@@ -26,10 +32,14 @@
         "title": "Build a Beautiful Blog With Ease",
         "content": "My job is simple and sophisticated, so it is possible to describe and simple, and flowery language. I love the feel and sophistication of its superiority. I like people with a keen mind and at the same time easy to talk to. These qualities can be combined perfectly natural. However, things like people look miserable, if these properties are connected.",
         "image": "/img/blog/l3.jpg",
-        "tags": ["WordPress", "Themeforest", "Vie"],
+        "tags": [
+            "WordPress",
+            "Themeforest",
+            "Pixel Craft"
+        ],
         "date": {
             "day": "07",
             "month": "August"
         }
-    } 
+    }
 ]
