@@ -43,11 +43,6 @@ const Comments = ({ blogId }) => {
     resetForm();
   };
 
-  // Function to delete a comment (optional feature)
-  const deleteComment = (commentId) => {
-    setComments(prevComments => prevComments.filter(comment => comment.id !== commentId));
-  };
-
   // Email validation function
   const validateEmail = (value) => {
     let error;
@@ -75,13 +70,6 @@ const Comments = ({ blogId }) => {
               <div className="info">
                 <h6>
                   {comment.name} - <span>{comment.date}</span>
-                  <button 
-                    onClick={() => deleteComment(comment.id)}
-                    className="delete-comment"
-                    title="Delete comment"
-                  >
-                    <i className="fas fa-trash"></i>
-                  </button>
                 </h6>
                 <p>{comment.comment}</p>
               </div>

@@ -98,21 +98,20 @@ const SupabaseComments = ({ blogId }) => {
   };
 
   // Function to add a new comment
-  const addComment = async (values, { resetForm, setSubmitting }) => {
+  const addComment = async (values, { resetForm }) => {
     try {
       setIsSubmitting(true);
       
-      const newComment = {
-        blog_id: blogId,
-        name: values.name,
-        email: values.email,
-        comment: values.comment,
-        created_at: new Date().toISOString()
-      };
-
       const { data, error } = await supabase
         .from('comments')
-        .insert([newComment])
+        .insert([
+          {
+            blog_id: blogId,
+            name: values.name,
+            email: values.email,
+            comment: values.comment
+          }
+        ])
         .select();
 
       if (error) {
@@ -121,45 +120,14 @@ const SupabaseComments = ({ blogId }) => {
         return;
       }
 
-      // Optimistically add the comment to UI immediately
-      if (data && data[0]) {
-        setComments(prevComments => [data[0], ...prevComments]);
-      }
-      
-      // Also reload comments to ensure sync
-      setTimeout(() => {
-        loadComments();
-      }, 1000);
-      
-      resetForm();
+      // Comment will be added via real-time subscription
       alert('Comment added successfully!');
+      resetForm();
     } catch (error) {
       console.error('Error adding comment:', error);
       alert('Failed to add comment. Please try again.');
     } finally {
       setIsSubmitting(false);
-    }
-  };
-
-  // Function to delete a comment
-  const deleteComment = async (commentId) => {
-    try {
-      const { error } = await supabase
-        .from('comments')
-        .delete()
-        .eq('id', commentId);
-
-      if (error) {
-        console.error('Error deleting comment:', error);
-        alert('Failed to delete comment. Please try again.');
-        return;
-      }
-
-      // Comment will be removed via real-time subscription
-      alert('Comment deleted successfully!');
-    } catch (error) {
-      console.error('Error deleting comment:', error);
-      alert('Failed to delete comment. Please try again.');
     }
   };
 
@@ -222,13 +190,6 @@ const SupabaseComments = ({ blogId }) => {
               <div className="info">
                 <h6>
                   {comment.name} - <span>{formatDate(comment.created_at)}</span>
-                  <button 
-                    onClick={() => deleteComment(comment.id)}
-                    className="delete-comment"
-                    title="Delete comment"
-                  >
-                    <i className="fas fa-trash"></i>
-                  </button>
                 </h6>
                 <p>{comment.comment}</p>
               </div>
