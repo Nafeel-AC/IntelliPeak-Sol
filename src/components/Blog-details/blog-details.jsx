@@ -3,6 +3,7 @@ import React from "react";
 import Link from "next/link";
 import { Formik, Form, Field } from "formik";
 import { Link as ScrollLink } from "react-scroll";
+import Comments from "../Comments/comments";
 
 const BlogDetails = ({ blogPost }) => {
   const messageRef = React.useRef(null);
@@ -279,147 +280,7 @@ const BlogDetails = ({ blogPost }) => {
                 </span>
               </div>
 
-              <div className="comments-area">
-                <h5>Comments :</h5>
-                <div className="item">
-                  <div className="info">
-                    <h6>
-                      Sarah Chen - <span> 20 Dec 2022</span>
-                    </h6>
-                    <span className="replay">
-                      <ScrollLink
-                        to="comment-form"
-                        spy={true}
-                        smooth={true}
-                        offset={-150}
-                        duration={500}
-                      >
-                        Reply <i className="fas fa-reply"></i>
-                      </ScrollLink>
-                    </span>
-                    <p>
-                      {`Excellent article! The explanation of transformer architecture really helped me understand 
-                      how LLMs work. I'm particularly interested in the ethical considerations you mentioned. 
-                      How do you think we can balance innovation with responsibility?`}
-                    </p>
-                  </div>
-                </div>
-                <div className="item relped">
-                  <div className="info">
-                    <h6>
-                      Marcus Rodriguez - <span> 18 Dec 2022</span>
-                    </h6>
-                    <span className="replay">
-                      <ScrollLink
-                        to="comment-form"
-                        spy={true}
-                        smooth={true}
-                        offset={-150}
-                        duration={500}
-                      >
-                        Reply <i className="fas fa-reply"></i>
-                      </ScrollLink>
-                    </span>
-                    <p>
-                      {`Great insights on the democratization of AI. As a startup founder, I've seen firsthand 
-                      how accessible these tools have become. The challenge now is ensuring quality and 
-                      responsible use across different applications.`}
-                    </p>
-                  </div>
-                </div>
-                <div className="item">
-                  <div className="info">
-                    <h6>
-                      Dr. Emily Watson - <span> 16 Dec 2022</span>
-                    </h6>
-                    <span className="replay">
-                      <ScrollLink
-                        to="comment-form"
-                        spy={true}
-                        smooth={true}
-                        offset={-150}
-                        duration={500}
-                      >
-                        Reply <i className="fas fa-reply"></i>
-                      </ScrollLink>
-                    </span>
-                    <p>
-                      {`As an AI researcher, I appreciate the balanced perspective on both opportunities and 
-                      challenges. The environmental impact of training these models is a critical concern 
-                      that needs more attention in the broader AI community.`}
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="comment-form" id="comment-form">
-                <h5>Add Comment :</h5>
-                <div className="form">
-                  <Formik
-                    initialValues={{
-                      name: "",
-                      email: "",
-                      comment: "",
-                    }}
-                    onSubmit={async (values) => {
-                      await sendMessage(500);
-                      alert(JSON.stringify(values, null, 2));
-                      // Reset the values
-                      values.name = "";
-                      values.email = "";
-                      values.comment = "";
-                    }}
-                  >
-                    {({ errors, touched }) => (
-                      <Form>
-                        <div className="row">
-                          <div className="col-12">
-                            <div className="form-group">
-                              <Field
-                                as="textarea"
-                                placeholder="Your Comment"
-                                name="comment"
-                              />
-                            </div>
-                          </div>
-                          <div className="col-md-6">
-                            <div className="form-group">
-                              <Field
-                                type="text"
-                                placeholder="Your Name"
-                                name="name"
-                              />
-                            </div>
-                          </div>
-                          <div className="col-md-6">
-                            <div className="form-group">
-                              <Field
-                                type="email"
-                                validate={validateEmail}
-                                placeholder="Your Email"
-                                name="email"
-                              />
-                              {errors.email && touched.email && (
-                                <div>{errors.email}</div>
-                              )}
-                            </div>
-                          </div>
-                          <div className="col-12">
-                            <div className="form-group text-center">
-                              <button
-                                type="submit"
-                                className="nb butn light curve full-width"
-                              >
-                                Comment
-                              </button>
-                            </div>
-                          </div>
-                        </div>
-                      </Form>
-                    )}
-                  </Formik>
-                </div>
-              </div>
+              <Comments blogId={post.id} />
             </div>
           </div>
         </div>
