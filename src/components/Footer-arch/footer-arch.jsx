@@ -81,20 +81,7 @@ const FooterArch = () => {
               <div className="logo">
                 <img src={appData.lightLogo} alt="" />
               </div>
-              <div className="social">
-                <a href="#0">
-                  <i className="fab fa-facebook-f"></i>
-                </a>
-                <a href="#0">
-                  <i className="fab fa-twitter"></i>
-                </a>
-                <a href="#0">
-                  <i className="fab fa-instagram"></i>
-                </a>
-                <a href="#0">
-                  <i className="fab fa-youtube"></i>
-                </a>
-              </div>
+
               <div className="copy-right">
                 <p>
                   © 2022, Vie Template. Made with passion by

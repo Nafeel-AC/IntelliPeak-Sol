@@ -71,20 +71,7 @@ const Footer2 = () => {
                   <a href="#0">support@gmail.com</a>
                 </h6>
               </div>
-              <div className="social mt-30">
-                <a href="#0">
-                  <i className="fab fa-facebook-f"></i>
-                </a>
-                <a href="#0">
-                  <i className="fab fa-twitter"></i>
-                </a>
-                <a href="#0">
-                  <i className="fab fa-instagram"></i>
-                </a>
-                <a href="#0">
-                  <i className="fab fa-youtube"></i>
-                </a>
-              </div>
+
             </div>
           </div>
         </div>
