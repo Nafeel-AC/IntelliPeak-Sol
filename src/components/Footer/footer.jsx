@@ -109,20 +109,7 @@ const Footer = ({ hideBGCOLOR }) => {
                   {`We've delivered dozens of successful software projects, from web applications to mobile apps, helping businesses transform their digital presence in Mexico and Latin America.`}
                 </p>
               </div>
-              <div className="social">
-                <a href="#0">
-                  <i className="fab fa-linkedin-in"></i>
-                </a>
-                <a href="#0">
-                  <i className="fab fa-github"></i>
-                </a>
-                <a href="#0">
-                  <i className="fab fa-twitter"></i>
-                </a>
-                <a href="#0">
-                  <i className="fab fa-dribbble"></i>
-                </a>
-              </div>
+
               <div className="copy-right">
                 <p>
                   © 2023, PixelCraft. Crafting digital solutions with passion in Mexico.
