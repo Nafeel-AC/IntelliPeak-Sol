@@ -3,8 +3,8 @@ import Head from "next/head";
 import Link from "next/link";
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-
 import SwiperCore, { Navigation } from "swiper";
+import ProjectDataArray from "../../data/project-details2.json";
 
 import "swiper/css";
 import "swiper/css/navigation";
@@ -93,170 +93,49 @@ const Works2 = ({ sliderRef }) => {
                       className="swiper-wrapper"
                       slidesPerView={1}
                     >
-                      <SwiperSlide className="swiper-slide">
-                        <div
-                          className="content wow fadeInUp"
-                          data-wow-delay=".3s"
-                        >
+                      {ProjectDataArray.slice(0, 6).map((project, index) => (
+                        <SwiperSlide className="swiper-slide" key={project.id}>
                           <div
-                            className="item-img bg-img wow imago"
-                            style={{
-                              backgroundImage: "url(/img/portfolio/curs/1.jpg)",
-                            }}
-                          ></div>
-                          <div className="cont bgbox">
-                            <h6>
-                              <Link
-                                href={`/works2/works2-dark`}
-                              >
-                                <a>art &amp; illustration</a>
-                              </Link>
-                            </h6>
-                            <h4>
-                              <Link
-                                href={`/project-details2/project-details2-dark`}
-                              >
-                                <a>Innovation and Crafts.</a>
-                              </Link>
-                            </h4>
+                            className="content wow fadeInUp"
+                            data-wow-delay=".3s"
+                          >
+                            <div
+                              className="item-img bg-img wow imago"
+                              style={{
+                                backgroundImage: `url(${project.projectHeaderImage})`,
+                              }}
+                            ></div>
+                            <div className="cont bgbox">
+                              <h6>
+                                <Link
+                                  href={`/works2/works2-dark`}
+                                >
+                                  <a>{project.categories[0]?.name || "Web Design"}</a>
+                                </Link>
+                              </h6>
+                              <h4>
+                                <Link
+                                  href={`/project-details2/project-details2-dark?id=${project.id}`}
+                                >
+                                  <a>{project.title.big}</a>
+                                </Link>
+                              </h4>
+                            </div>
                           </div>
-                        </div>
-                      </SwiperSlide>
-                      <SwiperSlide className="swiper-slide">
-                        <div
-                          className="content wow fadeInUp"
-                          data-wow-delay=".3s"
-                        >
-                          <div
-                            className="item-img bg-img wow imago"
-                            style={{
-                              backgroundImage: "url(/img/portfolio/curs/2.jpg)",
-                            }}
-                          ></div>
-                          <div className="cont bgbox">
-                            <h6>
-                              <Link
-                                href={`/works2/works2-dark`}
-                              >
-                                <a>art &amp; illustration</a>
-                              </Link>
-                            </h6>
-                            <h4>
-                              <Link
-                                href={`/project-details2/project-details2-dark`}
-                              >
-                                <a>Inspiring new space.</a>
-                              </Link>
-                            </h4>
-                          </div>
-                        </div>
-                      </SwiperSlide>
-                      <SwiperSlide className="swiper-slide">
-                        <div
-                          className="content wow fadeInUp"
-                          data-wow-delay=".3s"
-                        >
-                          <div
-                            className="item-img bg-img wow imago"
-                            style={{
-                              backgroundImage: "url(/img/portfolio/curs/3.jpg)",
-                            }}
-                          ></div>
-                          <div className="cont bgbox">
-                            <h6>
-                              <Link
-                                href={`/works2/works2-dark`}
-                              >
-                                <a>art &amp; illustration</a>
-                              </Link>
-                            </h6>
-                            <h4>
-                              <Link
-                                href={`/project-details2/project-details2-dark`}
-                              >
-                                <a>Natural plus modern.</a>
-                              </Link>
-                            </h4>
-                          </div>
-                        </div>
-                      </SwiperSlide>
-                      <SwiperSlide className="swiper-slide">
-                        <div
-                          className="content wow fadeInUp"
-                          data-wow-delay=".3s"
-                        >
-                          <div
-                            className="item-img bg-img wow imago"
-                            style={{
-                              backgroundImage: "url(/img/portfolio/curs/4.jpg)",
-                            }}
-                          ></div>
-                          <div className="cont bgbox">
-                            <h6>
-                              <Link
-                                href={`/works2/works2-dark`}
-                              >
-                                <a>art &amp; illustration</a>
-                              </Link>
-                            </h6>
-                            <h4>
-                              <Link
-                                href={`/project-details2/project-details2-dark`}
-                              >
-                                <a>Innovation and Crafts.</a>
-                              </Link>
-                            </h4>
-                          </div>
-                        </div>
-                      </SwiperSlide>
-                      <SwiperSlide className="swiper-slide">
-                        <div
-                          className="content wow fadeInUp"
-                          data-wow-delay=".3s"
-                        >
-                          <div
-                            className="item-img bg-img wow imago"
-                            style={{
-                              backgroundImage: "url(/img/portfolio/curs/5.jpg)",
-                            }}
-                          ></div>
-                          <div className="cont bgbox">
-                            <h6>
-                              <Link
-                                href={`/works2/works2-dark`}
-                              >
-                                <a>art &amp; illustration</a>
-                              </Link>
-                            </h6>
-                            <h4>
-                              <Link
-                                href={`/project-details2/project-details2-dark`}
-                              >
-                                <a>Inspiring new space.</a>
-                              </Link>
-                            </h4>
-                          </div>
-                        </div>
-                      </SwiperSlide>
+                        </SwiperSlide>
+                      ))}
                     </Swiper>
                   ) : null}
-
-                  <div
-                    ref={navigationNextRef}
-                    className="swiper-button-next swiper-nav-ctrl next-ctrl cursor-pointer"
-                  >
-                    <i className="ion-ios-arrow-right"></i>
-                  </div>
-                  <div
-                    ref={navigationPrevRef}
-                    className="swiper-button-prev swiper-nav-ctrl prev-ctrl cursor-pointer"
-                  >
-                    <i className="ion-ios-arrow-left"></i>
-                  </div>
                 </div>
               </div>
             </div>
           </div>
+        </div>
+        <div className="swiper-button-next" ref={navigationNextRef}>
+          <span className="pe-7s-angle-right"></span>
+        </div>
+        <div className="swiper-button-prev" ref={navigationPrevRef}>
+          <span className="pe-7s-angle-left"></span>
         </div>
       </section>
     </>

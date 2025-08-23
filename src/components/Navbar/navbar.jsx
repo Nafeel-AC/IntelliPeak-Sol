@@ -87,7 +87,7 @@ const Navbar = ({ lr, nr, theme }) => {
             </li>
             */}
             <li className="nav-item">
-              <Link href="/works3/works3-dark">
+              <Link href="/works2/works2-dark">
                 <a className="nav-link">Works</a>
               </Link>
             </li>
