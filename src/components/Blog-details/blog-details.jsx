@@ -3,7 +3,7 @@ import React from "react";
 import Link from "next/link";
 import { Formik, Form, Field } from "formik";
 import { Link as ScrollLink } from "react-scroll";
-import Comments from "../Comments/comments";
+import SupabaseComments from "../Comments/supabase-comments";
 
 const BlogDetails = ({ blogPost }) => {
   const messageRef = React.useRef(null);
@@ -280,7 +280,7 @@ const BlogDetails = ({ blogPost }) => {
                 </span>
               </div>
 
-              <Comments blogId={post.id} />
+              <SupabaseComments blogId={post.id} />
             </div>
           </div>
         </div>
