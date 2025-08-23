@@ -2,7 +2,6 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
 import Head from "next/head";
-import worksData from "../../data/sections/works.json";
 import { Swiper, SwiperSlide } from "swiper/react";
 // import Swiper core and required modules
 import SwiperCore, { Autoplay, Pagination, Navigation } from "swiper";
@@ -10,6 +9,8 @@ import Link from "next/link";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
+import ProjectDataArray from "../../data/project-details2.json";
+
 SwiperCore.use([Autoplay, Pagination, Navigation]);
 
 const Works3 = () => {
@@ -89,188 +90,37 @@ const Works3 = () => {
                     },
                   }}
                 >
-                  <SwiperSlide className="swiper-slide">
-                    <div className="content">
-                      <div className="img">
-                        <span className="imgio">
-                          <span className="wow cimgio" data-delay="500"></span>
-                          <img src="/img/portfolio/1.jpg" alt="" />
-                        </span>
+                  {ProjectDataArray.map((project, index) => (
+                    <SwiperSlide className="swiper-slide" key={project.id}>
+                      <div className="content">
+                        <div className="img">
+                          <span className="imgio">
+                            <span className="wow cimgio" data-delay="500"></span>
+                            <img
+                              src={`/img/portfolio/${project.id}.jpg`}
+                              alt={project.title.big}
+                            />
+                          </span>
+                        </div>
+                        <div className="cont">
+                          <h6>
+                            <Link
+                              href={`/project-details2/project-details2-dark?id=${project.id}`}
+                            >
+                              View Project
+                            </Link>
+                          </h6>
+                          <h4>
+                            <Link
+                              href={`/project-details2/project-details2-dark?id=${project.id}`}
+                            >
+                              {project.title.big}
+                            </Link>
+                          </h4>
+                        </div>
                       </div>
-                      <div className="cont">
-                        <h6>
-                          <Link
-                            href={`https://www.halo-lab.com/project/design-that-gives-ai-a-friendly-face-and-the-product-a-strong-identity`}
-                          >
-                            art &amp; illustration
-                          </Link>
-                        </h6>
-                        <h4>
-                          <Link
-                            href={`https://www.halo-lab.com/project/design-that-gives-ai-a-friendly-face-and-the-product-a-strong-identity`}
-                          >
-                            Inspiring new space
-                          </Link>
-                        </h4>
-                      </div>
-                    </div>
-                  </SwiperSlide>
-                  <SwiperSlide className="swiper-slide">
-                    <div className="content">
-                      <div className="img">
-                        <span className="imgio">
-                          <span className="wow cimgio" data-delay="500"></span>
-                          <img src="/img/portfolio/2.jpg" alt="" />
-                        </span>
-                      </div>
-                      <div className="cont">
-                        <h6>
-                          <Link
-                            href={`https://www.halo-lab.com/project/sync`}
-                          >
-                            art &amp; illustration
-                          </Link>
-                        </h6>
-                        <h4>
-                          <Link
-                            href={`https://www.halo-lab.com/project/sync`}
-                          >
-                            Inspiring new space
-                          </Link>
-                        </h4>
-                      </div>
-                    </div>
-                  </SwiperSlide>
-                  <SwiperSlide className="swiper-slide">
-                    <div className="content">
-                      <div className="img">
-                        <span className="imgio">
-                          <span className="wow cimgio" data-delay="500"></span>
-                          <img src="/img/portfolio/5.jpg" alt="" />
-                        </span>
-                      </div>
-                      <div className="cont">
-                        <h6>
-                          <Link
-                            href={`https://www.halo-lab.com/project/kony`}
-                          >
-                            art &amp; illustration
-                          </Link>
-                        </h6>
-                        <h4>
-                          <Link
-                            href={`https://www.halo-lab.com/project/kony`}
-                          >
-                            Inspiring new space
-                          </Link>
-                        </h4>
-                      </div>
-                    </div>
-                  </SwiperSlide>
-                  <SwiperSlide className="swiper-slide">
-                    <div className="content">
-                      <div className="img">
-                        <span className="imgio">
-                          <span className="wow cimgio" data-delay="500"></span>
-                          <img src="/img/portfolio/3.jpg" alt="" />
-                        </span>
-                      </div>
-                      <div className="cont">
-                        <h6>
-                          <Link
-                            href={`https://www.halo-lab.com/project/zoomsphere`}
-                          >
-                            art &amp; illustration
-                          </Link>
-                        </h6>
-                        <h4>
-                          <Link
-                            href={`https://www.halo-lab.com/project/zoomsphere`}
-                          >
-                            Inspiring new space
-                          </Link>
-                        </h4>
-                      </div>
-                    </div>
-                  </SwiperSlide>
-                  <SwiperSlide className="swiper-slide">
-                    <div className="content">
-                      <div className="img">
-                        <span className="imgio">
-                          <span className="wow cimgio" data-delay="500"></span>
-                          <img src="/img/portfolio/4.jpg" alt="" />
-                        </span>
-                      </div>
-                      <div className="cont">
-                        <h6>
-                          <Link
-                            href={`https://www.halo-lab.com/project/velox-media`}
-                          >
-                            art &amp; illustration
-                          </Link>
-                        </h6>
-                        <h4>
-                          <Link
-                            href={`https://www.halo-lab.com/project/velox-media`}
-                          >
-                            Inspiring new space
-                          </Link>
-                        </h4>
-                      </div>
-                    </div>
-                  </SwiperSlide>
-                  <SwiperSlide className="swiper-slide">
-                    <div className="content">
-                      <div className="img">
-                        <span className="imgio">
-                          <span className="wow cimgio" data-delay="500"></span>
-                          <img src="/img/portfolio/5.jpg" alt="" />
-                        </span>
-                      </div>
-                      <div className="cont">
-                        <h6>
-                          <Link
-                            href={`https://www.halo-lab.com/project/asi-web`}
-                          >
-                            art &amp; illustration
-                          </Link>
-                        </h6>
-                        <h4>
-                          <Link
-                            href={`https://www.halo-lab.com/project/asi-web`}
-                          >
-                            Inspiring new space
-                          </Link>
-                        </h4>
-                      </div>
-                    </div>
-                  </SwiperSlide>
-                  <SwiperSlide className="swiper-slide">
-                    <div className="content">
-                      <div className="img">
-                        <span className="imgio">
-                          <span className="wow cimgio" data-delay="500"></span>
-                          <img src="/img/portfolio/6.jpg" alt="" />
-                        </span>
-                      </div>
-                      <div className="cont">
-                        <h6>
-                          <Link
-                            href={`https://www.halo-lab.com/project/asi-web`}
-                          >
-                            art &amp; illustration
-                          </Link>
-                        </h6>
-                        <h4>
-                          <Link
-                            href={`https://www.halo-lab.com/project/asi-web`}
-                          >
-                            Inspiring new space
-                          </Link>
-                        </h4>
-                      </div>
-                    </div>
-                  </SwiperSlide>
+                    </SwiperSlide>
+                  ))}
                 </Swiper>
 
                 <div

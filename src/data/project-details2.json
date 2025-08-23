@@ -1,73 +1,398 @@
-{
-  "id": 1,
-  "title": {
-    "small": "art & illustration",
-    "big": "Inspiring new space."
-  },
-  "clientURLLink": "#",
-  "projectHeaderImage": "/img/portfolio/project2/bg.jpg",
-  "videoLink": "https://vimeo.com/127203262",
-  "clientURLName": "Envato.com",
-  "date": "6 August 2022",
-  "categories": [
-    {
-      "id": 1,
-      "name": "Web Design",
-      "link": "#"
+[
+  {
+    "id": 1,
+    "title": {
+      "small": "Art & Illustration",
+      "big": "Inspiring new space."
     },
-    {
-      "id": 2,
-      "name": "WordPress",
-      "link": "#"
-    }
-  ],
-  "tags": [
-    {
-      "id": 1,
-      "name": "Minimal",
-      "link": "#"
-    },
-    {
-      "id": 2,
-      "name": "Modern",
-      "link": "#"
-    },
-    {
-      "id": 3,
-      "name": "Design",
-      "link": "#"
-    }
-  ],
-  "intro": {
-    "content": "We are a Creative Agency & Startup Studio that provides Digital Products and Services turns to focus on client success. We specialize in user interface design, including front-end development which we consider to be an integral part.",
-    "spmList": [
+    "clientURLLink": "https://www.halo-lab.com/project/design-that-gives-ai-a-friendly-face-and-the-product-a-strong-identity",
+    "projectHeaderImage": "/img/portfolio/project2/listing1/bg1.jpg",
+    "videoLink": "https://vimeo.com/127203262",
+    "clientURLName": "Halo-Lab",
+    "date": "6 August 2022",
+    "categories": [
       {
-        "id": 1,
-        "name": "Aenean sollicitudin"
+        "name": "Web Design",
+        "link": "/works2/works2-dark"
       },
       {
-        "id": 2,
-        "name": "lorem quis bibendum auctor"
-      },
-      {
-        "id": 3,
-        "name": "nisi elit conseq uat ipsum"
-      },
-      {
-        "id": 4,
-        "name": "nec sagittis sem nibh id elit"
+        "name": "Mobile App",
+        "link": "/works2/works2-dark"
       }
-    ]
+    ],
+    "tags": [
+      {
+        "name": "Design",
+        "link": "/works2/works2-dark"
+      },
+      {
+        "name": "WordPress",
+        "link": "/works2/works2-dark"
+      },
+      {
+        "name": "Creative",
+        "link": "/works2/works2-dark"
+      }
+    ],
+    "intro": {
+      "content": "We are a Creative Agency & Startup Studio that provides Digital Products and Services turns to focus on client success. We specialize in user interface design, including front-end development which we consider to be an integral part.",
+      "spmList": [
+        {
+          "name": "Aenean sollicitudin"
+        },
+        {
+          "name": "lorem quis bibendum auctor"
+        },
+        {
+          "name": "nisi elit consequat ipsum"
+        },
+        {
+          "name": "nec sagittis sem nibh id elit"
+        }
+      ]
+    },
+    "gallery": [
+      "/img/portfolio/project2/listing1/1.jpg",
+      "/img/portfolio/project2/listing1/2.jpg",
+      "/img/portfolio/project2/listing1/3.jpg",
+      "/img/portfolio/project2/listing1/4.jpg",
+      "/img/portfolio/project2/listing1/5.jpg",
+      "/img/portfolio/project2/listing1/6.jpg"
+    ],
+    "description": {
+      "content": "We are AVO. We create amazing designs and technology for people who want to create amazing things. We believe that design is in the details, technology should be easy to use, and an experience is worth more than a product."
+    },
+    "nextProject": {
+      "id": 2,
+      "title": "Digital Product Design",
+      "image": "/img/portfolio/project2/listing2/bg2.jpg"
+    }
   },
-  "gallery": [
-    "/img/portfolio/project2/1.jpg",
-    "/img/portfolio/project2/2.jpg",
-    "/img/portfolio/project2/3.jpg",
-    "/img/portfolio/project2/5.jpg",
-    "/img/portfolio/project2/6.jpg",
-    "/img/portfolio/project2/7.jpg"
-  ],
-  "description": {
-    "content": "We are a Creative Agency & Startup Studio that provides Digital Products and Services turns to focus on client success. We specialize in user interface design, including front-end development which we consider to be an integral part."
+  {
+    "id": 2,
+    "title": {
+      "small": "Web Design",
+      "big": "Digital Product Design."
+    },
+    "clientURLLink": "https://www.halo-lab.com/project/sync",
+    "projectHeaderImage": "/img/portfolio/project2/listing2/bg2.jpg",
+    "videoLink": "https://vimeo.com/127203262",
+    "clientURLName": "Sync App",
+    "date": "12 September 2022",
+    "categories": [
+      {
+        "name": "Mobile App",
+        "link": "/works2/works2-dark"
+      }
+    ],
+    "tags": [
+      {
+        "name": "iOS",
+        "link": "/works2/works2-dark"
+      },
+      {
+        "name": "Creative",
+        "link": "/works2/works2-dark"
+      }
+    ],
+    "intro": {
+      "content": "We are a Creative Agency & Startup Studio that provides Digital Products and Services turns to focus on client success. We specialize in user interface design, including front-end development which we consider to be an integral part.",
+      "spmList": [
+        {
+          "name": "Clean and minimal interface"
+        },
+        {
+          "name": "Easy customization options"
+        },
+        {
+          "name": "Optimized for mobile devices"
+        },
+        {
+          "name": "User-friendly experience"
+        }
+      ]
+    },
+    "gallery": [
+      "/img/portfolio/project2/listing2/1.jpg",
+      "/img/portfolio/project2/listing2/2.jpg",
+      "/img/portfolio/project2/listing2/3.jpg",
+      "/img/portfolio/project2/listing2/4.jpg",
+      "/img/portfolio/project2/listing2/5.jpg"
+    ],
+    "description": {
+      "content": "Sync is a mobile app designed to help teams collaborate more effectively. With real-time updates, file sharing, and intuitive project management, it keeps everyone on the same page."
+    },
+    "nextProject": {
+      "id": 3,
+      "title": "Creative Portfolio",
+      "image": "/img/portfolio/project2/listing3/bg3.jpg"
+    }
+  },
+  {
+    "id": 3,
+    "title": {
+      "small": "UI/UX Design",
+      "big": "Creative Portfolio."
+    },
+    "clientURLLink": "https://www.halo-lab.com/project/behance-case",
+    "projectHeaderImage": "/img/portfolio/project2/listing3/bg3.jpg",
+    "videoLink": "https://vimeo.com/127203262",
+    "clientURLName": "Behance Portfolio",
+    "date": "3 November 2022",
+    "categories": [
+      {
+        "name": "UI/UX Design",
+        "link": "/works2/works2-dark"
+      }
+    ],
+    "tags": [
+      {
+        "name": "Portfolio",
+        "link": "/works2/works2-dark"
+      },
+      {
+        "name": "Creative",
+        "link": "/works2/works2-dark"
+      }
+    ],
+    "intro": {
+      "content": "A portfolio site designed to showcase creative work in an elegant and interactive way. The focus is on visual storytelling and creating an immersive experience for visitors.",
+      "spmList": [
+        {
+          "name": "Visually stunning gallery"
+        },
+        {
+          "name": "Smooth transitions and animations"
+        },
+        {
+          "name": "Responsive grid layout"
+        },
+        {
+          "name": "Optimized image loading"
+        }
+      ]
+    },
+    "gallery": [
+      "/img/portfolio/project2/listing3/1.jpg",
+      "/img/portfolio/project2/listing3/2.jpg",
+      "/img/portfolio/project2/listing3/3.jpg",
+      "/img/portfolio/project2/listing3/4.jpg",
+      "/img/portfolio/project2/listing3/5.jpg"
+    ],
+    "description": {
+      "content": "This portfolio site demonstrates how creative professionals can present their work in a way that captures attention and communicates their unique style. Every interaction is designed to enhance the viewing experience."
+    },
+    "nextProject": {
+      "id": 4,
+      "title": "Velox Media",
+      "image": "/img/portfolio/project2/listing4/bg4.jpg"
+    }
+  },
+  {
+    "id": 4,
+    "title": {
+      "small": "Digital Marketing",
+      "big": "Velox Media Platform"
+    },
+    "clientURLLink": "https://www.halo-lab.com/project/velox-media",
+    "projectHeaderImage": "/img/portfolio/project2/listing4/bg4.jpg",
+    "videoLink": "https://vimeo.com/127203262",
+    "clientURLName": "Velox Media",
+    "date": "18 October 2022",
+    "categories": [
+      {
+        "name": "Web Design",
+        "link": "/works2/works2-dark"
+      },
+      {
+        "name": "WordPress",
+        "link": "/works2/works2-dark"
+      }
+    ],
+    "tags": [
+      {
+        "name": "Minimal",
+        "link": "/works2/works2-dark"
+      },
+      {
+        "name": "Modern",
+        "link": "/works2/works2-dark"
+      },
+      {
+        "name": "Design",
+        "link": "/works2/works2-dark"
+      }
+    ],
+    "intro": {
+      "content": "Velox Media is a high-performance marketing platform designed to help businesses analyze and optimize their digital marketing campaigns. The platform combines data visualization with actionable insights.",
+      "spmList": [
+        {
+          "name": "Real-time analytics dashboard"
+        },
+        {
+          "name": "Campaign optimization tools"
+        },
+        {
+          "name": "Audience segmentation features"
+        },
+        {
+          "name": "ROI tracking and reporting"
+        }
+      ]
+    },
+    "gallery": [
+      "/img/portfolio/project2/listing4/1.jpg",
+      "/img/portfolio/project2/listing4/2.jpg",
+      "/img/portfolio/project2/listing4/3.jpg",
+      "/img/portfolio/project2/listing4/4.jpg",
+      "/img/portfolio/project2/listing4/5.jpg",
+      "/img/portfolio/project2/listing4/6.jpg"
+    ],
+    "description": {
+      "content": "The Velox Media platform empowers marketing teams to make data-driven decisions that maximize campaign performance. With intuitive dashboards and powerful analysis tools, it transforms complex data into clear strategies for growth."
+    },
+    "nextProject": {
+      "id": 5,
+      "title": "ASI Web Solutions",
+      "image": "/img/portfolio/project2/listing5/bg5.jpg"
+    }
+  },
+  {
+    "id": 5,
+    "title": {
+      "small": "Web Development",
+      "big": "ASI Web Solutions"
+    },
+    "clientURLLink": "https://www.halo-lab.com/project/asi-web",
+    "projectHeaderImage": "/img/portfolio/project2/listing5/bg5.jpg",
+    "videoLink": "https://vimeo.com/127203262",
+    "clientURLName": "ASI Web",
+    "date": "24 December 2022",
+    "categories": [
+      {
+        "name": "Web Development",
+        "link": "/works2/works2-dark"
+      },
+      {
+        "name": "E-Commerce",
+        "link": "/works2/works2-dark"
+      }
+    ],
+    "tags": [
+      {
+        "name": "Minimal",
+        "link": "/works2/works2-dark"
+      },
+      {
+        "name": "Modern",
+        "link": "/works2/works2-dark"
+      },
+      {
+        "name": "Design",
+        "link": "/works2/works2-dark"
+      }
+    ],
+    "intro": {
+      "content": "ASI Web provides custom web solutions for businesses of all sizes. Their platform combines sleek design with powerful functionality to create websites that not only look great but also drive results.",
+      "spmList": [
+        {
+          "name": "Responsive design across all devices"
+        },
+        {
+          "name": "Seamless e-commerce integration"
+        },
+        {
+          "name": "Custom CMS development"
+        },
+        {
+          "name": "Performance optimization"
+        }
+      ]
+    },
+    "gallery": [
+      "/img/portfolio/project2/listing5/1.jpg",
+      "/img/portfolio/project2/listing5/2.jpg",
+      "/img/portfolio/project2/listing5/3.jpg",
+      "/img/portfolio/project2/listing5/4.jpg",
+      "/img/portfolio/project2/listing5/5.jpg",
+      "/img/portfolio/project2/listing5/6.jpg"
+    ],
+    "description": {
+      "content": "ASI Web Solutions delivers end-to-end web development services that transform business ideas into powerful online platforms. Their approach focuses on creating intuitive user experiences backed by robust technology."
+    },
+    "nextProject": {
+      "id": 6,
+      "title": "Creative Workspace",
+      "image": "/img/portfolio/project2/listing6/bg6.jpg"
+    }
+  },
+  {
+    "id": 6,
+    "title": {
+      "small": "Interior Design",
+      "big": "Creative Workspace"
+    },
+    "clientURLLink": "https://www.halo-lab.com/project/asi-web",
+    "projectHeaderImage": "/img/portfolio/project2/listing6/bg6.jpg",
+    "videoLink": "https://vimeo.com/127203262",
+    "clientURLName": "Workspace Studio",
+    "date": "15 January 2023",
+    "categories": [
+      {
+        "name": "Interior Design",
+        "link": "/works2/works2-dark"
+      },
+      {
+        "name": "Architecture",
+        "link": "/works2/works2-dark"
+      }
+    ],
+    "tags": [
+      {
+        "name": "Modern",
+        "link": "/works2/works2-dark"
+      },
+      {
+        "name": "Minimalist",
+        "link": "/works2/works2-dark"
+      },
+      {
+        "name": "Workspace",
+        "link": "/works2/works2-dark"
+      }
+    ],
+    "intro": {
+      "content": "Creative Workspace is a revolutionary approach to office design that fosters collaboration and innovation. The concept emphasizes open spaces, natural light, and adaptable furniture to create environments where creativity thrives.",
+      "spmList": [
+        {
+          "name": "Ergonomic furniture design"
+        },
+        {
+          "name": "Collaborative space planning"
+        },
+        {
+          "name": "Acoustic management solutions"
+        },
+        {
+          "name": "Biophilic design elements"
+        }
+      ]
+    },
+    "gallery": [
+      "/img/portfolio/6.jpg",
+      "/img/portfolio/project2/listing6/2.jpg",
+      "/img/portfolio/project2/listing6/3.jpg",
+      "/img/portfolio/project2/listing6/4.jpg",
+      "/img/portfolio/project2/listing6/5.jpg",
+      "/img/portfolio/project2/listing6/6.jpg"
+    ],
+    "description": {
+      "content": "The Creative Workspace project reimagines how professional environments can inspire innovation and wellbeing. By blending aesthetic beauty with functional design, these spaces not only enhance productivity but also contribute to employee satisfaction and retention."
+    },
+    "nextProject": {
+      "id": 1,
+      "title": "Back to Inspiring Space",
+      "image": "/img/portfolio/project2/listing1/bg1.jpg"
+    }
   }
-}
+]

@@ -1,6 +1,12 @@
+/* eslint-disable @next/next/no-img-element */
 import React from "react";
+import Link from "next/link";
 
-const NextProject = () => {
+const NextProject = ({ nextProject }) => {
+  if (!nextProject) {
+    return null;
+  }
+
   return (
     <section className="next-prog section-padding">
       <div className="container">
@@ -8,30 +14,22 @@ const NextProject = () => {
           <div className="col-12">
             <div className="box">
               <div
-                className="bg-img valign"
+                className="bg-img"
                 style={{
-                  backgroundImage: "url(/img/portfolio/project2/6.jpg)",
+                  backgroundImage: `url(${nextProject.projectHeaderImage || nextProject.image})`,
                 }}
-                data-overlay-dark="4"
-              >
-                <div className="caption ontop valign">
-                  <div className="o-hidden full-width">
-                    <h1>
-                      <a href="">
-                        <div className="stroke">Natural plus modern.</div>
-                      </a>
-                    </h1>
-                  </div>
-                </div>
-                <div className="copy-cap valign">
-                  <div className="cap full-width">
-                    <h1>
-                      <a href="">
-                        <span>Natural plus modern.</span>
-                      </a>
-                    </h1>
-                  </div>
-                </div>
+              ></div>
+              <div className="cont">
+                <h1>
+                  <Link href={`/project-details2/project-details2-dark?id=${nextProject.id}`}>
+                    <a>
+                      {nextProject.title?.big || nextProject.title || "Next Project"}
+                      <span className="icon">
+                        <i className="fas fa-chevron-right"></i>
+                      </span>
+                    </a>
+                  </Link>
+                </h1>
               </div>
             </div>
           </div>
