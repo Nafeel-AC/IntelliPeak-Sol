@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import ContactFromDate from "../../data/sections/form-info.json";
 import { Formik, Form, Field } from "formik";
+import emailjs from '@emailjs/browser';
 
 const ContactForm = () => {
   const messageRef = React.useRef(null);
@@ -13,7 +14,61 @@ const ContactForm = () => {
     }
     return error;
   }
-  const sendMessage = (ms) => new Promise((r) => setTimeout(r, ms));
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  
+  const sendMessage = async (values) => {
+    try {
+      setIsSubmitting(true);
+      
+      // EmailJS configuration
+      // You'll need to set up EmailJS account and get these values
+      const serviceId = 'service_xnw0b9n'; // Replace with your EmailJS service ID
+      const templateId = 'template_jr3js0a'; // Replace with your EmailJS template ID
+      const publicKey = 'BnbhofIhP_eFalHCA'; // Replace with your EmailJS public key
+      
+      // Prepare template parameters
+      const templateParams = {
+        to_email: 'nafeelmannan@gmail.com',
+        from_name: values.name,
+        from_email: values.email,
+        from_phone: values.phone || 'Not provided',
+        from_company: values.company || 'Not provided',
+        message: values.message,
+        reply_to: values.email
+      };
+
+      // Send email using EmailJS
+      const result = await emailjs.send(serviceId, templateId, templateParams, publicKey);
+      
+      if (result.status === 200) {
+        messageRef.current.innerText = 'Message sent successfully! We\'ll get back to you within 24 hours.';
+        messageRef.current.className = 'messages success';
+        
+        // Reset the form
+        values.name = "";
+        values.email = "";
+        values.phone = "";
+        values.company = "";
+        values.message = "";
+      } else {
+        messageRef.current.innerText = 'Failed to send message. Please try again.';
+        messageRef.current.className = 'messages error';
+      }
+    } catch (error) {
+      console.error('Error sending message:', error);
+      messageRef.current.innerText = 'Failed to send message. Please try again.';
+      messageRef.current.className = 'messages error';
+    } finally {
+      setIsSubmitting(false);
+      
+      // Clear message after 5 seconds
+      setTimeout(() => {
+        messageRef.current.innerText = '';
+        messageRef.current.className = 'messages';
+      }, 5000);
+    }
+  };
+
   return (
     <section className="contact section-padding">
       <div className="container">
@@ -30,22 +85,7 @@ const ContactForm = () => {
                   message: "",
                 }}
                 onSubmit={async (values) => {
-                  await sendMessage(500);
-                  alert(JSON.stringify(values, null, 2));
-                  // show message
-
-                  messageRef.current.innerText =
-                    "Thank you! Your message has been sent successfully. We'll get back to you within 24 hours.";
-                  // Reset the values
-                  values.name = "";
-                  values.email = "";
-                  values.phone = "";
-                  values.company = "";
-                  values.message = "";
-                  // clear message
-                  setTimeout(() => {
-                    messageRef.current.innerText = ''
-                  }, 3000)
+                  await sendMessage(values);
                 }}
               >
                 {({ errors, touched }) => (
@@ -101,8 +141,8 @@ const ContactForm = () => {
                       />
                     </div>
 
-                    <button type="submit" className="butn bord">
-                      <span>Send Message</span>
+                    <button type="submit" className="butn bord" disabled={isSubmitting}>
+                      <span>{isSubmitting ? 'Sending...' : 'Send Message'}</span>
                     </button>
                   </Form>
                 )}

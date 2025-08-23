@@ -40,9 +40,9 @@ const Contact = () => {
         <ContactForm />
         <div className="map" id="ieatmaps">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.9663095343008!2d-74.0042588!3d40.7407628!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a9b30eac9f%3A0x2595c5ff6b9a3e6b!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2s!4v1644259110384!5m2!1sen!2s"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.5!2d-99.1332!3d19.4326!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f8bd8560a8e7%3A0x5700e01a0c9b723f!2sMexico%20City%2C%20CDMX%2C%20Mexico!5e0!3m2!1ses-419!2smx!4v1644259110384!5m2!1ses-419!2smx"
             loading="lazy"
-            title="Office Location"
+            title="Office Location - Mexico City"
           ></iframe>
         </div>
 

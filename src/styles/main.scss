@@ -31,6 +31,33 @@ section.testimonials {
 .contact-page .pages-header {
     overflow: hidden;
 }
+
+// Contact Form Message Styles
+.contact .form .messages {
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  font-weight: 500;
+  text-align: center;
+  transition: all 0.3s ease;
+  
+  &.success {
+    background-color: rgba(76, 175, 80, 0.1);
+    color: #4caf50;
+    border: 1px solid rgba(76, 175, 80, 0.3);
+  }
+  
+  &.error {
+    background-color: rgba(244, 67, 54, 0.1);
+    color: #f44336;
+    border: 1px solid rgba(244, 67, 54, 0.3);
+  }
+}
+
+.contact .form button[type="submit"]:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
 div#ieatmaps iframe {
     width: 100%;
     height: 100%;
