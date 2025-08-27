@@ -57,7 +57,7 @@ const MinimalArea = () => {
                 </li>
               </ul>
 
-              <div className="mt-40">
+              {/* <div className="mt-40">
                 <h5 className="wow color-font" data-splitting>Contact Information</h5>
                 <p className="wow txt" data-splitting>
                   Intelli Peak Solutions — Brazil
@@ -78,7 +78,7 @@ const MinimalArea = () => {
                     />
                   </div>
                 </div>
-              </div>
+              </div> */}
 
             </div>
           </div>

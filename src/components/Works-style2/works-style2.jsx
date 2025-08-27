@@ -2,7 +2,7 @@
 import React from "react";
 import Link from "next/link";
 import initIsotope from "../../common/initIsotope";
-import ProjectDataArray from "../../data/project-details2.json";
+import data from "./data.json";
 
 const WorksStyle2 = ({ grid, hideFilter, filterPosition }) => {
   React.useEffect(() => {
@@ -10,6 +10,18 @@ const WorksStyle2 = ({ grid, hideFilter, filterPosition }) => {
       initIsotope();
     }, 1000);
   }, []);
+
+  const getCategoryClasses = (categories) => {
+    return categories.map(cat => {
+      switch(cat) {
+        case 'web': return 'web';
+        case 'design': return 'design';
+        case 'software': return 'software';
+        default: return '';
+      }
+    }).join(' ');
+  };
+
   return (
     <>
       <style jsx>{`
@@ -87,46 +99,50 @@ const WorksStyle2 = ({ grid, hideFilter, filterPosition }) => {
                 } col-12`}
               >
                 <div className="filter">
-                  <span data-filter="*" className="active">
-                    All
-                  </span>
-                  <span data-filter=".brand">Branding</span>
-                  <span data-filter=".web">Mobile App</span>
-                  <span data-filter=".graphic">Creative</span>
+                  {data.filters.map((filter) => (
+                    <span 
+                      key={filter.id}
+                      data-filter={filter.filter} 
+                      className={filter.active ? "active" : ""}
+                    >
+                      {filter.label}
+                    </span>
+                  ))}
                 </div>
               </div>
             )}
 
             <div className="gallery full-width">
-              {ProjectDataArray.slice(0, 6).map((project, index) => (
+              {data.portfolioItems.map((item) => (
                 <div
-                  key={project.id}
+                  key={item.id}
                   className={`${
                     grid === 3
                       ? "col-lg-4 col-md-6"
                       : grid === 2
                       ? "col-md-6"
                       : "col-12"
-                  } items ${project.categories[0]?.name === "Branding" ? "brand" : 
-                            project.categories[0]?.name === "Mobile App" ? "web" : "graphic"} wow fadeInUp`}
-                  data-wow-delay=".4s"
+                  } items ${getCategoryClasses(item.categories)} wow fadeInUp`}
+                  data-wow-delay={item.delay}
                 >
                   <div className="item-img">
-                    <Link href={`/project-detailed?id=${project.id}`}>
+                    <Link href={`${item.link}?id=${item.projectId}`}>
                       <a className="imago wow">
-                        <img src={project.projectHeaderImage} alt={project.title.big} />
+                        <img src={item.image} alt={item.alt} />
                         <div className="item-img-overlay"></div>
                       </a>
                     </Link>
                   </div>
                   <div className="cont">
-                    <h6>{project.title.small}</h6>
+                    <h6>{item.title.small}</h6>
                     <span>
-                      <Link href={`/project-detailed?id=${project.id}`}>
-                        {project.title.big}
+                      <Link href={`${item.link}?id=${item.projectId}`}>
+                        {item.title.big}
                       </Link>,
                       <Link href={`/project-display`}>
-                        {project.categories[0]?.name || "Web Design"}
+                        {item.categories[0] === 'web' ? 'Web Development' : 
+                         item.categories[0] === 'design' ? 'UI/UX Design' :
+                         item.categories[0] === 'software' ? 'Software Solutions' : 'Web Design'}
                       </Link>
                     </span>
                   </div>

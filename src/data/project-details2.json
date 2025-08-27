@@ -17,6 +17,14 @@
       {
         "name": "Mobile App",
         "link": "/project-display"
+      },
+      {
+        "name": "UI/UX Design",
+        "link": "/project-display"
+      },
+      {
+        "name": "Software Solutions",
+        "link": "/project-display"
       }
     ],
     "tags": [
@@ -80,6 +88,14 @@
     "categories": [
       {
         "name": "Mobile App",
+        "link": "/project-display"
+      },
+      {
+        "name": "Web Development",
+        "link": "/project-display"
+      },
+      {
+        "name": "Software Solutions",
         "link": "/project-display"
       }
     ],
@@ -203,6 +219,10 @@
       {
         "name": "WordPress",
         "link": "/project-display"
+      },
+      {
+        "name": "Software Solutions",
+        "link": "/project-display"
       }
     ],
     "tags": [
@@ -270,6 +290,10 @@
       },
       {
         "name": "E-Commerce",
+        "link": "/project-display"
+      },
+      {
+        "name": "Software Solutions",
         "link": "/project-display"
       }
     ],
@@ -382,6 +406,206 @@
     ],
     "description": {
       "content": "The Creative Workspace project reimagines how professional environments can inspire innovation and wellbeing. By blending aesthetic beauty with functional design, these spaces not only enhance productivity but also contribute to employee satisfaction and retention."
+    },
+    "nextProject": {
+      "id": 1,
+      "title": "Back to Inspiring Space",
+      "image": "/img/portfolio/project2/listing1/bg1.jpg"
+    }
+  },
+  {
+    "id": 7,
+    "title": {
+      "small": "Software Development",
+      "big": "Enterprise CRM Platform"
+    },
+    "clientURLLink": "https://www.intellipeaks.com/project/enterprise-crm",
+    "projectHeaderImage": "/img/portfolio/project2/listing7/bg7.jpg",
+    "clientURLName": "TechCorp Solutions",
+    "date": "22 February 2023",
+    "categories": [
+      {
+        "name": "Software Solutions",
+        "link": "/project-display"
+      },
+      {
+        "name": "Web Development",
+        "link": "/project-display"
+      }
+    ],
+    "tags": [
+      {
+        "name": "CRM",
+        "link": "/project-display"
+      },
+      {
+        "name": "Enterprise",
+        "link": "/project-display"
+      },
+      {
+        "name": "Scalable",
+        "link": "/project-display"
+      }
+    ],
+    "intro": {
+      "content": "A comprehensive Customer Relationship Management platform designed for enterprise-level businesses. The system integrates sales, marketing, and customer service operations into a unified dashboard with advanced analytics and automation capabilities.",
+      "spmList": [
+        {
+          "name": "Multi-tenant architecture"
+        },
+        {
+          "name": "Real-time analytics dashboard"
+        },
+        {
+          "name": "Advanced workflow automation"
+        },
+        {
+          "name": "API-first design approach"
+        }
+      ]
+    },
+    "gallery": [
+      "/img/portfolio/project2/listing7/1.jpg",
+      "/img/portfolio/project2/listing7/2.jpg",
+      "/img/portfolio/project2/listing7/3.jpg",
+      "/img/portfolio/project2/listing7/4.jpg",
+      "/img/portfolio/project2/listing7/5.jpg"
+    ],
+    "description": {
+      "content": "This enterprise CRM platform revolutionizes how large organizations manage customer relationships. Built with scalability in mind, it handles thousands of concurrent users while maintaining performance and providing actionable insights through advanced data analytics."
+    },
+    "nextProject": {
+      "id": 8,
+      "title": "AI-Powered Analytics Dashboard",
+      "image": "/img/portfolio/project2/listing8/bg8.jpg"
+    }
+  },
+  {
+    "id": 8,
+    "title": {
+      "small": "UI/UX Design",
+      "big": "AI-Powered Analytics Dashboard"
+    },
+    "clientURLLink": "https://www.intellipeaks.com/project/ai-analytics",
+    "projectHeaderImage": "/img/portfolio/project2/listing8/bg8.jpg",
+    "clientURLName": "DataFlow Analytics",
+    "date": "8 March 2023",
+    "categories": [
+      {
+        "name": "UI/UX Design",
+        "link": "/project-display"
+      },
+      {
+        "name": "Software Solutions",
+        "link": "/project-display"
+      }
+    ],
+    "tags": [
+      {
+        "name": "AI/ML",
+        "link": "/project-display"
+      },
+      {
+        "name": "Analytics",
+        "link": "/project-display"
+      },
+      {
+        "name": "Dashboard",
+        "link": "/project-display"
+      }
+    ],
+    "intro": {
+      "content": "An intelligent analytics dashboard that leverages artificial intelligence to provide predictive insights and automated reporting. The interface combines complex data visualization with intuitive user experience, making advanced analytics accessible to non-technical users.",
+      "spmList": [
+        {
+          "name": "AI-powered insights generation"
+        },
+        {
+          "name": "Interactive data visualizations"
+        },
+        {
+          "name": "Predictive analytics models"
+        },
+        {
+          "name": "Responsive design system"
+        }
+      ]
+    },
+    "gallery": [
+      "/img/portfolio/project2/listing8/1.jpg",
+      "/img/portfolio/project2/listing8/2.jpg",
+      "/img/portfolio/project2/listing8/3.jpg",
+      "/img/portfolio/project2/listing8/4.jpg",
+      "/img/portfolio/project2/listing8/5.jpg",
+      "/img/portfolio/project2/listing8/6.jpg"
+    ],
+    "description": {
+      "content": "This AI-powered analytics dashboard transforms complex data into actionable insights through intelligent automation and intuitive design. The platform learns from user behavior to provide increasingly relevant and timely information, helping businesses make data-driven decisions faster and more effectively."
+    },
+    "nextProject": {
+      "id": 9,
+      "title": "E-commerce Mobile App",
+      "image": "/img/portfolio/project2/listing9/bg9.jpg"
+    }
+  },
+  {
+    "id": 9,
+    "title": {
+      "small": "Mobile Development",
+      "big": "E-commerce Mobile App"
+    },
+    "clientURLLink": "https://www.intellipeaks.com/project/ecommerce-mobile",
+    "projectHeaderImage": "/img/portfolio/project2/listing9/bg9.jpg",
+    "clientURLName": "ShopSmart Mobile",
+    "date": "15 April 2023",
+    "categories": [
+      {
+        "name": "Web Development",
+        "link": "/project-display"
+      },
+      {
+        "name": "UI/UX Design",
+        "link": "/project-display"
+      }
+    ],
+    "tags": [
+      {
+        "name": "Mobile",
+        "link": "/project-display"
+      },
+      {
+        "name": "E-commerce",
+        "link": "/project-display"
+      },
+      {
+        "name": "Progressive Web App"
+      }
+    ],
+    "intro": {
+      "content": "A progressive web application that delivers native mobile app experience through modern web technologies. The app features seamless shopping experience, real-time inventory updates, and personalized recommendations powered by machine learning algorithms.",
+      "spmList": [
+        {
+          "name": "Progressive Web App (PWA)"
+        },
+        {
+          "name": "Offline functionality"
+        },
+        {
+          "name": "Push notifications"
+        },
+        {
+          "name": "Mobile-first design"
+        }
+      ]
+    },
+    "gallery": [
+      "/img/portfolio/project2/listing9/1.jpg",
+      "/img/portfolio/project2/listing9/2.jpg",
+      "/img/portfolio/project2/listing9/3.jpg",
+      "/img/portfolio/project2/listing9/4.jpg"
+    ],
+    "description": {
+      "content": "This e-commerce mobile app represents the future of mobile shopping, combining the best of web and native app technologies. With offline capabilities, push notifications, and seamless user experience, it provides customers with a shopping experience that rivals traditional mobile apps while maintaining the flexibility and accessibility of web technologies."
     },
     "nextProject": {
       "id": 1,

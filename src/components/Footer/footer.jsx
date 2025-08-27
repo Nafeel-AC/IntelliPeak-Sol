@@ -50,46 +50,46 @@ const Footer = ({ hideBGCOLOR }) => {
               <ul>
                 <li>
                   <div className="img">
-                    <Link href="/project-detailed">
+                    <Link href="/project-detailed?id=3">
                       <a>
-                        <img src="/img/Group 1686551828.png" alt="Software Development Project" />
+                        <img src="/img/portfolio/project2/listing3/bg3.jpg" alt="Creative Portfolio" />
                       </a>
                     </Link>
                   </div>
                   <div className="sm-post">
-                    <Link href="/project-detailed">
+                    <Link href="/project-detailed?id=3">
                       <a>
                         <p>
-                          Modern E-commerce Platform with React & Node.js
+                          Creative Portfolio
                         </p>
                       </a>
                     </Link>
                     <Link href="/works/works-dark">
                       <a>
-                        <span className="date">15 August 2025</span>
+                        <span className="date">3 November 2022</span>
                       </a>
                     </Link>
                   </div>
                 </li>
                 <li>
                   <div className="img">
-                    <Link href="/project-detailed">
+                    <Link href="/project-detailed?id=5">
                       <a>
-                        <img src="/img/portfolio/2.jpg" alt="Mobile App" />
+                        <img src="/img/portfolio/project2/listing5/bg5.jpg" alt="ASI Web Solutions" />
                       </a>
                     </Link>
                   </div>
                   <div className="sm-post">
-                    <Link href="/project-detailed">
+                    <Link href="/project-detailed?id=5">
                       <a>
                         <p>
-                          Cross-platform Mobile App for Healthcare
+                          ASI Web Solutions
                         </p>
                       </a>
                     </Link>
                     <Link href="/works/works-dark">
                       <a>
-                        <span className="date">28 August 2025</span>
+                        <span className="date">24 December 2022</span>
                       </a>
                     </Link>
                   </div>
