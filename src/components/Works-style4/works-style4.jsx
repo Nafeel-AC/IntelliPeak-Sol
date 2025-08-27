@@ -48,7 +48,7 @@ const WorksStyle4 = () => {
                   <h6>Creative Mobile App</h6>
                   <p>Ui / Ux creative mobile app design</p>
                 </div>
-                <Link href={`/project-details2/project-details2-dark`}>
+                <Link href={`/project-detailed`}>
                   <a className="rota">
                     <img src="/img/portfolio/freelancer/1.jpg" alt="image" />
                     <div className="item-img-overlay"></div>
@@ -77,7 +77,7 @@ const WorksStyle4 = () => {
                   <h6>Creative Mobile App</h6>
                   <p>Ui / Ux creative mobile app design</p>
                 </div>
-                <Link href={`/project-details2/project-details2-dark`}>
+                <Link href={`/project-detailed`}>
                   <a className="rota">
                     <img src="/img/portfolio/freelancer/2.jpg" alt="image" />
                     <div className="item-img-overlay"></div>
@@ -106,7 +106,7 @@ const WorksStyle4 = () => {
                   <h6>Creative Mobile App</h6>
                   <p>Ui / Ux creative mobile app design</p>
                 </div>
-                <Link href={`/project-details2/project-details2-dark`}>
+                <Link href={`/project-detailed`}>
                   <a className="rota">
                     <img src="/img/portfolio/freelancer/3.jpg" alt="image" />
                     <div className="item-img-overlay"></div>
@@ -135,7 +135,7 @@ const WorksStyle4 = () => {
                   <h6>Creative Mobile App</h6>
                   <p>Ui / Ux creative mobile app design</p>
                 </div>
-                <Link href={`/project-details2/project-details2-dark`}>
+                <Link href={`/project-detailed`}>
                   <a className="rota">
                     <img src="/img/portfolio/freelancer/4.jpg" alt="image" />
                     <div className="item-img-overlay"></div>
@@ -164,7 +164,7 @@ const WorksStyle4 = () => {
                   <h6>Creative Mobile App</h6>
                   <p>Ui / Ux creative mobile app design</p>
                 </div>
-                <Link href={`/project-details2/project-details2-dark`}>
+                <Link href={`/project-detailed`}>
                   <a className="rota">
                     <img src="/img/portfolio/freelancer/5.jpg" alt="image" />
                     <div className="item-img-overlay"></div>
@@ -193,7 +193,7 @@ const WorksStyle4 = () => {
                   <h6>Creative Mobile App</h6>
                   <p>Ui / Ux creative mobile app design</p>
                 </div>
-                <Link href={`/project-details2/project-details2-dark`}>
+                <Link href={`/project-detailed`}>
                   <a className="rota">
                     <img src="/img/portfolio/freelancer/6.jpg" alt="image" />
                     <div className="item-img-overlay"></div>

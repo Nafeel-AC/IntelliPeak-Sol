@@ -115,7 +115,7 @@ const Works2 = ({ sliderRef }) => {
                               </h6>
                               <h4>
                                 <Link
-                                  href={`/project-details2/project-details2-dark?id=${project.id}`}
+                                  href={`/project-detailed?id=${project.id}`}
                                 >
                                   <a>{project.title.big}</a>
                                 </Link>
