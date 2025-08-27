@@ -25,11 +25,15 @@ const Footer = ({ hideBGCOLOR }) => {
                   <span className="icon pe-7s-mail"></span>
                   <div className="cont">
                     <h6>Email Us</h6>
+<<<<<<< HEAD
                     <p>
                       <a href="mailto:contact@intellipeaks.com">contact@intellipeaks.com</a>
                       <br />
                       <a href="mailto:support@intellipeaks.com">support@intellipeaks.com</a>
                     </p>
+=======
+                    <p>hello@IntelliPeak Solutions.mx</p>
+>>>>>>> 52e5c8ce255e2fa0abfb8771a42b9f193cb2a20d
                   </div>
                 </li>
                 <li>
@@ -107,7 +111,11 @@ const Footer = ({ hideBGCOLOR }) => {
             <div className="item">
               <div className="logo">
                 <h3 style={{ color: '#fff', fontSize: '28px', fontWeight: '700', marginBottom: '20px' }}>
+<<<<<<< HEAD
                   INTELLI PEAK SOLUTIONS
+=======
+                  IntelliPeak Solutions
+>>>>>>> 52e5c8ce255e2fa0abfb8771a42b9f193cb2a20d
                 </h3>
                 <p style={{ color: '#999', fontSize: '14px', lineHeight: '1.6', marginBottom: '30px' }}>
                   {`We deliver high-impact software—from web apps to mobile experiences—helping businesses scale and transform their digital presence across Brazil and worldwide.`}
@@ -116,7 +124,11 @@ const Footer = ({ hideBGCOLOR }) => {
 
               <div className="copy-right">
                 <p>
+<<<<<<< HEAD
                   © {new Date().getFullYear()}, Intelli Peak Solutions. Crafting digital solutions with passion in Brazil.
+=======
+                  © 2023, IntelliPeak Solutions. Crafting digital solutions with passion in Mexico.
+>>>>>>> 52e5c8ce255e2fa0abfb8771a42b9f193cb2a20d
                 </p>
               </div>
             </div>

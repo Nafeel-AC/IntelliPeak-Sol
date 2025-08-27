@@ -104,7 +104,7 @@ class TestimonialsArch extends React.Component {
                   </div>
                   <div className="valign">
                     <p className="fz-20 fw-200">
-                      I would highly recommend Pixel Craft Digital. I worked with the
+                      I would highly recommend IntelliPeak Solutions Digital. I worked with the
                       team on an animation for our &apos;Click &amp;
                       Collect&apos; service.
                     </p>
@@ -128,7 +128,7 @@ class TestimonialsArch extends React.Component {
                   </div>
                   <div className="valign">
                     <p className="fz-20 fw-200">
-                      I would highly recommend Pixel Craft Digital. I worked with the
+                      I would highly recommend IntelliPeak Solutions Digital. I worked with the
                       team on an animation for our &apos;Click &amp;
                       Collect&apos; service.
                     </p>
@@ -152,7 +152,7 @@ class TestimonialsArch extends React.Component {
                   </div>
                   <div className="valign">
                     <p className="fz-20 fw-200">
-                      I would highly recommend Pixel Craft Digital. I worked with the
+                      I would highly recommend IntelliPeak Solutions Digital. I worked with the
                       team on an animation for our &apos;Click &amp;
                       Collect&apos; service.
                     </p>
@@ -176,7 +176,7 @@ class TestimonialsArch extends React.Component {
                   </div>
                   <div className="valign">
                     <p className="fz-20 fw-200">
-                      I would highly recommend Pixel Craft Digital. I worked with the
+                      I would highly recommend IntelliPeak Solutions Digital. I worked with the
                       team on an animation for our &apos;Click &amp;
                       Collect&apos; service.
                     </p>

@@ -15,11 +15,11 @@ class MyDocument extends Document {
           <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
           <meta
             name="keywords"
-            content="HTML5 Template Pixel Craft onepage themeforest"
+            content="HTML5 Template IntelliPeak Solutions onepage themeforest"
           />
           <meta
             name="description"
-            content="Pixel Craft - Onepage Multi-Purpose HTML5 Template"
+            content="IntelliPeak Solutions - Onepage Multi-Purpose HTML5 Template"
           />
           <meta name="author" content="" />
           <link rel="shortcut icon" href="/img/favicon.ico" />

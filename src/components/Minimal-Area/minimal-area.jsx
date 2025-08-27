@@ -27,7 +27,7 @@ const MinimalArea = () => {
             <div className="content pt-0">
               <h4 className="wow color-font">About us.</h4>
               <p className="wow txt" data-splitting>
-                PixelCraft is a leading software agency delivering innovative solutions for startups and established businesses. 
+                IntelliPeak Solutions is a leading software agency delivering innovative solutions for startups and established businesses. 
                 We transform ideas into seamless digital experiences that drive results.
               </p>
               <ul className="feat">
