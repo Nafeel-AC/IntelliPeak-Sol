@@ -1,0 +1,115 @@
+{
+  "filters": [
+    {
+      "id": "all",
+      "label": "All",
+      "filter": "*",
+      "active": true
+    },
+    {
+      "id": "web-development",
+      "label": "Web Development",
+      "filter": ".web"
+    },
+    {
+      "id": "ui-ux-design",
+      "label": "UI/UX Design",
+      "filter": ".design"
+    },
+    {
+      "id": "software-solutions",
+      "label": "Software Solutions",
+      "filter": ".software"
+    }
+  ],
+  "portfolioItems": [
+    {
+      "id": 1,
+      "projectId": "1",
+      "title": "Creative Design",
+      "categories": ["design"],
+      "image": "/img/portfolio/cr/1.jpg",
+      "alt": "Creative Design Image",
+      "link": "/project-detailed",
+      "width": "normal",
+      "delay": "0.4s"
+    },
+    {
+      "id": 2,
+      "projectId": "2",
+      "title": "Modern Web App",
+      "categories": ["web", "design"],
+      "image": "/img/portfolio/cr/2.jpg",
+      "alt": "Modern Web App Image",
+      "link": "/project-detailed",
+      "width": "normal",
+      "delay": "0.4s"
+    },
+    {
+      "id": 3,
+      "projectId": "3",
+      "title": "Enterprise Software",
+      "categories": ["software"],
+      "image": "/img/portfolio/cr/3.jpg",
+      "alt": "Enterprise Software Image",
+      "link": "/project-detailed",
+      "width": "width2",
+      "delay": "0.4s"
+    },
+    {
+      "id": 4,
+      "projectId": "4",
+      "title": "UI/UX Design",
+      "categories": ["design"],
+      "image": "/img/portfolio/cr/4.jpg",
+      "alt": "UI/UX Design Image",
+      "link": "/project-detailed",
+      "width": "width2",
+      "delay": "0.4s"
+    },
+    {
+      "id": 5,
+      "projectId": "5",
+      "title": "Web Platform",
+      "categories": ["web"],
+      "image": "/img/portfolio/cr/5.jpg",
+      "alt": "Web Platform Image",
+      "link": "/project-detailed",
+      "width": "normal",
+      "delay": "0.4s"
+    },
+    {
+      "id": 6,
+      "projectId": "6",
+      "title": "Software Solution",
+      "categories": ["software", "design"],
+      "image": "/img/portfolio/cr/6.jpg",
+      "alt": "Software Solution Image",
+      "link": "/project-detailed",
+      "width": "normal",
+      "delay": "0.4s"
+    },
+    {
+      "id": 7,
+      "projectId": "1",
+      "title": "E-commerce Platform",
+      "categories": ["web"],
+      "image": "/img/portfolio/cr/7.jpg",
+      "alt": "E-commerce Platform Image",
+      "link": "/project-detailed",
+      "width": "width2",
+      "delay": "0.4s"
+    },
+    {
+      "id": 8,
+      "projectId": "2",
+      "title": "Business Software",
+      "categories": ["software"],
+      "image": "/img/portfolio/cr/8.jpg",
+      "alt": "Business Software Image",
+      "link": "/project-detailed",
+      "width": "width2",
+      "delay": "0.4s"
+    }
+  ]
+}

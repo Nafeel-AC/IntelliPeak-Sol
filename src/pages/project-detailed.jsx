@@ -6,7 +6,6 @@ import ProjectDetails2Header from "../components/Project-details2-header/project
 import ProjectIntroduction from "../components/Project-introduction/project-introduction";
 import ProjectGallery from "../components/Project-gallery/project-gallery";
 import ProjectDescription from "../components/Project-description/project-description";
-import ProjectVideo from "../components/Project-video/project-video";
 import NextProject from "../components/Next-project/next-project";
 import DarkTheme from "../layouts/Dark";
 import ProjectDataArray from "../data/project-details2.json";
@@ -37,21 +36,47 @@ const ProjectDetails2Dark = () => {
   const logoRef = React.useRef(null);
 
   React.useEffect(() => {
-    var navbar = navbarRef.current,
-      logo = logoRef.current;
-    if (window.pageYOffset > 300) {
-      navbar.classList.add("nav-scroll");
-    } else {
-      navbar.classList.remove("nav-scroll");
-    }
-    window.addEventListener("scroll", () => {
-      if (window.pageYOffset > 300) {
-        navbar.classList.add("nav-scroll");
-      } else {
-        navbar.classList.remove("nav-scroll");
+    const handleScroll = () => {
+      if (navbarRef.current && logoRef.current) {
+        const navbar = navbarRef.current;
+        const logo = logoRef.current;
+        
+        if (window.pageYOffset > 300) {
+          navbar.classList.add("nav-scroll");
+        } else {
+          navbar.classList.remove("nav-scroll");
+        }
       }
-    });
-  }, [navbarRef]);
+    };
+
+    // Initial check
+    handleScroll();
+    
+    // Add event listener
+    window.addEventListener("scroll", handleScroll);
+    
+    // Cleanup
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
+  // Show loading state while router is not ready
+  if (!router.isReady) {
+    return (
+      <DarkTheme>
+        <div className="wrapper">
+          <div className="container">
+            <div className="row">
+              <div className="col-12 text-center">
+                <h2>Loading Project...</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </DarkTheme>
+    );
+  }
 
   return (
     <DarkTheme>
@@ -61,7 +86,7 @@ const ProjectDetails2Dark = () => {
         <ProjectIntroduction projectIntroductionData={ProjectData.intro} />
         <ProjectGallery gallery={ProjectData.gallery} />
         <ProjectDescription projectDescriptionData={ProjectData.description} />
-        <ProjectVideo projectVideoDate={ProjectData} />
+        {/* <ProjectVideo projectVideoDate={ProjectData} /> */}
         <NextProject nextProject={nextProjectData} />
         <Footer />
       </div>
