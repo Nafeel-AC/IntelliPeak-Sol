@@ -59,25 +59,15 @@ const Clients = ({theme}) => {
                       }s`}
                     >
                       <div className="img">
-                        <a href={normalizeUrl(item.url)} target="_blank" rel="noreferrer" title={displayUrl(item.url)} aria-label={displayUrl(item.url)}>
-                          {theme === "light" ? (
-                            <img src={item.lightImage} alt={displayUrl(item.url)} title={displayUrl(item.url)} />
-                          ) : (
-                            <img src={item.darkImage} alt={displayUrl(item.url)} title={displayUrl(item.url)} />
-                          )}
-                        </a>
+                        {theme === "light" ? (
+                          <img src={item.lightImage} alt={item.url} title={item.url} />
+                        ) : (
+                          <img src={item.darkImage} alt={item.url} title={item.url} />
+                        )}
                         <Split>
-                          <a
-                            href={normalizeUrl(item.url)}
-                            className="link words chars splitting"
-                            data-splitting
-                            target="_blank"
-                            rel="noreferrer"
-                            title={displayUrl(item.url)}
-                            aria-label={displayUrl(item.url)}
-                          >
-                            {displayUrl(item.url)}
-                          </a>
+                          <span className="link words chars splitting" data-splitting>
+                            {item.url}
+                          </span>
                         </Split>
                       </div>
                     </div>
@@ -115,25 +105,15 @@ const Clients = ({theme}) => {
                       }s`}
                     >
                       <div className="img">
-                        <a href={normalizeUrl(item.url)} target="_blank" rel="noreferrer" title={displayUrl(item.url)} aria-label={displayUrl(item.url)}>
-                          {theme === "light" ? (
-                            <img src={item.lightImage} alt={displayUrl(item.url)} title={displayUrl(item.url)} />
-                          ) : (
-                            <img src={item.darkImage} alt={displayUrl(item.url)} title={displayUrl(item.url)} />
-                          )}
-                        </a>
+                        {theme === "light" ? (
+                          <img src={item.lightImage} alt={item.url} title={item.url} />
+                        ) : (
+                          <img src={item.darkImage} alt={item.url} title={item.url} />
+                        )}
                         <Split>
-                          <a
-                            href={normalizeUrl(item.url)}
-                            className="link words chars splitting"
-                            data-splitting
-                            target="_blank"
-                            rel="noreferrer"
-                            title={displayUrl(item.url)}
-                            aria-label={displayUrl(item.url)}
-                          >
-                            {displayUrl(item.url)}
-                          </a>
+                          <span className="link words chars splitting" data-splitting>
+                            {item.url}
+                          </span>
                         </Split>
                       </div>
                     </div>

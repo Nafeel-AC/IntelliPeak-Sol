@@ -3,48 +3,48 @@
         "id": 1,
         "lightImage": "/img/clients/brands/light/01.png",
         "darkImage": "/img/clients/brands/dark/01.png",
-        "url": "acme-digital.io"
+        "url": "Innovation Hub"
     },
     {
         "id": 2,
         "lightImage": "/img/clients/brands/light/02.png",
         "darkImage": "/img/clients/brands/dark/02.png",
-        "url": "bluewave.co"
+        "url": "Future Ready"
     },
     {
         "id": 3,
         "lightImage": "/img/clients/brands/light/03.png",
         "darkImage": "/img/clients/brands/dark/03.png",
-        "url": "orbitlabs.dev"
+        "url": "Code Power"
     },
     {
         "id": 4,
         "lightImage": "/img/clients/brands/light/04.png",
         "darkImage": "/img/clients/brands/dark/04.png",
-        "url": "zenithsoft.ai"
+        "url": "AI Driven"
     },
     {
         "id": 5,
         "lightImage": "/img/clients/brands/light/05.png",
         "darkImage": "/img/clients/brands/dark/05.png",
-        "url": "vectorworks.io"
+        "url": "Smart Workflows"
     },
     {
         "id": 6,
         "lightImage": "/img/clients/brands/light/06.png",
         "darkImage": "/img/clients/brands/dark/06.png",
-        "url": "skylark.studio"
+        "url": "Creative Tech"
     },
     {
         "id": 7,
         "lightImage": "/img/clients/brands/light/07.png",
         "darkImage": "/img/clients/brands/dark/07.png",
-        "url": "apexdata.cloud"
+        "url": "Data Growth"
     },
     {
         "id": 8,
         "lightImage": "/img/clients/brands/light/08.png",
         "darkImage": "/img/clients/brands/dark/08.png",
-        "url": "quantumrise.tech"
+        "url": "Tech Future"
     }
 ]
