@@ -5,45 +5,45 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 const VideoWithTestimonials = () => {
-  const [isOpen, setOpen] = useState(false);
-  const videoRef = useRef(null);
-  const modalRef = useRef(null);
+  // const [isOpen, setOpen] = useState(false);
+  // const videoRef = useRef(null);
+  // const modalRef = useRef(null);
 
   // Close modal on escape key
-  useEffect(() => {
-    const handleEsc = (e) => {
-      if (e.key === "Escape") {
-        closeModal();
-      }
-    };
-    window.addEventListener("keydown", handleEsc);
-    return () => window.removeEventListener("keydown", handleEsc);
-  }, []);
+  // useEffect(() => {
+  //   const handleEsc = (e) => {
+  //     if (e.key === "Escape") {
+  //       closeModal();
+  //     }
+  //   };
+  //   window.addEventListener("keydown", handleEsc);
+  //   return () => window.removeEventListener("keydown", handleEsc);
+  // }, []);
 
   // Close modal if clicked outside the video
-  useEffect(() => {
-    const handleClickOutside = (e) => {
-      if (isOpen && modalRef.current && !videoRef.current.contains(e.target)) {
-        closeModal();
-      }
-    };
-    document.addEventListener("mousedown", handleClickOutside);
-    return () => document.removeEventListener("mousedown", handleClickOutside);
-  }, [isOpen]);
+  // useEffect(() => {
+  //   const handleClickOutside = (e) => {
+  //     if (isOpen && modalRef.current && !videoRef.current.contains(e.target)) {
+  //       closeModal();
+  //     }
+  //   };
+  //   document.addEventListener("mousedown", handleClickOutside);
+  //   return () => document.removeEventListener("mousedown", handleClickOutside);
+  // }, [isOpen]);
 
-  const openModal = () => {
-    setOpen(true);
-    document.body.style.overflow = "hidden"; // Prevent scrolling when modal is open
-  };
+  // const openModal = () => {
+  //   setOpen(true);
+  //   document.body.style.overflow = "hidden"; // Prevent scrolling when modal is open
+  // };
 
-  const closeModal = () => {
-    setOpen(false);
-    document.body.style.overflow = "auto"; // Re-enable scrolling
-    // Pause the video when modal is closed
-    if (videoRef.current) {
-      videoRef.current.pause();
-    }
-  };
+  // const closeModal = () => {
+  //   setOpen(false);
+  //   document.body.style.overflow = "auto"; // Re-enable scrolling
+  //   // Pause the video when modal is closed
+  //   if (videoRef.current) {
+  //     videoRef.current.pause();
+  //   }
+  // };
 
   const settings = {
     dots: true,
@@ -58,13 +58,13 @@ const VideoWithTestimonials = () => {
     <section className="block-sec">
       <div
         className="background bg-img pt-100 pb-0 parallaxie"
-        style={{ backgroundImage: `url(/img/bg.032Z.png)` }}
+        style={{ backgroundImage: `url(/img/vid-bg.jpg)` }}
         data-overlay-dark="5"
       >
         <div className="container">
           <div className="row">
             <div className="col-lg-6">
-              <div className="vid-area">
+              {/* <div className="vid-area">
                 <span className="text">Watch Video</span>
                 <div className="vid-icon">
                   <a
@@ -81,7 +81,7 @@ const VideoWithTestimonials = () => {
                     </div>
                   </a>
                 </div>
-              </div>
+              </div> */}
             </div>
             <div className="col-lg-5 offset-lg-1">
               <div className="testim-box">
@@ -171,8 +171,8 @@ const VideoWithTestimonials = () => {
         </div>
       </div>
 
-      {/* Custom Video Modal */}
-      {isOpen && (
+      {/* Custom Video Modal - Commented Out */}
+      {/* {isOpen && (
         <div
           ref={modalRef}
           className="custom-video-modal"
@@ -221,7 +221,7 @@ const VideoWithTestimonials = () => {
             />
           </div>
         </div>
-      )}
+      )} */}
     </section>
   );
 };
