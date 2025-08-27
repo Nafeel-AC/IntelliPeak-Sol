@@ -58,7 +58,7 @@ const VideoWithTestimonials = () => {
     <section className="block-sec">
       <div
         className="background bg-img pt-100 pb-0 parallaxie"
-        style={{ backgroundImage: `url(/img/bg-vid.jpg)` }}
+        style={{ backgroundImage: `url(/img/bg.032Z.png)` }}
         data-overlay-dark="5"
       >
         <div className="container">
@@ -100,8 +100,9 @@ const VideoWithTestimonials = () => {
                 >
                   <div className="item">
                     <p>
-                    From concept to launch, this team was professional and delivered
-                    a website that perfectly represents our company.
+                      Intelli Peak Solutions delivered a robust platform on time and on budget.
+                      Their communication, technical depth, and ownership mindset made them a
+                      trusted extension of our team.
                     </p>
                     <div className="info">
                       <div className="img">
@@ -113,7 +114,7 @@ const VideoWithTestimonials = () => {
                         <div className="author">
                           <h6 className="author-name ">Alex Regelman</h6>
                           <span className="author-details">
-                            Co-founder, Colabrio
+                            Co‑Founder, Colabrio
                           </span>
                         </div>
                       </div>
@@ -121,8 +122,9 @@ const VideoWithTestimonials = () => {
                   </div>
                   <div className="item">
                     <p>
-                    Working with this team was an absolute pleasure. They delivered
-                    exceptional results that exceeded our expectations.
+                      From discovery through launch, the team was proactive and detail‑oriented.
+                      They balanced sleek design with scalable architecture—exactly what we needed
+                      for our growth roadmap.
                     </p>
                     <div className="info">
                       <div className="img">
@@ -142,9 +144,9 @@ const VideoWithTestimonials = () => {
                   </div>
                   <div className="item">
                     <p>
-                      Nulla metus metus ullamcorper vel tincidunt sed euismod
-                      nibh volutpat velit class aptent taciti sociosqu ad
-                      litora.
+                      Exceptional partnership—fast iterations, clear documentation, and
+                      measurable impact. We reduced time‑to‑market by 40% and improved
+                      performance across the stack.
                     </p>
                     <div className="info">
                       <div className="img">

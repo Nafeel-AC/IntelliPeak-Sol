@@ -3,6 +3,23 @@ import React from "react";
 import ClientsData from "../../data/sections/clients.json";
 import Split from "../Split";
 
+const normalizeUrl = (url) => {
+  if (!url) return "#";
+  const trimmed = url.trim().replace(/\s+/g, "");
+  return trimmed.startsWith("http") ? trimmed : `https://${trimmed}`;
+};
+
+const displayUrl = (url) => {
+  if (!url) return "";
+  const cleaned = url.trim().replace(/\s+/g, "");
+  try {
+    const host = new URL(normalizeUrl(cleaned)).hostname;
+    return host.replace(/^www\./i, "");
+  } catch {
+    return cleaned;
+  }
+};
+
 const Clients = ({theme}) => {
   var first = ClientsData.slice(0, ClientsData.length / 2);
   var second = ClientsData.slice(4, ClientsData.length);
@@ -42,18 +59,24 @@ const Clients = ({theme}) => {
                       }s`}
                     >
                       <div className="img">
-                        {theme === "light" ? (
-                          <img src={item.lightImage} alt="" />
-                        ) : (
-                          <img src={item.darkImage} alt="" />
-                        )}
+                        <a href={normalizeUrl(item.url)} target="_blank" rel="noreferrer" title={displayUrl(item.url)} aria-label={displayUrl(item.url)}>
+                          {theme === "light" ? (
+                            <img src={item.lightImage} alt={displayUrl(item.url)} title={displayUrl(item.url)} />
+                          ) : (
+                            <img src={item.darkImage} alt={displayUrl(item.url)} title={displayUrl(item.url)} />
+                          )}
+                        </a>
                         <Split>
                           <a
-                            href="#0"
+                            href={normalizeUrl(item.url)}
                             className="link words chars splitting"
                             data-splitting
+                            target="_blank"
+                            rel="noreferrer"
+                            title={displayUrl(item.url)}
+                            aria-label={displayUrl(item.url)}
                           >
-                            {item.url}
+                            {displayUrl(item.url)}
                           </a>
                         </Split>
                       </div>
@@ -92,18 +115,24 @@ const Clients = ({theme}) => {
                       }s`}
                     >
                       <div className="img">
-                        {theme === "light" ? (
-                          <img src={item.lightImage} alt="" />
-                        ) : (
-                          <img src={item.darkImage} alt="" />
-                        )}
+                        <a href={normalizeUrl(item.url)} target="_blank" rel="noreferrer" title={displayUrl(item.url)} aria-label={displayUrl(item.url)}>
+                          {theme === "light" ? (
+                            <img src={item.lightImage} alt={displayUrl(item.url)} title={displayUrl(item.url)} />
+                          ) : (
+                            <img src={item.darkImage} alt={displayUrl(item.url)} title={displayUrl(item.url)} />
+                          )}
+                        </a>
                         <Split>
                           <a
-                            href="#0"
+                            href={normalizeUrl(item.url)}
                             className="link words chars splitting"
                             data-splitting
+                            target="_blank"
+                            rel="noreferrer"
+                            title={displayUrl(item.url)}
+                            aria-label={displayUrl(item.url)}
                           >
-                            {item.url}
+                            {displayUrl(item.url)}
                           </a>
                         </Split>
                       </div>
