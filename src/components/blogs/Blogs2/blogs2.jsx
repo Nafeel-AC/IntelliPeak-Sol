@@ -46,7 +46,7 @@ const Blogs2 = () => {
                   <h5>
                     <Link href="/article-detailed">
                       <a>
-                        The Future of Sustainable Architecture: Building Tomorrow's Cities
+                        The Future of Sustainable Architecture: Building Tomorrow&apos;s Cities
                       </a>
                     </Link>
                   </h5>
