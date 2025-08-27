@@ -28,7 +28,7 @@ const ContactForm = () => {
       
       // Prepare template parameters
       const templateParams = {
-        to_email: 'nafeelmannan@gmail.com',
+        to_email: 'contact@intellipeaks.com, support@intellipeaks.com',
         from_name: values.name,
         from_email: values.email,
         from_phone: values.phone || 'Not provided',
@@ -157,7 +157,10 @@ const ContactForm = () => {
               </h3>
               <div className="item mb-40">
                 <h5>
-                  <a href="#0">{ContactFromDate.email}</a>
+                  <a href="mailto:contact@intellipeaks.com">contact@intellipeaks.com</a>
+                </h5>
+                <h5>
+                  <a href="mailto:support@intellipeaks.com">support@intellipeaks.com</a>
                 </h5>
                 <h5>{ContactFromDate.phone}</h5>
               </div>

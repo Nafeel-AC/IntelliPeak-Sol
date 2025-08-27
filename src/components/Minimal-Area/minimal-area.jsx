@@ -56,6 +56,30 @@ const MinimalArea = () => {
                   </p>
                 </li>
               </ul>
+
+              <div className="mt-40">
+                <h5 className="wow color-font" data-splitting>Contact Information</h5>
+                <p className="wow txt" data-splitting>
+                  Intelli Peak Solutions — Brazil
+                  <br />
+                  Email: <a href="mailto:contact@intellipeaks.com">contact@intellipeaks.com</a> • <a href="mailto:support@intellipeaks.com">support@intellipeaks.com</a>
+                  <br />
+                  Phone: <a href="tel:+17272199770">+1 (727) 219-9770</a>
+                </p>
+                <div className="map mt-20">
+                  <div style={{ position: "relative", paddingBottom: "56.25%", height: 0, overflow: "hidden", borderRadius: "10px" }}>
+                    <iframe
+                      title="Intelli Peak Solutions - Brazil"
+                      src="https://www.google.com/maps?q=Brazil&output=embed"
+                      style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", border: 0 }}
+                      loading="lazy"
+                      referrerPolicy="no-referrer-when-downgrade"
+                      allowFullScreen
+                    />
+                  </div>
+                </div>
+              </div>
+
             </div>
           </div>
         </div>

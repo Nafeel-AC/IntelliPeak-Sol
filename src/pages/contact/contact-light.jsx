@@ -39,9 +39,9 @@ const Contact = () => {
         <ContactForm />
         <div className="map" id="ieatmaps">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.5!2d-99.1332!3d19.4326!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f8bd8560a8e7%3A0x5700e01a0c9b723f!2sMexico%20City%2C%20CDMX%2C%20Mexico!5e0!3m2!1ses-419!2smx!4v1644259110384!5m2!1ses-419!2smx"
+            src="https://www.google.com/maps?q=Brazil&output=embed"
             loading="lazy"
-            title="Office Location - Mexico City"
+            title="Office Location - Brazil"
           ></iframe>
         </div>
         <Footer hideBGCOLOR />
