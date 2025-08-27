@@ -125,7 +125,7 @@ const WorksStyle2 = ({ grid, hideFilter, filterPosition }) => {
                       <Link href={`/project-details2/project-details2-dark?id=${project.id}`}>
                         {project.title.big}
                       </Link>,
-                      <Link href={`/works2/works2-dark`}>
+                      <Link href={`/project-display`}>
                         {project.categories[0]?.name || "Web Design"}
                       </Link>
                     </span>

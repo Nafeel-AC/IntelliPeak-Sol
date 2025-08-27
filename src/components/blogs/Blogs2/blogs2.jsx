@@ -14,7 +14,7 @@ const Blogs2 = () => {
               <p>
                 Discover cutting-edge ideas, innovative solutions, and thought-provoking perspectives that shape our future.
               </p>
-              <Link href="/blog/blog-dark">
+              <Link href="/articles">
                 <a>
                   <span>Explore All Articles</span>
                 </a>
@@ -29,7 +29,7 @@ const Blogs2 = () => {
               <div className="cont valign">
                 <div>
                   <div className="info">
-                    <Link href="/blog/blog-dark">
+                    <Link href="/articles">
                       <a className="date">
                         <span>
                           <i>15</i> December
@@ -37,14 +37,14 @@ const Blogs2 = () => {
                       </a>
                     </Link>
                     <span>/</span>
-                    <Link href="/blog/blog-dark">
+                    <Link href="/articles">
                       <a className="tag">
                         <span>Architecture</span>
                       </a>
                     </Link>
                   </div>
                   <h5>
-                    <Link href="/blog-details/blog-details-dark">
+                    <Link href="/article-detailed">
                       <a>
                         The Future of Sustainable Architecture: Building Tomorrow's Cities
                       </a>
@@ -60,7 +60,7 @@ const Blogs2 = () => {
               <div className="cont valign">
                 <div>
                   <div className="info">
-                    <Link href="/blog/blog-dark">
+                    <Link href="/articles">
                       <a className="date">
                         <span>
                           <i>22</i> August
@@ -68,14 +68,14 @@ const Blogs2 = () => {
                       </a>
                     </Link>
                     <span>/</span>
-                    <Link href="/blog/blog-dark">
+                    <Link href="/articles">
                       <a className="tag">
                         <span>Mindfulness</span>
                       </a>
                     </Link>
                   </div>
                   <h5>
-                    <Link href="/blog-details/blog-details-dark">
+                    <Link href="/article-detailed">
                       <a>
                         The Art of Mindful Living: Finding Balance in a Digital World
                       </a>
@@ -91,7 +91,7 @@ const Blogs2 = () => {
               <div className="cont valign">
                 <div>
                   <div className="info">
-                    <Link href="/blog/blog-dark">
+                    <Link href="/articles">
                       <a className="date">
                         <span>
                           <i>22</i> August
@@ -99,14 +99,14 @@ const Blogs2 = () => {
                       </a>
                     </Link>
                     <span>/</span>
-                    <Link href="/blog/blog-dark">
+                    <Link href="/articles">
                       <a className="tag">
                         <span>Healthcare</span>
                       </a>
                     </Link>
                   </div>
                   <h5>
-                    <Link href="/blog-details/blog-details-dark">
+                    <Link href="/article-detailed">
                       <a>
                         Revolutionizing Healthcare Through Telemedicine and AI
                       </a>

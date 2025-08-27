@@ -80,7 +80,7 @@ const NavbarArch = ({ navbarRef, theme }) => {
                 </a>
                 <a
                   className="dropdown-item"
-                  href={`/homepage/home6-dark`}
+                  href={`/home`}
                 >
                   Modern Agency
                 </a>

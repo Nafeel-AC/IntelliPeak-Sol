@@ -111,7 +111,7 @@ const NavbarFullMenu = ({ theme }) => {
 
                         <li>
                           <div className="o-hidden">
-                            <Link href={`/homepage/home6-dark`}>
+                            <Link href={`/home`}>
                               <a className="sub-link">
                                 <span className="nm">06.</span>Modern Agency
                               </a>
@@ -141,7 +141,7 @@ const NavbarFullMenu = ({ theme }) => {
                   </li>
                   <li>
                     <div className="o-hidden">
-                      <Link href={`/about/about-dark`}>
+                      <Link href={`/about`}>
                         <a className="link">
                           <span className="nm">02.</span>About Us
                         </a>
@@ -202,7 +202,7 @@ const NavbarFullMenu = ({ theme }) => {
                         </li>
                         <li>
                           <div className="o-hidden">
-                            <Link href={`/works2/works2-dark`}>
+                            <Link href={`/project-display`}>
                               <a className="sub-link">
                                 <span className="nm">05.</span>Portfolio
                                 Filtering
@@ -240,7 +240,7 @@ const NavbarFullMenu = ({ theme }) => {
                         </li>
                         <li>
                           <div className="o-hidden">
-                            <Link href={`/blog/blog-dark`}>
+                            <Link href={`/articles`}>
                               <a className="sub-link">
                                 <span className="nm">01.</span>Blog Standerd
                               </a>
@@ -267,7 +267,7 @@ const NavbarFullMenu = ({ theme }) => {
                         </li>
                         <li>
                           <div className="o-hidden">
-                            <Link href={`/blog-details/blog-details-dark`}>
+                            <Link href={`/article-detailed`}>
                               <a className="sub-link">
                                 <span className="nm">04.</span>Blog Details
                               </a>
@@ -279,7 +279,7 @@ const NavbarFullMenu = ({ theme }) => {
                   </li>
                   <li>
                     <div className="o-hidden">
-                      <Link href={`/contact/contact-dark`}>
+                      <Link href={`/contact-us`}>
                         <a className="link">
                           <span className="nm">05.</span>Contact
                         </a>

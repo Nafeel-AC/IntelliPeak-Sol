@@ -166,13 +166,13 @@ const Blogs4 = () => {
                         <div className="content">
                           <div className="tags">
                             {post.tags.map((tag, tagIndex) => (
-                              <Link key={tagIndex} href="/blog/blog-dark">
+                              <Link key={tagIndex} href="/articles">
                                 {tag}
                               </Link>
                             ))}
                           </div>
                           <div className="info">
-                            <Link href="/blog/blog-dark">
+                            <Link href="/articles">
                               <a>
                                 <i className="far fa-clock"></i>
                                 {post.date}
@@ -183,7 +183,7 @@ const Blogs4 = () => {
                           </div>
                           <div className="title">
                             <h4>
-                              <Link href={`/blog-details/blog-details-dark?id=${post.id}`}>
+                              <Link href={`/article-detailed?id=${post.id}`}>
                                 {post.title}
                               </Link>
                             </h4>
@@ -192,7 +192,7 @@ const Blogs4 = () => {
                             <p>{post.excerpt}</p>
                           </div>
                           <div className="more">
-                            <Link href={`/blog-details/blog-details-dark?id=${post.id}`}>
+                            <Link href={`/article-detailed?id=${post.id}`}>
                               Read More
                             </Link>
                           </div>

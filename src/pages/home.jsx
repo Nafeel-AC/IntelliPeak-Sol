@@ -1,15 +1,15 @@
 import React from "react";
-import Navbar from "../../components/Navbar/navbar";
-import IntroWithSlider from "../../components/Intro-with-slider/intro-with-slider";
-import Numbers from "../../components/Numbers/numbers";
-import Blogs2 from "../../components/blogs/Blogs2/blogs2";
-import CallToAction from "../../components/Call-to-action/call-to-action";
-import Footer from "../../components/Footer/footer";
-import LightTheme from "../../layouts/Light";
-import Services4 from "../../components/Services4/services4";
-import AboutUs4 from "../../components/About-us4/about-us4";
-import WorksStyle3 from "../../components/Works-style3/works-style3";
-import FullTestimonials from "../../components/Full-testimonials/full-testimonials";
+import Navbar from "../components/Navbar/navbar";
+import IntroWithSlider from "../components/Intro-with-slider/intro-with-slider";
+import Numbers from "../components/Numbers/numbers";
+import Blogs2 from "../components/blogs/Blogs2/blogs2";
+import CallToAction from "../components/Call-to-action/call-to-action";
+import Footer from "../components/Footer/footer";
+import DarkTheme from "../layouts/Dark";
+import Services4 from "../components/Services4/services4";
+import AboutUs4 from "../components/About-us4/about-us4";
+import WorksStyle3 from "../components/Works-style3/works-style3";
+import FullTestimonials from "../components/Full-testimonials/full-testimonials";
 
 const Homepage1 = () => {
   const fixedSlider = React.useRef(null);
@@ -42,11 +42,11 @@ const Homepage1 = () => {
   }, [fixedSlider, MainContent, navbarRef]);
 
   return (
-    <LightTheme>
+    <DarkTheme>
       <Navbar nr={navbarRef} lr={logoRef} />
       <IntroWithSlider sliderRef={fixedSlider} />
       <div ref={MainContent} className="main-content">
-        <Services4 />
+        <Services4 serviceMB50 />
         <AboutUs4 />
         <Numbers />
         <WorksStyle3 />
@@ -55,7 +55,7 @@ const Homepage1 = () => {
         <CallToAction img="/img/patrn1.png" />
         <Footer />
       </div>
-    </LightTheme>
+    </DarkTheme>
   );
 };
 

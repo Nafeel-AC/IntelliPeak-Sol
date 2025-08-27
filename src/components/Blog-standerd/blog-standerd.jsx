@@ -28,7 +28,7 @@ const BlogStanderd = ({ blogs, currentPage = 1 }) => {
                   key={blogItem.id}
                 >
                   <div className="img">
-                    <Link href={`/blog-details/blog-details-dark?id=${blogItem.id}`}>
+                    <Link href={`/article-detailed?id=${blogItem.id}`}>
                       <a>
                         <img src={blogItem.image} alt="" />
                       </a>
@@ -37,7 +37,7 @@ const BlogStanderd = ({ blogs, currentPage = 1 }) => {
                   <div className="content">
                     <div className="row justify-content-center">
                       <div className="col-10">
-                        <Link href={`/blog/blog-dark`}>
+                        <Link href={`/articles`}>
                           <a className="date">
                             <span className="num">{blogItem.date.day}</span>
                             <span>{blogItem.date.month}</span>
@@ -46,13 +46,13 @@ const BlogStanderd = ({ blogs, currentPage = 1 }) => {
                         <div className="tags">
                           {blogItem.tags &&
                             blogItem.tags.map((tag, index) => (
-                              <Link key={index} href="/blog/blog-dark">
+                              <Link key={index} href="/articles">
                                 {tag}
                               </Link>
                             ))}
                         </div>
                         <h4 className="title">
-                          <Link href={`/blog-details/blog-details-dark?id=${blogItem.id}`}>
+                          <Link href={`/article-detailed?id=${blogItem.id}`}>
                             {blogItem.title}
                           </Link>
                         </h4>
@@ -61,7 +61,7 @@ const BlogStanderd = ({ blogs, currentPage = 1 }) => {
                             ? blogItem.content.substring(0, 250) + "..."
                             : ""}
                         </p>
-                        <Link href={`/blog-details/blog-details-dark?id=${blogItem.id}`}>
+                        <Link href={`/article-detailed?id=${blogItem.id}`}>
                           <a className="butn bord curve mt-30">Read More</a>
                         </Link>
                       </div>
@@ -76,7 +76,7 @@ const BlogStanderd = ({ blogs, currentPage = 1 }) => {
                   {/* Previous page button */}
                   {currentPage > 1 && (
                     <span>
-                      <Link href={`/blog/blog-dark?page=${currentPage - 1}`}>
+                      <Link href={`/articles?page=${currentPage - 1}`}>
                         <a>
                           <i className="fas fa-angle-left"></i>
                         </a>
@@ -90,7 +90,7 @@ const BlogStanderd = ({ blogs, currentPage = 1 }) => {
                       key={i}
                       className={currentPage === i + 1 ? "active" : ""}
                     >
-                      <Link href={`/blog/blog-dark?page=${i + 1}`}>
+                      <Link href={`/articles?page=${i + 1}`}>
                         <a>{i + 1}</a>
                       </Link>
                     </span>
@@ -99,7 +99,7 @@ const BlogStanderd = ({ blogs, currentPage = 1 }) => {
                   {/* Next page button */}
                   {currentPage < totalPages && (
                     <span>
-                      <Link href={`/blog/blog-dark?page=${currentPage + 1}`}>
+                      <Link href={`/articles?page=${currentPage + 1}`}>
                         <a>
                           <i className="fas fa-angle-right"></i>
                         </a>

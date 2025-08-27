@@ -1,11 +1,11 @@
 import React from "react";
 import { useRouter } from "next/router";
-import blog1Data from "../../data/blog1.json";
-import DarkTheme from "../../layouts/Dark";
-import Navbar from "../../components/Navbar/navbar";
-import BlogDetails from "../../components/Blog-details/blog-details";
-import PageHeader from "../../components/Page-header/page-header";
-import Footer from "../../components/Footer/footer";
+import blog1Data from "../data/blog1.json";
+import DarkTheme from "../layouts/Dark";
+import Navbar from "../components/Navbar/navbar";
+import BlogDetails from "../components/Blog-details/blog-details";
+import PageHeader from "../components/Page-header/page-header";
+import Footer from "../components/Footer/footer";
 
 const BlogDetailsDark = () => {
   const router = useRouter();

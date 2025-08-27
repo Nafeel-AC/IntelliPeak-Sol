@@ -56,13 +56,13 @@ const WorksStyle4 = () => {
                 </Link>
                 <div className="tags">
                   <span>
-                    <Link href="/works2/works2-dark">App</Link>
+                    <Link href="/project-display">App</Link>
                   </span>
                   <span>
-                    <Link href="/works2/works2-dark">Fitnes</Link>
+                    <Link href="/project-display">Fitnes</Link>
                   </span>
                   <span>
-                    <Link href="/works2/works2-dark">Creative</Link>
+                    <Link href="/project-display">Creative</Link>
                   </span>
                 </div>
               </div>
@@ -85,13 +85,13 @@ const WorksStyle4 = () => {
                 </Link>
                 <div className="tags">
                   <span>
-                    <Link href="/works2/works2-dark">App</Link>
+                    <Link href="/project-display">App</Link>
                   </span>
                   <span>
-                    <Link href="/works2/works2-dark">Fitnes</Link>
+                    <Link href="/project-display">Fitnes</Link>
                   </span>
                   <span>
-                    <Link href="/works2/works2-dark">Creative</Link>
+                    <Link href="/project-display">Creative</Link>
                   </span>
                 </div>
               </div>
@@ -114,13 +114,13 @@ const WorksStyle4 = () => {
                 </Link>
                 <div className="tags">
                   <span>
-                    <Link href="/works2/works2-dark">App</Link>
+                    <Link href="/project-display">App</Link>
                   </span>
                   <span>
-                    <Link href="/works2/works2-dark">Fitnes</Link>
+                    <Link href="/project-display">Fitnes</Link>
                   </span>
                   <span>
-                    <Link href="/works2/works2-dark">Creative</Link>
+                    <Link href="/project-display">Creative</Link>
                   </span>
                 </div>
               </div>
@@ -143,13 +143,13 @@ const WorksStyle4 = () => {
                 </Link>
                 <div className="tags">
                   <span>
-                    <Link href="/works2/works2-dark">App</Link>
+                    <Link href="/project-display">App</Link>
                   </span>
                   <span>
-                    <Link href="/works2/works2-dark">Fitnes</Link>
+                    <Link href="/project-display">Fitnes</Link>
                   </span>
                   <span>
-                    <Link href="/works2/works2-dark">Creative</Link>
+                    <Link href="/project-display">Creative</Link>
                   </span>
                 </div>
               </div>
@@ -172,13 +172,13 @@ const WorksStyle4 = () => {
                 </Link>
                 <div className="tags">
                   <span>
-                    <Link href="/works2/works2-dark">App</Link>
+                    <Link href="/project-display">App</Link>
                   </span>
                   <span>
-                    <Link href="/works2/works2-dark">Fitnes</Link>
+                    <Link href="/project-display">Fitnes</Link>
                   </span>
                   <span>
-                    <Link href="/works2/works2-dark">Creative</Link>
+                    <Link href="/project-display">Creative</Link>
                   </span>
                 </div>
               </div>
@@ -201,13 +201,13 @@ const WorksStyle4 = () => {
                 </Link>
                 <div className="tags">
                   <span>
-                    <Link href="/works2/works2-dark">App</Link>
+                    <Link href="/project-display">App</Link>
                   </span>
                   <span>
-                    <Link href="/works2/works2-dark">Fitnes</Link>
+                    <Link href="/project-display">Fitnes</Link>
                   </span>
                   <span>
-                    <Link href="/works2/works2-dark">Creative</Link>
+                    <Link href="/project-display">Creative</Link>
                   </span>
                 </div>
               </div>

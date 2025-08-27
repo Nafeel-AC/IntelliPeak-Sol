@@ -71,7 +71,7 @@ const NavbarMobileApp = ({ lr, nr, theme }) => {
                 <Link href="/homepage/home3-dark">
                   <a className="dropdown-item">Corporate Business</a>
                 </Link>
-                <Link href="/homepage/home6-dark">
+                <Link href="/home">
                   <a className="dropdown-item">Modern Agency</a>
                 </Link>
                 <Link href="/homepage/home7-dark">
@@ -107,7 +107,7 @@ const NavbarMobileApp = ({ lr, nr, theme }) => {
               </Link>
             </li>
             <li className="nav-item">
-              <Link href="/contact/contact-dark">
+              <Link href="/contact-us">
               <a className="nav-link" >
                 Contact
               </a>

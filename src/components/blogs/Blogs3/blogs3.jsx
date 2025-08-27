@@ -22,7 +22,7 @@ const Blogs3 = () => {
               style={{ backgroundImage: "url(/img/blog/1.jpg)" }}
             >
               <div className="cont">
-                <Link href="/blog/blog-dark">
+                <Link href="/articles">
                   <a className="date">
                     <span>
                       <i>06</i> Aug 2022
@@ -33,14 +33,14 @@ const Blogs3 = () => {
                   <a href="#0" className="author">
                     <span>by / Admin</span>
                   </a>
-                  <Link href="/blog/blog-dark">
+                  <Link href="/articles">
                     <a className="tag">
                       <span>WordPress</span>
                     </a>
                   </Link>
                 </div>
                 <h6>
-                  <Link href="/blog-details/blog-details-dark">
+                  <Link href="/article-detailed">
                     <a>
                       The Start-Up Ultimate Guide to Make Your WordPress
                       Journal.
@@ -48,7 +48,7 @@ const Blogs3 = () => {
                   </Link>
                 </h6>
                 <div className="btn-more">
-                  <Link href="/blog-details/blog-details-dark">
+                  <Link href="/article-detailed">
                     <a className="simple-btn">Read More</a>
                   </Link>
                 </div>
@@ -61,7 +61,7 @@ const Blogs3 = () => {
               style={{ backgroundImage: "url(/img/blog/2.jpg)" }}
             >
               <div className="cont">
-                <Link href="/blog/blog-dark">
+                <Link href="/articles">
                   <a className="date">
                     <span>
                       <i>06</i> Aug 2022
@@ -72,14 +72,14 @@ const Blogs3 = () => {
                   <a href="#0" className="author">
                     <span>by / Admin</span>
                   </a>
-                  <Link href="/blog/blog-dark">
+                  <Link href="/articles">
                     <a className="tag">
                       <span>WordPress</span>
                     </a>
                   </Link>
                 </div>
                 <h6>
-                  <Link href="/blog-details/blog-details-dark">
+                  <Link href="/article-detailed">
                     <a>
                       The Start-Up Ultimate Guide to Make Your WordPress
                       Journal.
@@ -87,7 +87,7 @@ const Blogs3 = () => {
                   </Link>
                 </h6>
                 <div className="btn-more">
-                  <Link href="/blog-details/blog-details-dark">
+                  <Link href="/article-detailed">
                     <a className="simple-btn">Read More</a>
                   </Link>
                 </div>
@@ -100,7 +100,7 @@ const Blogs3 = () => {
               style={{ backgroundImage: "url(/img/blog/3.jpg)" }}
             >
               <div className="cont">
-                <Link href="/blog/blog-dark">
+                <Link href="/articles">
                   <a className="date">
                     <span>
                       <i>06</i> Aug 2022
@@ -111,14 +111,14 @@ const Blogs3 = () => {
                   <a href="#0" className="author">
                     <span>by / Admin</span>
                   </a>
-                  <Link href="/blog/blog-dark">
+                  <Link href="/articles">
                     <a className="tag">
                       <span>WordPress</span>
                     </a>
                   </Link>
                 </div>
                 <h6>
-                  <Link href="/blog-details/blog-details-dark">
+                  <Link href="/article-detailed">
                     <a>
                       The Start-Up Ultimate Guide to Make Your WordPress
                       Journal.
@@ -126,7 +126,7 @@ const Blogs3 = () => {
                   </Link>
                 </h6>
                 <div className="btn-more">
-                  <Link href="/blog-details/blog-details-dark">
+                  <Link href="/article-detailed">
                     <a className="simple-btn">Read More</a>
                   </Link>
                 </div>
