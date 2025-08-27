@@ -1,10 +1,9 @@
 {
   "id": 1,
   "title": "Get In Touch.",
-  "email": "nafeelmannan@gmail.com",
-  "phone": "+1 (555) 123-4567",
+  "email": "contact@intellipeaks.com",
   "location": {
-    "first": "Av. Paseo de la Reforma 123, Col. Juárez,",
-    "second": "Ciudad de México, CDMX 06600"
+    "first": "Av. Paulista 1578, Bela Vista,",
+    "second": "São Paulo, SP 01310-200"
   }
 }

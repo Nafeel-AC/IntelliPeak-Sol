@@ -25,14 +25,14 @@ const Footer = ({ hideBGCOLOR }) => {
                   <span className="icon pe-7s-mail"></span>
                   <div className="cont">
                     <h6>Email Us</h6>
-                    <p>hello@IntelliPeak Solutions.mx</p>
+                    <p>contact@intellipeaks.com</p>
                   </div>
                 </li>
                 <li>
-                  <span className="icon pe-7s-call"></span>
+                  <span className="icon pe-7s-mail"></span>
                   <div className="cont">
-                    <h6>Call Us</h6>
-                    <p>+52 (55) 1234-5678</p>
+                    <h6>Need Help ?</h6>
+                    <p>support@intellipeaks.com</p>
                   </div>
                 </li>
               </ul>
@@ -62,7 +62,7 @@ const Footer = ({ hideBGCOLOR }) => {
                     </Link>
                     <Link href="/works/works-dark">
                       <a>
-                        <span className="date">15 Dec 2023</span>
+                        <span className="date">15 August 2025</span>
                       </a>
                     </Link>
                   </div>
@@ -85,7 +85,7 @@ const Footer = ({ hideBGCOLOR }) => {
                     </Link>
                     <Link href="/works/works-dark">
                       <a>
-                        <span className="date">28 Nov 2023</span>
+                        <span className="date">28 August 2025</span>
                       </a>
                     </Link>
                   </div>
@@ -112,7 +112,7 @@ const Footer = ({ hideBGCOLOR }) => {
 
               <div className="copy-right">
                 <p>
-                  © 2023, IntelliPeak Solutions. Crafting digital solutions with passion in Mexico.
+                  © 2023, IntelliPeak Solutions. Crafting digital solutions with passion across the globe.
                 </p>
               </div>
             </div>
