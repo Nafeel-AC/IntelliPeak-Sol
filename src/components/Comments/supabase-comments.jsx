@@ -9,7 +9,29 @@ const SupabaseComments = ({ blogId }) => {
 
   // Load comments from Supabase on component mount
   useEffect(() => {
-    loadComments();
+    const loadCommentsOnMount = async () => {
+      try {
+        setIsLoading(true);
+        const { data, error } = await supabase
+          .from('comments')
+          .select('*')
+          .eq('blog_id', blogId)
+          .order('created_at', { ascending: false });
+
+        if (error) {
+          console.error('Error loading comments:', error);
+          return;
+        }
+
+        setComments(data || []);
+      } catch (error) {
+        console.error('Error loading comments:', error);
+      } finally {
+        setIsLoading(false);
+      }
+    };
+    
+    loadCommentsOnMount();
     
     // Check if real-time is enabled
     const checkRealtime = async () => {

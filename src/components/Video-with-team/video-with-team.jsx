@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import React from "react";
 import ModalVideo from "react-modal-video";
 import "react-modal-video/css/modal-video.css";
