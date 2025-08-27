@@ -119,8 +119,8 @@ class FullTestimonials extends React.Component {
                     </div>
                   </div>
                   <p>
-                    Working with this team was an absolute pleasure. They delivered
-                    exceptional results that exceeded our expectations.
+                    Outstanding experience from start to finish. 
+                    Their work exceeded expectations in every way.
                   </p>
                 </div>
                 <div className="item">
@@ -161,8 +161,8 @@ class FullTestimonials extends React.Component {
                     </div>
                   </div>
                   <p>
-                    This agency transformed our online presence completely. Their
-                    strategic approach has significantly increased our engagement.
+                    They elevated our digital identity with precision and
+                     creativity. Engagement has grown significantly thanks to their strategic approach.
                   </p>
                 </div>
                 <div className="item">
@@ -182,8 +182,8 @@ class FullTestimonials extends React.Component {
                     </div>
                   </div>
                   <p>
-                    From concept to launch, this team was professional and delivered
-                    a website that perfectly represents our company.
+                    From initial concept to final launch, 
+                    the team was highly professional and delivered a website that truly reflects our brand and vision.
                   </p>
                 </div>
               </Slider>

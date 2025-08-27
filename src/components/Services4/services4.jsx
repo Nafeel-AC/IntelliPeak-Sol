@@ -12,7 +12,7 @@ const Services4 = ({serviceMB50}) => {
                 Best Features
               </h6>
               <h3 className="wow color-font">
-                We are a new digital product development agency
+                Technology built to scale with confidence
               </h3>
             </div>
           </div>

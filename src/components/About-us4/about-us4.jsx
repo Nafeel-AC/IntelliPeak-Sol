@@ -51,7 +51,7 @@ const AboutUs4 = () => {
                 </div>
                 <div className="states">
                   <h2 className="color-font fw-700">
-                    125 <span className="fz-30">k</span>
+                    400 <span className="fz-30">+</span>
                   </h2>
                   <p>Projects completed around the world</p>
                 </div>

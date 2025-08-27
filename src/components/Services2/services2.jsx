@@ -12,7 +12,7 @@ const Services2 = () => {
                 Best Features
               </h6>
               <h3 className="wow color-font">
-                We are a new digital product development agency
+                We are a new digita product development agency
               </h3>
             </div>
           </div>
