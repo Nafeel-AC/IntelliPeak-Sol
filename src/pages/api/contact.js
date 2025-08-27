@@ -20,9 +20,9 @@ export default async function handler(req, res) {
 
     // For demonstration, I'll create a simple response
     // In production, you'd actually send the email here
-    
+
     const emailData = {
-      to: 'nafeelmannan@gmail.com',
+      to: 'contact@intellipeaks.com',
       from: email,
       subject: `New Contact Form Submission from ${name}`,
       text: `
@@ -51,20 +51,20 @@ export default async function handler(req, res) {
     // 3. Use Nodemailer with Gmail: https://nodemailer.com/usage/using-gmail/
 
     console.log('Contact form submission:', emailData);
-    console.log('Email would be sent to: nafeelmannan@gmail.com');
+    console.log('Email would be sent to: contact@intellipeaks.com');
 
     // For now, we'll simulate success
     // In production, replace this with actual email sending logic
-    res.status(200).json({ 
-      success: true, 
-      message: 'Message sent successfully! We\'ll get back to you soon.' 
+    res.status(200).json({
+      success: true,
+      message: 'Message sent successfully! We\'ll get back to you soon.'
     });
 
   } catch (error) {
     console.error('Contact form error:', error);
-    res.status(500).json({ 
-      success: false, 
-      message: 'Failed to send message. Please try again later.' 
+    res.status(500).json({
+      success: false,
+      message: 'Failed to send message. Please try again later.'
     });
   }
 }

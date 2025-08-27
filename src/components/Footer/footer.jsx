@@ -33,7 +33,7 @@ const Footer = ({ hideBGCOLOR }) => {
                   </div>
                 </li>
                 <li>
-                  <span className="icon pe-7s-call"></span>
+                  <span className="icon pe-7s-mail"></span>
                   <div className="cont">
                     <h6>Call Us</h6>
                     <p><a href="tel:+17272199770">+1 (727) 219-9770</a></p>
@@ -66,7 +66,7 @@ const Footer = ({ hideBGCOLOR }) => {
                     </Link>
                     <Link href="/works/works-dark">
                       <a>
-                        <span className="date">15 Dec 2023</span>
+                        <span className="date">15 August 2025</span>
                       </a>
                     </Link>
                   </div>
@@ -89,7 +89,7 @@ const Footer = ({ hideBGCOLOR }) => {
                     </Link>
                     <Link href="/works/works-dark">
                       <a>
-                        <span className="date">28 Nov 2023</span>
+                        <span className="date">28 August 2025</span>
                       </a>
                     </Link>
                   </div>

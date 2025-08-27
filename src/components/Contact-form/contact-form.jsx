@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import ContactFromDate from "../../data/sections/form-info.json";
+import ContactFormData from "../../data/sections/form-info.json";
 import { Formik, Form, Field } from "formik";
 import emailjs from '@emailjs/browser';
 
@@ -28,7 +28,7 @@ const ContactForm = () => {
       
       // Prepare template parameters
       const templateParams = {
-        to_email: 'contact@intellipeaks.com, support@intellipeaks.com',
+        to_email: 'nafeelmannan@gmail.com',
         from_name: values.name,
         from_email: values.email,
         from_phone: values.phone || 'Not provided',
@@ -153,25 +153,22 @@ const ContactForm = () => {
             <div className="cont-info">
               <h4 className="fw-700 color-font mb-50">Contact Info.</h4>
               <h3 className="wow" data-splitting>
-                {ContactFromDate.title}
+                {ContactFormData.title}
               </h3>
               <div className="item mb-40">
                 <h5>
-                  <a href="mailto:contact@intellipeaks.com">contact@intellipeaks.com</a>
+                  <a href="#0">{ContactFormData.email}</a>
                 </h5>
-                <h5>
-                  <a href="mailto:support@intellipeaks.com">support@intellipeaks.com</a>
-                </h5>
-                <h5>{ContactFromDate.phone}</h5>
+                <h5>{ContactFormData.phone}</h5>
               </div>
               <h3 className="wow" data-splitting>
                 Visit Us.
               </h3>
               <div className="item">
                 <h6>
-                  {ContactFromDate.location.first}
+                  {ContactFormData.location.first}
                   <br />
-                  {ContactFromDate.location.second}
+                  {ContactFormData.location.second}
                 </h6>
               </div>
               <div className="social mt-50">
