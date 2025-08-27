@@ -2,19 +2,19 @@
     {
         "id": 1,
         "title": "Tailored Software Solutions",
-        "content": "We craft custom applications, platforms, and systems designed to solve unique business challenges and unlock growth opportunities.",
+        "content": "We design and develop custom applications, platforms, and systems that address unique business needs and unlock new growth opportunities.",
         "image": "/img/slid/02.jpg"
     },
     {
         "id": 2,
         "title": "Driving Innovation with Technology",
-        "content": "Our expertise spans web, mobile, and enterprise solutions—delivering scalable products that create measurable impact.",
+        "content": "Our expertise spans web, mobile, and enterprise solutions—delivering scalable products that fuel innovation and create lasting impact.",
         "image": "/img/slid/03.jpg"
     },
     {
         "id": 3,
-        "title": "Business value through digital products",
-        "content": "",
+        "title": "Business Value Through Digital Products",
+        "content": "We craft intelligent digital solutions that streamline operations, enhance customer experiences, and generate measurable business results.",
         "image": "/img/slid/01.jpg"
     }
 ]
