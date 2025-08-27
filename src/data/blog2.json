@@ -1,13 +1,14 @@
 [
     {
         "id": 1,
-        "title": "How to use solid color combine with simple furnitures.",
-        "content": "My job is simple and sophisticated, so it is possible to describe and simple, and flowery language. I love the feel and sophistication of its superiority. I like people with a keen mind and at the same time easy to talk to. These qualities can be combined perfectly natural. However, things like people look miserable, if these properties are connected.",
+        "title": "The Art of Minimalist Photography: Capturing Essence in Simplicity",
+        "content": "Minimalist photography is more than just a style—it's a philosophy that teaches us to see beauty in simplicity and find meaning in empty spaces. By stripping away visual clutter and focusing on essential elements, minimalist photographers create images that speak volumes through their restraint. The key lies in understanding composition, negative space, and the power of subtle details. Whether it's a single flower against a clean background, architectural lines in an urban landscape, or the gentle curve of a coastline, minimalist photography challenges us to look deeper and appreciate the elegance of less. This approach isn't about removing everything; it's about removing everything that doesn't contribute to the story. The result is often more powerful and memorable than complex compositions, as viewers can focus on the core message without distraction. In our visually overwhelming world, minimalist photography offers a moment of calm and clarity, reminding us that sometimes the most profound statements are made in silence.",
         "image": "/img/blog/l1.jpg",
         "tags": [
-            "WordPress",
-            "Themeforest",
-            "Pixel Craft"
+            "Photography",
+            "Minimalism",
+            "Art",
+            "Composition"
         ],
         "date": {
             "day": "07",
@@ -16,11 +17,14 @@
     },
     {
         "id": 2,
-        "title": "Build a Beautiful Blog With Ease",
-        "content": "My job is simple and sophisticated, so it is possible to describe and simple, and flowery language. I love the feel and sophistication of its superiority. I like people with a keen mind and at the same time easy to talk to. These qualities can be combined perfectly natural. However, things like people look miserable, if these properties are connected.",
+        "title": "The Science of Sleep: Optimizing Your Rest for Peak Performance",
+        "content": "Sleep is the foundation of human performance, yet it's often the first thing we sacrifice in our busy lives. Modern science has revealed that sleep is far more complex than simply 'turning off'—it's an active process that affects every aspect of our physical and mental health. During sleep, our brains process memories, repair tissues, regulate hormones, and strengthen our immune systems. The quality and quantity of sleep directly impact our cognitive function, emotional regulation, creativity, and decision-making abilities. Understanding sleep cycles, circadian rhythms, and the factors that influence sleep quality can help us optimize our rest and wake up feeling truly refreshed. Simple changes like maintaining a consistent sleep schedule, creating a relaxing bedtime routine, and optimizing our sleep environment can dramatically improve our sleep quality. In a world that glorifies busyness and productivity, prioritizing sleep isn't lazy—it's essential for sustainable success and well-being.",
         "image": "/img/blog/l2.jpg",
         "tags": [
-            "WordPress"
+            "Health",
+            "Sleep Science",
+            "Wellness",
+            "Performance"
         ],
         "date": {
             "day": "07",
@@ -29,13 +33,14 @@
     },
     {
         "id": 3,
-        "title": "Build a Beautiful Blog With Ease",
-        "content": "My job is simple and sophisticated, so it is possible to describe and simple, and flowery language. I love the feel and sophistication of its superiority. I like people with a keen mind and at the same time easy to talk to. These qualities can be combined perfectly natural. However, things like people look miserable, if these properties are connected.",
+        "title": "The Psychology of Habit Formation: Building Lasting Change",
+        "content": "Habits are the invisible architecture of our daily lives, shaping our actions and ultimately determining our outcomes. Understanding how habits work—from the cue that triggers them to the reward that reinforces them—gives us the power to transform our lives one small change at a time. The key to building lasting habits isn't willpower or motivation; it's designing systems that make good behaviors easy and bad behaviors difficult. By starting with tiny changes and building momentum gradually, we can create positive habits that stick. The science shows that it takes an average of 66 days to form a new habit, not the commonly cited 21 days. This longer timeline explains why many people give up too early. Successful habit formation requires patience, consistency, and a focus on the process rather than the outcome. Whether you want to exercise regularly, read more, or develop better work habits, understanding the psychology behind habit formation can help you create the life you want through small, consistent actions.",
         "image": "/img/blog/l3.jpg",
         "tags": [
-            "WordPress",
-            "Themeforest",
-            "Pixel Craft"
+            "Psychology",
+            "Habits",
+            "Self-Improvement",
+            "Behavioral Science"
         ],
         "date": {
             "day": "07",

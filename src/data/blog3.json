@@ -1,12 +1,13 @@
 [
     {
         "id": 1,
-        "title": "How to use solid color combine with simple furnitures.",
+        "title": "The Future of Electric Vehicles: Beyond the Tesla Revolution",
         "image": "/img/blog/b1.jpg",
         "tags": [
-            "WordPress",
-            "Themeforest",
-            "Pixel Craft"
+            "Electric Vehicles",
+            "Sustainability",
+            "Technology",
+            "Transportation"
         ],
         "date": {
             "day": "07",
@@ -15,10 +16,13 @@
     },
     {
         "id": 2,
-        "title": "How to use solid color combine with simple furnitures.",
+        "title": "The Art of Storytelling in Business: Connecting with Your Audience",
         "image": "/img/blog/b2.jpg",
         "tags": [
-            "WordPress"
+            "Business",
+            "Storytelling",
+            "Marketing",
+            "Communication"
         ],
         "date": {
             "day": "07",
@@ -27,12 +31,13 @@
     },
     {
         "id": 3,
-        "title": "How to use solid color combine with simple furnitures.",
+        "title": "The Rise of Plant-Based Nutrition: Health Benefits and Environmental Impact",
         "image": "/img/blog/b3.jpg",
         "tags": [
-            "WordPress",
-            "Themeforest",
-            "Pixel Craft"
+            "Nutrition",
+            "Plant-Based",
+            "Health",
+            "Sustainability"
         ],
         "date": {
             "day": "07",
@@ -41,12 +46,13 @@
     },
     {
         "id": 4,
-        "title": "How to use solid color combine with simple furnitures.",
+        "title": "The Psychology of Decision Making: How Our Brains Choose",
         "image": "/img/blog/b4.jpg",
         "tags": [
-            "WordPress",
-            "Themeforest",
-            "Pixel Craft"
+            "Psychology",
+            "Decision Making",
+            "Cognitive Science",
+            "Behavior"
         ],
         "date": {
             "day": "07",
@@ -55,10 +61,13 @@
     },
     {
         "id": 5,
-        "title": "How to use solid color combine with simple furnitures.",
+        "title": "The Future of Renewable Energy: Solar, Wind, and Beyond",
         "image": "/img/blog/b2.jpg",
         "tags": [
-            "WordPress"
+            "Renewable Energy",
+            "Sustainability",
+            "Technology",
+            "Climate Change"
         ],
         "date": {
             "day": "07",
@@ -67,12 +76,13 @@
     },
     {
         "id": 6,
-        "title": "How to use solid color combine with simple furnitures.",
+        "title": "The Art of Time Management: Productivity in the Age of Distraction",
         "image": "/img/blog/b3.jpg",
         "tags": [
-            "WordPress",
-            "Themeforest",
-            "Pixel Craft"
+            "Productivity",
+            "Time Management",
+            "Self-Improvement",
+            "Work-Life Balance"
         ],
         "date": {
             "day": "07",
