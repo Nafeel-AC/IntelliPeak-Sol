@@ -106,6 +106,88 @@ const WorksStyle3 = () => {
                 </span>
               </div>
             </div>
+
+            <div className="items web wow fadeInUp" data-wow-delay=".4s">
+              <div className="item-img">
+                <Link
+                  href={`/project-detailed`}
+                >
+                  <a className="imago wow">
+                    <img src="/img/portfolio/cr/5.jpg" alt="image" />
+                    <div className="item-img-overlay"></div>
+                  </a>
+                </Link>
+              </div>
+              <div className="cont flex">
+                <h6 className="color-font">Mobile App Development</h6>
+                <span>
+                  <a href="#0">Mobile App</a>
+                </span>
+              </div>
+            </div>
+
+            <div className="items brand graphic wow fadeInUp" data-wow-delay=".4s">
+              <div className="item-img">
+                <Link
+                  href={`/project-detailed`}
+                >
+                  <a className="imago wow">
+                    <img src="/img/portfolio/cr/6.jpg" alt="image" />
+                    <div className="item-img-overlay"></div>
+                  </a>
+                </Link>
+              </div>
+              <div className="cont flex">
+                <h6 className="color-font">Brand Identity</h6>
+                <span>
+                  <a href="#0">Brand</a>, <a href="#0">Graphic</a>
+                </span>
+              </div>
+            </div>
+
+            <div
+              className="items width2 web wow fadeInUp"
+              data-wow-delay=".4s"
+            >
+              <div className="item-img">
+                <Link
+                  href={`/project-detailed`}
+                >
+                  <a className="imago wow">
+                    <img src="/img/portfolio/cr/7.jpg" alt="image" />
+                    <div className="item-img-overlay"></div>
+                  </a>
+                </Link>
+              </div>
+              <div className="cont">
+                <h6 className="color-font">E-commerce Platform</h6>
+                <span>
+                  <a href="#0">Web</a>
+                </span>
+              </div>
+            </div>
+
+            <div
+              className="items width2 brand wow fadeInUp"
+              data-wow-delay=".4s"
+            >
+              <div className="item-img">
+                <Link
+                  href={`/project-detailed`}
+                >
+                  <a className="imago wow">
+                    <img src="/img/portfolio/cr/8.jpg" alt="image" />
+                    <div className="item-img-overlay"></div>
+                  </a>
+                </Link>
+              </div>
+              <div className="cont">
+                <h6 className="color-font">Corporate Branding</h6>
+                <span>
+                  <a href="#0">Brand</a>
+                </span>
+              </div>
+            </div>
           </div>
         </div>
       </div>
