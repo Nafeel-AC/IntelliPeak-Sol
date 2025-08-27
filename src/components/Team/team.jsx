@@ -27,7 +27,7 @@ const Team = () => {
                 We help to create visual strategies.
               </h3>
               <p>
-                We are PixelCraft. Crafting innovative software, stunning websites, and smart apps that bring ideas to life.
+                We are IntelliPeak Solutions. Crafting innovative software, stunning websites, and smart apps that bring ideas to life.
               </p>
               <div className="skills-box mt-40">
                 {teamsDate.skills.map((skill) => (

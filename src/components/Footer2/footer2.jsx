@@ -81,7 +81,7 @@ const Footer2 = () => {
           <div className="row">
             <div className="col-12">
               <div className="text-center">
-                <p>© 2022 Pixel Craft. All Rights Reserved</p>
+                <p>© 2022 IntelliPeak Solutions. All Rights Reserved</p>
               </div>
             </div>
           </div>

@@ -10,7 +10,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>PixelCraft</title>
+        <title>IntelliPeak Solutions</title>
         <link rel="icon" href="/img/favicon.ico" />
       </Head>
       <Cursor />

@@ -155,7 +155,7 @@ const Demos = () => {
               <div className="capt mt-50">
                 <div className="bactxt custom-font valign">
                   <span className="full-width" style={{ color: "transparent" }}>
-                    Pixel Craft
+                    IntelliPeak Solutions
                   </span>
                 </div>
               </div>
@@ -1115,7 +1115,7 @@ const Demos = () => {
                 <div className="content sm-mb30">
                   <Split>
                     <h6 className="wow words chars splitting" data-splitting>
-                      Purchase The Pixel Craft
+                      Purchase The IntelliPeak Solutions
                     </h6>
                     <h2 className="wow words chars splitting" data-splitting>
                       and Make <br />

@@ -25,7 +25,7 @@ const Footer = ({ hideBGCOLOR }) => {
                   <span className="icon pe-7s-mail"></span>
                   <div className="cont">
                     <h6>Email Us</h6>
-                    <p>hello@pixelcraft.mx</p>
+                    <p>hello@IntelliPeak Solutions.mx</p>
                   </div>
                 </li>
                 <li>
@@ -103,7 +103,7 @@ const Footer = ({ hideBGCOLOR }) => {
             <div className="item">
               <div className="logo">
                 <h3 style={{ color: '#fff', fontSize: '28px', fontWeight: '700', marginBottom: '20px' }}>
-                  PIXELCRAFT
+                  IntelliPeak Solutions
                 </h3>
                 <p style={{ color: '#999', fontSize: '14px', lineHeight: '1.6', marginBottom: '30px' }}>
                   {`We've delivered dozens of successful software projects, from web applications to mobile apps, helping businesses transform their digital presence in Mexico and Latin America.`}
@@ -112,7 +112,7 @@ const Footer = ({ hideBGCOLOR }) => {
 
               <div className="copy-right">
                 <p>
-                  © 2023, PixelCraft. Crafting digital solutions with passion in Mexico.
+                  © 2023, IntelliPeak Solutions. Crafting digital solutions with passion in Mexico.
                 </p>
               </div>
             </div>
