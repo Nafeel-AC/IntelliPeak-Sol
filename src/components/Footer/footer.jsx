@@ -18,21 +18,25 @@ const Footer = ({ hideBGCOLOR }) => {
                   <span className="icon pe-7s-map-marker"></span>
                   <div className="cont">
                     <h6>Official Address</h6>
-                    <p>Av. Insurgentes Sur 1234, Col. Del Valle, CDMX 03100, Mexico</p>
+                    <p>Intelli Peak Solutions, Brazil</p>
                   </div>
                 </li>
                 <li>
                   <span className="icon pe-7s-mail"></span>
                   <div className="cont">
                     <h6>Email Us</h6>
-                    <p>contact@intellipeaks.com</p>
+                    <p>
+                      <a href="mailto:contact@intellipeaks.com">contact@intellipeaks.com</a>
+                      <br />
+                      <a href="mailto:support@intellipeaks.com">support@intellipeaks.com</a>
+                    </p>
                   </div>
                 </li>
                 <li>
                   <span className="icon pe-7s-mail"></span>
                   <div className="cont">
-                    <h6>Need Help ?</h6>
-                    <p>support@intellipeaks.com</p>
+                    <h6>Call Us</h6>
+                    <p><a href="tel:+17272199770">+1 (727) 219-9770</a></p>
                   </div>
                 </li>
               </ul>
@@ -103,16 +107,16 @@ const Footer = ({ hideBGCOLOR }) => {
             <div className="item">
               <div className="logo">
                 <h3 style={{ color: '#fff', fontSize: '28px', fontWeight: '700', marginBottom: '20px' }}>
-                  IntelliPeak Solutions
+                  INTELLI PEAK SOLUTIONS
                 </h3>
                 <p style={{ color: '#999', fontSize: '14px', lineHeight: '1.6', marginBottom: '30px' }}>
-                  {`We've delivered dozens of successful software projects, from web applications to mobile apps, helping businesses transform their digital presence in Mexico and Latin America.`}
+                  {`We deliver high-impact software—from web apps to mobile experiences—helping businesses scale and transform their digital presence across Brazil and worldwide.`}
                 </p>
               </div>
 
               <div className="copy-right">
                 <p>
-                  © 2023, IntelliPeak Solutions. Crafting digital solutions with passion across the globe.
+                  © {new Date().getFullYear()}, Intelli Peak Solutions. Crafting digital solutions with passion in Brazil.
                 </p>
               </div>
             </div>

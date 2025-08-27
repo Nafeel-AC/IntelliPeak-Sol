@@ -2,8 +2,9 @@
   "id": 1,
   "title": "Get In Touch.",
   "email": "contact@intellipeaks.com",
+  "phone": "+1 (727) 219-9770",
   "location": {
-    "first": "Av. Paulista 1578, Bela Vista,",
-    "second": "São Paulo, SP 01310-200"
+    "first": "Intelli Peak Solutions, Brazil",
+    "second": "Serving clients across Brazil and worldwide"
   }
 }
