@@ -27,8 +27,6 @@ const Footer = ({ hideBGCOLOR }) => {
                     <h6>Email Us</h6>
                     <p>
                       <a href="mailto:contact@intellipeaks.com">contact@intellipeaks.com</a>
-                      <br />
-                      <a href="mailto:support@intellipeaks.com">support@intellipeaks.com</a>
                     </p>
                   </div>
                 </li>
