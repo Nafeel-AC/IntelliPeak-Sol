@@ -29,7 +29,7 @@ const Blogs2 = () => {
               <div className="cont valign">
                 <div>
                   <div className="info">
-                    <Link href="/articles">
+                    <Link href="/article-detailed/?id=1">
                       <a className="date">
                         <span>
                           <i>15</i> December
@@ -37,14 +37,14 @@ const Blogs2 = () => {
                       </a>
                     </Link>
                     <span>/</span>
-                    <Link href="/articles">
+                    <Link href="/article-detailed/?id=1">
                       <a className="tag">
                         <span>Architecture</span>
                       </a>
                     </Link>
                   </div>
                   <h5>
-                    <Link href="/article-detailed">
+                    <Link href="/article-detailed/?id=1">
                       <a>
                         The Future of Sustainable Architecture: Building Tomorrow&apos;s Cities
                       </a>
@@ -60,7 +60,7 @@ const Blogs2 = () => {
               <div className="cont valign">
                 <div>
                   <div className="info">
-                    <Link href="/articles">
+                    <Link href="/article-detailed/?id=2">
                       <a className="date">
                         <span>
                           <i>22</i> August
@@ -68,14 +68,14 @@ const Blogs2 = () => {
                       </a>
                     </Link>
                     <span>/</span>
-                    <Link href="/articles">
+                    <Link href="/article-detailed/?id=2">
                       <a className="tag">
                         <span>Mindfulness</span>
                       </a>
                     </Link>
                   </div>
                   <h5>
-                    <Link href="/article-detailed">
+                    <Link href="/article-detailed/?id=2">
                       <a>
                         The Art of Mindful Living: Finding Balance in a Digital World
                       </a>
@@ -91,7 +91,7 @@ const Blogs2 = () => {
               <div className="cont valign">
                 <div>
                   <div className="info">
-                    <Link href="/articles">
+                    <Link href="/article-detailed/?id=3">
                       <a className="date">
                         <span>
                           <i>22</i> August
@@ -99,14 +99,14 @@ const Blogs2 = () => {
                       </a>
                     </Link>
                     <span>/</span>
-                    <Link href="/articles">
+                    <Link href="/article-detailed/?id=3">
                       <a className="tag">
                         <span>Healthcare</span>
                       </a>
                     </Link>
                   </div>
                   <h5>
-                    <Link href="/article-detailed">
+                    <Link href="/article-detailed/?id=3">
                       <a>
                         Revolutionizing Healthcare Through Telemedicine and AI
                       </a>
