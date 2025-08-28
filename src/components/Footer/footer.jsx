@@ -18,7 +18,7 @@ const Footer = ({ hideBGCOLOR }) => {
                   <span className="icon pe-7s-map-marker"></span>
                   <div className="cont">
                     <h6>Official Address</h6>
-                    <p>Intelli Peak Solutions, Brazil</p>
+                    <p>Raul de Azevedo 777, Santo Antonio, Manaus, AM 69000, Brazil</p>
                   </div>
                 </li>
                 <li>
@@ -114,7 +114,7 @@ const Footer = ({ hideBGCOLOR }) => {
 
               <div className="copy-right">
                 <p>
-                  © {new Date().getFullYear()}, Intelli Peak Solutions. Crafting digital solutions with passion in Brazil.
+                  © {new Date().getFullYear()}, Intelli Peak Solutions. Rau Raul de Azevedo 777, Santo Antonio, Manaus, AM 69000, Brazil
                 </p>
               </div>
             </div>

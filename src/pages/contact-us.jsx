@@ -40,7 +40,7 @@ const Contact = () => {
         <ContactForm />
         <div className="map" id="ieatmaps">
           <iframe
-            src="https://www.google.com/maps?q=Brazil&output=embed"
+            src="https://www.google.com/maps?q=Rua+Raul+de+Azevedo+777,+Santo+Antonio,+Manaus,+AM+69000,+Brazil&output=embed"
             loading="lazy"
             title="Office Location - Brazil"
           ></iframe>
