@@ -1,0 +1,93 @@
+{
+  "filters": [
+    {
+      "id": "all",
+      "label": "All",
+      "filter": "*",
+      "active": true
+    },
+    {
+      "id": "web-development",
+      "label": "Web Development",
+      "filter": ".web"
+    },
+    {
+      "id": "ui-ux-design",
+      "label": "UI/UX Design",
+      "filter": ".design"
+    },
+    {
+      "id": "software-solutions",
+      "label": "Software Solutions",
+      "filter": ".software"
+    }
+  ],
+  "portfolioItems": [
+    {
+      "id": 1,
+      "projectId": "1",
+      "title": "Art & Illustration",
+      "categories": ["design", "software"],
+      "image": "/img/portfolio/project2/listing1/bg1.jpg",
+      "alt": "Art & Illustration Image",
+      "link": "/project-detailed",
+      "width": "width4",
+      "delay": "0.4s"
+    },
+    {
+      "id": 2,
+      "projectId": "2",
+      "title": "Digital Product Design",
+      "categories": ["web", "software"],
+      "image": "/img/portfolio/project2/listing2/bg2.jpg",
+      "alt": "Digital Product Design Image",
+      "link": "/project-detailed",
+      "width": "width2",
+      "delay": "0.4s"
+    },
+    {
+      "id": 3,
+      "projectId": "3",
+      "title": "Creative Portfolio",
+      "categories": ["design"],
+      "image": "/img/portfolio/project2/listing3/bg3.jpg",
+      "alt": "Creative Portfolio Image",
+      "link": "/project-detailed",
+      "width": "width2",
+      "delay": "0.4s"
+    },
+    {
+      "id": 4,
+      "projectId": "4",
+      "title": "Velox Media Platform",
+      "categories": ["web", "software"],
+      "image": "/img/portfolio/project2/listing4/bg4.jpg",
+      "alt": "Velox Media Platform Image",
+      "link": "/project-detailed",
+      "width": "width3",
+      "delay": "0.4s"
+    },
+    {
+      "id": 5,
+      "projectId": "5",
+      "title": "ASI Web Solutions",
+      "categories": ["web", "software"],
+      "image": "/img/portfolio/project2/listing5/bg5.jpg",
+      "alt": "ASI Web Solutions Image",
+      "link": "/project-detailed",
+      "width": "width2",
+      "delay": "0.4s"
+    },
+    {
+      "id": 6,
+      "projectId": "6",
+      "title": "Creative Workspace",
+      "categories": ["design"],
+      "image": "/img/portfolio/project2/listing6/bg6.jpg",
+      "alt": "Creative Workspace Image",
+      "link": "/project-detailed",
+      "width": "width2",
+      "delay": "0.4s"
+    }
+  ]
+}

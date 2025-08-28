@@ -23,7 +23,7 @@ const PagesHeader = () => {
             </div>
           </div>
           <div className="col-lg-10">
-            <div className="img">
+            <div className="img video-wrapper">
               {/* <img src="/img/slid/about.jpg" alt="" /> */}
               <video
                 ref={videoRef}
@@ -32,6 +32,7 @@ const PagesHeader = () => {
                 playsInline
                 className="responsive-header-video"
               ></video>
+              <div className="video-diffusion-overlay"></div>
             </div>
           </div>
         </div>
@@ -50,6 +51,13 @@ const PagesHeader = () => {
 // Add styles for responsive video
 // You can move this to a CSS/SCSS file if preferred
 const style = `
+.video-wrapper {
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
+}
+
 .responsive-header-video {
   width: 100%;
   max-width: 1000px;
@@ -57,7 +65,27 @@ const style = `
   display: block;
   margin-left: auto;
   margin-right: auto;
+  position: relative;
+  z-index: 1;
 }
+
+.video-diffusion-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  pointer-events: none;
+  z-index: 2;
+  box-shadow: inset 0 0 80px 20px rgba(0, 0, 0, 0.8);
+  background: radial-gradient(
+    ellipse at center,
+    transparent 30%,
+    rgba(32, 32, 32, 0.2) 70%,
+    rgba(0, 0, 0, 0.5) 100%
+  );
+}
+
 @media (max-width: 1300px) {
   .responsive-header-video {
     max-width: 80vw;

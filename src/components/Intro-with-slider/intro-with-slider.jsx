@@ -121,9 +121,10 @@ const IntroWithSlider = ({ sliderRef }) => {
             <i className="fas fa-chevron-left"></i>
           </div>
         </div>
-        <div ref={paginationRef} className="swiper-pagination top botm"></div>
+        {/* <div ref={paginationRef} className="swiper-pagination top botm"></div> */}
 
         <div className="social-icon">
+<<<<<<< HEAD
           <a href="#0" onClick={handleSocialClick}>
             <i className="fab fa-facebook-f"></i>
           </a>
@@ -134,8 +135,12 @@ const IntroWithSlider = ({ sliderRef }) => {
             <i className="fab fa-behance"></i>
           </a>
           <a href="#0" onClick={handleSocialClick}>
+=======
+            <i className="fab fa-facebook-f"></i>
+            <i className="fab fa-twitter"></i>
+            <i className="fab fa-behance"></i>
+>>>>>>> d00c4698250d3c8e5b42e98e782ecc482a8b86d5
             <i className="fab fa-pinterest-p"></i>
-          </a>
         </div>
       </div>
     </header>

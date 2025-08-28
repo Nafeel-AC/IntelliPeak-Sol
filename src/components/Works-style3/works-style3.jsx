@@ -2,6 +2,7 @@
 import React from "react";
 import Link from "next/link";
 import initIsotope from "../../common/initIsotope";
+import data from "./data.json";
 
 const WorksStyle3 = () => {
   React.useEffect(() => {
@@ -9,103 +10,68 @@ const WorksStyle3 = () => {
       initIsotope();
     }, 1000);
   }, []);
+
+  const getCategoryClasses = (categories) => {
+    return categories.map(cat => {
+      switch(cat) {
+        case 'web': return 'web';
+        case 'design': return 'design';
+        case 'software': return 'software';
+        default: return '';
+      }
+    }).join(' ');
+  };
+
   return (
     <section className="portfolio-cr section-padding pb-50">
       <div className="container">
         <div className="row">
           <div className="filtering text-center col-12">
             <div className="filter">
-              <span data-filter="*" className="active">
-                All
-              </span>
-              <span data-filter=".brand">Branding</span>
-              <span data-filter=".web">Mobile App</span>
-              <span data-filter=".graphic">Creative</span>
+              {data.filters.map((filter) => (
+                <span 
+                  key={filter.id}
+                  data-filter={filter.filter} 
+                  className={filter.active ? "active" : ""}
+                >
+                  {filter.label}
+                </span>
+              ))}
             </div>
           </div>
 
           <div className="gallery-mons full-width">
-            <div className="items graphic wow fadeInUp" data-wow-delay=".4s">
-              <div className="item-img">
-                <Link
-                  href={`/project-detailed`}
-                >
-                  <a className="imago wow">
-                    <img src="/img/portfolio/cr/1.jpg" alt="image" />
-                    <div className="item-img-overlay"></div>
-                  </a>
-                </Link>
+            {data.portfolioItems.map((item) => (
+              <div 
+                key={item.id}
+                className={`items ${getCategoryClasses(item.categories)} ${item.width === 'width2' ? 'width2' : ''} wow fadeInUp`} 
+                data-wow-delay={item.delay}
+              >
+                <div className="item-img">
+                  <Link href={`${item.link}?id=${item.projectId}`}>
+                    <a className="imago wow">
+                      <img src={item.image} alt={item.alt} />
+                      <div className="item-img-overlay"></div>
+                    </a>
+                  </Link>
+                </div>
+                <div className={`cont ${item.width !== 'width2' ? 'flex' : ''}`}>
+                  <h6 className="color-font">{item.title}</h6>
+                  <span>
+                    {item.categories.map((category, index) => (
+                      <React.Fragment key={category}>
+                        <a href="#0">
+                          {category === 'web' ? 'Web Development' : 
+                           category === 'design' ? 'UI/UX Design' :
+                           category === 'software' ? 'Software Solutions' : category}
+                        </a>
+                        {index < item.categories.length - 1 && ', '}
+                      </React.Fragment>
+                    ))}
+                  </span>
+                </div>
               </div>
-              <div className="cont flex">
-                <h6 className="color-font">Creative Design</h6>
-                <span>
-                  <a href="#0">Graphic</a>
-                </span>
-              </div>
-            </div>
-
-            <div className="items web brand wow fadeInUp" data-wow-delay=".4s">
-              <div className="item-img">
-                <Link
-                  href={`/project-detailed`}
-                >
-                  <a className="imago wow">
-                    <img src="/img/portfolio/cr/2.jpg" alt="image" />
-                    <div className="item-img-overlay"></div>
-                  </a>
-                </Link>
-              </div>
-              <div className="cont flex">
-                <h6 className="color-font">Modern Design</h6>
-                <span>
-                  <a href="#0">Brand</a>, <a href="#0">Web</a>
-                </span>
-              </div>
-            </div>
-
-            <div
-              className="items width2 brand wow fadeInUp"
-              data-wow-delay=".4s"
-            >
-              <div className="item-img">
-                <Link
-                  href={`/project-detailed`}
-                >
-                  <a className="imago wow">
-                    <img src="/img/portfolio/cr/3.jpg" alt="image" />
-                    <div className="item-img-overlay"></div>
-                  </a>
-                </Link>
-              </div>
-              <div className="cont">
-                <h6 className="color-font">Creative Design</h6>
-                <span>
-                  <a href="#0">Website</a>
-                </span>
-              </div>
-            </div>
-
-            <div
-              className="items width2 graphic wow fadeInUp"
-              data-wow-delay=".4s"
-            >
-              <div className="item-img">
-                <Link
-                  href={`/project-detailed`}
-                >
-                  <a className="imago wow">
-                    <img src="/img/portfolio/cr/4.jpg" alt="image" />
-                    <div className="item-img-overlay"></div>
-                  </a>
-                </Link>
-              </div>
-              <div className="cont">
-                <h6 className="color-font">Modern Design</h6>
-                <span>
-                  <a href="#0">Graphic</a>
-                </span>
-              </div>
-            </div>
+            ))}
           </div>
         </div>
       </div>
