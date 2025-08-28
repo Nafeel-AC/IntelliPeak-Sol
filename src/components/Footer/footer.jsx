@@ -62,7 +62,7 @@ const Footer = ({ hideBGCOLOR }) => {
                         </p>
                       </a>
                     </Link>
-                    <Link href="/works/works-dark">
+                    <Link href="/project-detailed?id=3">
                       <a>
                         <span className="date">3 November 2022</span>
                       </a>
@@ -85,7 +85,7 @@ const Footer = ({ hideBGCOLOR }) => {
                         </p>
                       </a>
                     </Link>
-                    <Link href="/works/works-dark">
+                    <Link href="/project-detailed?id=5">
                       <a>
                         <span className="date">24 December 2022</span>
                       </a>

@@ -3,26 +3,26 @@
     {
       "id": 1,
       "image": "/img/team/1.jpg",
-      "title": "Stephanie Lawrence",
-      "sub": "CEO, Colabrio Media"
+      "title": "Michael Carter",
+      "sub": "Chief Executive Officer"
     },
     {
       "id": 2,
       "image": "/img/team/2.jpg",
-      "title": "Alex Regelman",
-      "sub": "CEO, Colabrio Media"
+      "title": "Daniel Wright",
+      "sub": "Chief Technology Officer"
     },
     {
       "id": 3,
       "image": "/img/team/3.jpg",
-      "title": "Stacey Stamper",
-      "sub": "CEO, Colabrio Media"
+      "title": "James Anderson",
+      "sub": "Head of Product Development"
     },
     {
       "id": 4,
       "image": "/img/team/4.jpg",
-      "title": "Stephanie Lawrence",
-      "sub": "CEO, Colabrio Media"
+      "title": "Robert Hughes",
+      "sub": "Director of Operations"
     }
   ],
   "skills": [
