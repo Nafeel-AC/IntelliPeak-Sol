@@ -15,6 +15,9 @@ SwiperCore.use([Navigation, Pagination, Parallax]);
 
 const IntroWithSlider = ({ sliderRef }) => {
   const [load, setLoad] = React.useState(true);
+  const handleSocialClick = (e) => {
+    e.preventDefault();
+  };
   React.useEffect(() => {
     fadeWhenScroll(document.querySelectorAll(".fixed-slider .caption"));
     setTimeout(() => {
@@ -121,16 +124,16 @@ const IntroWithSlider = ({ sliderRef }) => {
         <div ref={paginationRef} className="swiper-pagination top botm"></div>
 
         <div className="social-icon">
-          <a href="#0">
+          <a href="#0" onClick={handleSocialClick}>
             <i className="fab fa-facebook-f"></i>
           </a>
-          <a href="#0">
+          <a href="#0" onClick={handleSocialClick}>
             <i className="fab fa-twitter"></i>
           </a>
-          <a href="#0">
+          <a href="#0" onClick={handleSocialClick}>
             <i className="fab fa-behance"></i>
           </a>
-          <a href="#0">
+          <a href="#0" onClick={handleSocialClick}>
             <i className="fab fa-pinterest-p"></i>
           </a>
         </div>
