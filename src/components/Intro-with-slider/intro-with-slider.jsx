@@ -8,7 +8,7 @@ import SwiperCore, { Navigation, Pagination, Parallax } from "swiper";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-import removeSlashFromPagination from "../../common/removeSlashpagination";
+// removeSlashFromPagination removed along with pagination
 import fadeWhenScroll from "../../common/fadeWhenScroll";
 
 SwiperCore.use([Navigation, Pagination, Parallax]);
@@ -21,14 +21,13 @@ const IntroWithSlider = ({ sliderRef }) => {
   React.useEffect(() => {
     fadeWhenScroll(document.querySelectorAll(".fixed-slider .caption"));
     setTimeout(() => {
-      removeSlashFromPagination();
       setLoad(false);
     }, 1000);
   }, []);
 
   const navigationPrevRef = React.useRef(null);
   const navigationNextRef = React.useRef(null);
-  const paginationRef = React.useRef(null);
+  // Pagination removed
 
   return (
     <header
@@ -44,15 +43,9 @@ const IntroWithSlider = ({ sliderRef }) => {
               prevEl: navigationPrevRef.current,
               nextEl: navigationNextRef.current,
             }}
-            pagination={{
-              type: "fraction",
-              clickable: true,
-              el: paginationRef.current,
-            }}
             onBeforeInit={(swiper) => {
               swiper.params.navigation.prevEl = navigationPrevRef.current;
               swiper.params.navigation.nextEl = navigationNextRef.current;
-              swiper.params.pagination.el = paginationRef.current;
             }}
             onSwiper={(swiper) => {
               setTimeout(() => {
@@ -65,16 +58,9 @@ const IntroWithSlider = ({ sliderRef }) => {
 
                 swiper.params.navigation.prevEl = navigationPrevRef.current;
                 swiper.params.navigation.nextEl = navigationNextRef.current;
-
-                swiper.params.pagination.el = paginationRef.current;
-
                 swiper.navigation.destroy();
                 swiper.navigation.init();
                 swiper.navigation.update();
-
-                swiper.pagination.destroy();
-                swiper.pagination.init();
-                swiper.pagination.update();
               });
             }}
             className="swiper-wrapper"
@@ -121,10 +107,9 @@ const IntroWithSlider = ({ sliderRef }) => {
             <i className="fas fa-chevron-left"></i>
           </div>
         </div>
-        {/* <div ref={paginationRef} className="swiper-pagination top botm"></div> */}
+        {/* Pagination removed */}
 
         <div className="social-icon">
-<<<<<<< HEAD
           <a href="#0" onClick={handleSocialClick}>
             <i className="fab fa-facebook-f"></i>
           </a>
@@ -135,12 +120,8 @@ const IntroWithSlider = ({ sliderRef }) => {
             <i className="fab fa-behance"></i>
           </a>
           <a href="#0" onClick={handleSocialClick}>
-=======
-            <i className="fab fa-facebook-f"></i>
-            <i className="fab fa-twitter"></i>
-            <i className="fab fa-behance"></i>
->>>>>>> d00c4698250d3c8e5b42e98e782ecc482a8b86d5
             <i className="fab fa-pinterest-p"></i>
+          </a>
         </div>
       </div>
     </header>
