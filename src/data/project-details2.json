@@ -578,7 +578,8 @@
         "link": "/project-display"
       },
       {
-        "name": "Progressive Web App"
+        "name": "Progressive Web App",
+        "link": "/project-display"
       }
     ],
     "intro": {
@@ -602,7 +603,9 @@
       "/img/portfolio/project2/listing9/1.jpg",
       "/img/portfolio/project2/listing9/2.jpg",
       "/img/portfolio/project2/listing9/3.jpg",
-      "/img/portfolio/project2/listing9/4.jpg"
+      "/img/portfolio/project2/listing9/4.jpg",
+      "/img/portfolio/project2/listing9/5.jpg",
+      "/img/portfolio/project2/listing9/6.jpg"
     ],
     "description": {
       "content": "This e-commerce mobile app represents the future of mobile shopping, combining the best of web and native app technologies. With offline capabilities, push notifications, and seamless user experience, it provides customers with a shopping experience that rivals traditional mobile apps while maintaining the flexibility and accessibility of web technologies."
