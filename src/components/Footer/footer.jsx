@@ -1,9 +1,72 @@
 /* eslint-disable @next/next/no-img-element */
-import React from "react";
+import React, { useState } from "react";
 import Link from "next/link";
+import { supabase } from "../../lib/supabase";
 import appData from "../../data/app.json";
 
 const Footer = ({ hideBGCOLOR }) => {
+  const [email, setEmail] = useState("");
+  const [isSubscribing, setIsSubscribing] = useState(false);
+  const [subscriptionMessage, setSubscriptionMessage] = useState("");
+  const [messageType, setMessageType] = useState("");
+
+  const handleNewsletterSubscribe = async (e) => {
+    e.preventDefault();
+    
+    if (!email.trim()) {
+      setSubscriptionMessage("Please enter your email address");
+      setMessageType("error");
+      return;
+    }
+
+    // Basic email validation
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!emailRegex.test(email)) {
+      setSubscriptionMessage("Please enter a valid email address");
+      setMessageType("error");
+      return;
+    }
+
+    setIsSubscribing(true);
+    setSubscriptionMessage("");
+
+    try {
+      const { data, error } = await supabase
+        .from('newsletter_subscribers')
+        .insert([
+          { email: email.trim().toLowerCase() }
+        ])
+        .select();
+
+      if (error) {
+        if (error.code === '23505') { // Unique constraint violation
+          setSubscriptionMessage("This email is already subscribed to our newsletter");
+          setMessageType("error");
+        } else {
+          console.error('Newsletter subscription error:', error);
+          setSubscriptionMessage("Failed to subscribe. Please try again later.");
+          setMessageType("error");
+        }
+      } else {
+        setSubscriptionMessage("Successfully subscribed to our newsletter!");
+        setMessageType("success");
+        setEmail(""); // Clear the input
+      }
+    } catch (error) {
+      console.error('Newsletter subscription error:', error);
+      setSubscriptionMessage("Failed to subscribe. Please try again later.");
+      setMessageType("error");
+    } finally {
+      setIsSubscribing(false);
+      
+      // Clear message after 5 seconds
+      setTimeout(() => {
+        setSubscriptionMessage("");
+        setMessageType("");
+      }, 5000);
+    }
+  };
+
   return (
     <footer className={`${!hideBGCOLOR ? "sub-bg" : ""}`}>
       <div className="container">
@@ -94,8 +157,43 @@ const Footer = ({ hideBGCOLOR }) => {
                 </li>
                 <li>
                   <div className="subscribe">
-                    <input type="text" placeholder="Subscribe to our newsletter" />
-                    <span className="subs pe-7s-paper-plane"></span>
+                    <form onSubmit={handleNewsletterSubscribe} style={{ display: 'flex', alignItems: 'center' }}>
+                      <input 
+                        type="email" 
+                        placeholder="Subscribe to our newsletter" 
+                        value={email}
+                        onChange={(e) => setEmail(e.target.value)}
+                        disabled={isSubscribing}
+                        style={{ flex: 1, marginRight: '10px' }}
+                      />
+                      <button 
+                        type="submit" 
+                        disabled={isSubscribing}
+                        style={{
+                          background: 'none',
+                          border: 'none',
+                          cursor: isSubscribing ? 'not-allowed' : 'pointer',
+                          opacity: isSubscribing ? 0.6 : 1
+                        }}
+                      >
+                        <span className="subs pe-7s-paper-plane"></span>
+                      </button>
+                    </form>
+                    {subscriptionMessage && (
+                      <div 
+                        style={{
+                          marginTop: '10px',
+                          padding: '8px 12px',
+                          borderRadius: '4px',
+                          fontSize: '14px',
+                          color: messageType === 'success' ? '#155724' : '#721c24',
+                          backgroundColor: messageType === 'success' ? '#d4edda' : '#f8d7da',
+                          border: `1px solid ${messageType === 'success' ? '#c3e6cb' : '#f5c6cb'}`
+                        }}
+                      >
+                        {subscriptionMessage}
+                      </div>
+                    )}
                   </div>
                 </li>
               </ul>
